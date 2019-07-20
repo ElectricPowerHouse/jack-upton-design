@@ -1,0 +1,48 @@
+
+
+
+
+.Header-Section{
+  height:500px;
+  color:white;
+  font-family: Noto Serif, serif;
+}
+
+
+.Header-Container{
+  padding:40px;
+}
+
+
+.Header-Bar-Top{
+  display:flex;
+  flex-direction:row;
+}
+
+.Header-Bar-Top-Dot{
+  flex:1;
+}
+
+.Dot-Image{
+  margin-right:auto;
+  width:15px;
+  height:15px;
+  background-image: url('./../images/dot.png');
+  background-size:15px;
+}
+
+.Header-Bar-Top-Language{
+  flex:1;
+}
+
+
+.Header-Text-Section-Title{
+  font-size:3.5rem;
+  text-align:left;
+}
+
+.Header-Text-Section-AboutMe{
+  font-size : 0.8rem;
+  font-family: Calibri;
+  font-weight:300;
+}
