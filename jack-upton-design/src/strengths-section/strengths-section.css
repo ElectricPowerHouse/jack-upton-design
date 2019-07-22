@@ -1,0 +1,167 @@
+.Strengths-Section{
+  background: rgb(235,235,235);
+  background: linear-gradient(90deg, rgba(252,251,251,1) 0%, rgba(235,235,235,1) 100%);
+  color: #08162b;
+
+
+}
+
+.Strengths-Section-Header{
+
+  background: rgb(235,235,235);
+  background: linear-gradient(90deg, rgba(252,251,251,1) 0%, rgba(235,235,235,1) 100%);
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+
+  height:65px;
+  width:25%;
+  margin-left:9%;
+  margin-top:-425px;  /* needs to be negative so that it sits atop of the other div */
+
+  font-size:1.65rem;
+  color: #081231;
+  font-weight:500;
+
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.Strengths-Section-Header-Text{
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.Strengths-Section-Header-Symbol{
+
+  margin-top:17px;
+
+
+  background-image:url('./../images/strengths.png');
+  width:26px;
+  height:100%;
+  background-size:100%;
+  background-repeat: no-repeat;
+  margin-left:20px;
+}
+
+.Strengths-Section-Body{
+  background: rgb(235,235,235);
+  background: linear-gradient(90deg, rgba(252,251,251,1) 0%, rgba(235,235,235,1) 100%);
+    height:400px;
+    display:flex;
+    flex-direction:row;
+
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+}
+
+.Strengths{
+  margin-top:70px;
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  border: 2px solid pink;
+}
+
+.Strengths-Top{
+  height:15%;
+  display:flex;
+  margin-left:15%;
+  border:2px yellow;
+}
+
+.Strengths-Top-Dot{
+  border-radius: 50%;
+  border: 3px solid #0c1c35;
+  height: 12px;
+ width: 12px;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.Strengths-Top-Text{
+  margin-left:3%;
+  font-size:1.5rem;
+  font-family: Noto Serif Regular;
+}
+
+.Strengths-Bottom{
+  flex:1;
+  display:flex;
+  flex-direction:row;
+  margin: 0px 14%;
+}
+
+.Strengths-Strengths-Section{
+  flex:1;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  border:2px solid blue;
+}
+
+.Strengths-Section-Symbol{
+  border-radius: 50%;
+  border: 6px solid #0c1c35;
+  height: 82px;
+ width: 82px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.Skills-Section-Symbol{
+  border-radius: 50%;
+  border: 6px solid #0c1c35;
+  height: 55px;
+ width: 55px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.Strengths-Section-Text{
+  font-size:1.5rem;
+  font-weight:600;
+}
+
+.Skills{
+  flex:1;
+  display:flex;
+  flex-direction:row;
+  margin-top:70px;
+}
+
+.Skills-Left{
+  display:flex;
+  flex-direction:row;
+  width:16%;
+}
+
+.Skills-Right{
+  display:flex;
+  flex-direction:column;
+
+}
+
+.Skills-Right-Row{
+  display:flex;
+  flex-direction:row;
+}
+
+.Skills-Section-Text{
+  font-size:1.2rem;
+  font-weight:600;
+}
+
+.Skills-Top-Dot{
+  border-radius: 50%;
+  border: 3px solid #0c1c35;
+  height: 12px;
+ width: 12px;
+
+}

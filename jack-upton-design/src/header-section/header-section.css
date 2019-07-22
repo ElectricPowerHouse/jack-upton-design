@@ -6,17 +6,53 @@
   height:500px;
   color:white;
   font-family: Noto Serif, serif;
+  display:flex;
+}
+
+.Header-Section-Left{
+
+}
+
+.Header-Section-Right{
+  width:16%;
+  background-color:rgba(235,235,235,1);
+}
+
+.Header-Section-Wrapper{
+  display:flex;
+  flex-direction:row;
+}
+
+.Header-Text-Section{
+  margin-left:3%;
+  width:75%;
+
 }
 
 
+
 .Header-Container{
-  padding:40px;
+  padding:80px 90px;
+
 }
 
 
 .Header-Bar-Top{
   display:flex;
   flex-direction:row;
+}
+
+.Header-Text-Section-Menu{
+
+  display:flex;
+  flex-direction:row;
+  margin-top:23px;
+  font-size:1.25rem;
+
+}
+
+.Header-Text-Section-Menu-Contacts{
+  margin-left:5%;
 }
 
 .Header-Bar-Top-Dot{
@@ -31,18 +67,75 @@
   background-size:15px;
 }
 
-.Header-Bar-Top-Language{
+.Header-Bar-Top-Language-Wrapper{
   flex:1;
+}
+
+.Header-Bar-Top-Language{
+  background-color: rgba(255,255,255,0.1);
+  width:25%;
+  margin-left:auto;
+  padding:7px;
+  border-radius:8px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+
+.Header-Text-Section-Line{
+  background-color: #8ca8cc;
+  height:3px;
+  outline:none;
+  border:none;
+  margin-top:23px;
+  width:30%;
+  margin-left:0px;
+  align:left;
+
+}
+
+.Language-Text{
+  Font-Family:Calibri;
+  font-size:1.1rem;
+}
+
+.Language-Symbol{
+  background-image:url('./../images/world.png');
+  background-size:20px;
+  width:20px;
+  height:20px;
+  margin-left:10px;
+
 }
 
 
 .Header-Text-Section-Title{
-  font-size:3.5rem;
+  font-size:3.7rem;
   text-align:left;
+  font-weight:200;
+  color: #dae8fd;
 }
 
 .Header-Text-Section-AboutMe{
-  font-size : 0.8rem;
+  margin-top:35px;
+  text-align:left;
+  font-size : 1.05rem;
+  width:80%;
   font-family: Calibri;
   font-weight:300;
+}
+
+.Header-Photo-Section{
+  width:40%;
+}
+
+.Header-Photo-Me{
+  width:200px;
+  height:100%;
+  background-size:100%;
+  background-repeat:no-repeat;
+  margin-top:30px;
+  background-image: url('./../images/me.png');
+
+  margin-right:auto;
 }

@@ -1,37 +1,54 @@
-import React from 'react';
+
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { ParallaxProvider } from 'react-scroll-parallax' ;
 import { Parallax } from 'react-scroll-parallax' ;
 import { ParallaxBanner} from 'react-scroll-parallax';
 import mm from './mm.png';
-import HeaderSection from './header-section/header-section.js'
+import HeaderSection from './header-section/header-section.js';
+import StrengthsSection from './strengths-section/strengths-section.js';
+import WorkSection from './work-section/work-section.js';
 
-function App() {
-  return (
-    <ParallaxProvider>
-    <div className='App'>
-      <div className = 'Parallax-Wrapper'>
-
-      <HeaderSection />
+class App extends Component{
 
 
-       <div className = 'Strengths-Section' > {/*//needs to be the wrong way round so the header sits on the div*/}
-          <div className = 'Strengths-Section-Body'> sdf sdf  </div>
-          <div className = 'Strengths-Section-Header'> </div>
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+    }
+
+    componentDidMount(){
+      window.scrollTo(0,500);
+
+    }
+
+    onClick(){
+
+    }
+
+    render(){
+
+
+
+    return (
+      <div className='App' onClick = {()=> {window.scrollTo(0,900)}}>
+        <div className = 'Parallax-Wrapper'>
+
+        <HeaderSection />
+        <StrengthsSection />
+        <WorkSection />
+
+
+        <div className = 'Contact-Section'></div>
+
         </div>
-
-        <div className = 'Work-Section' > {/*//needs to be the wrong way round so the header sits on the div*/}
-           <div className = 'Work-Section-Body'> sdf sdf  </div>
-        <div className = 'Work-Section-Header'> </div>
-        </div>
-      <div className = 'Contact-Section'></div>
-
       </div>
-    </div>
-    </ParallaxProvider>
 
-  );
+    );
+  }
 }
 
 
