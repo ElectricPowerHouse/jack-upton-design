@@ -1,0 +1,167 @@
+.Contact-Section{
+  height:530px;
+  display:flex;
+  flex-direction:row;
+  color:white;
+ }
+
+ .Contact-Section-Left{
+   width:7%;
+   background-color:white;
+ }
+
+ .Contact-Section-Right{
+   flex:1;
+
+ }
+
+
+ .Contact-Section-Body{
+  display:flex;
+   flex-direction:column;
+
+   margin-left: 10%;
+   margin-right: 3%;
+
+   margin-top:65px;
+   margin-bottom:65px;
+   height:70%;
+
+ }
+
+ .Contact-Section-Row{
+   flex:1;
+   display:flex;
+   flex-direction:row;
+ }
+
+ .Contact-Section-Row-Final{
+   flex:1;
+   display:flex;
+   flex-direction:row;
+ }
+
+ .Contact-Section-Row-Wrapper{
+   height:70%;
+   margin-top:auto;
+   margin-bottom:auto;
+   text-align:left;
+ }
+
+
+ .Contact-Section-Header{
+
+   background: #0e2039;
+   background: linear-gradient(90deg, #0e2039 0%, #0c1d34 100%);
+
+   -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+   -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+   box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+
+   height:65px;
+   width:25%;
+   margin-left:9%;
+   margin-top:-535px;  /* needs to be negative so that it sits atop of the other div */
+
+   font-size:1.65rem;
+   color: white;
+   font-weight:500;
+
+   display:flex;
+   flex-direction:row;
+   justify-content: center;
+ }
+
+ .Contact-Section-Header-Text{
+   margin-top:auto;
+   margin-bottom:auto;
+ }
+
+ .Contact-Section-Row-Wrapper{
+   display:flex;
+   flex-direction:row;
+ }
+
+ .Contact-Section-Row-Wrapper-Final{
+   display:flex;
+   flex-direction:row;
+   text-align:left;
+   flex:1;
+ }
+
+ .Contact-Row-Left{
+   font-size:1.3rem;
+   text-align:right;
+ }
+
+ .Contact-Row-Right{
+
+   margin-left:15%;
+   font-size:1.3rem;
+
+ }
+
+ .Contact-Row-Title{
+ }
+
+ .Contact-Row-Link{
+   font-weight:100;
+ }
+
+ .Contact-Section-Header-Symbol{
+
+   margin-top:17px;
+
+
+   background-image:url('./../images/email.png');
+   width:26px;
+   height:100%;
+   background-size:100%;
+   background-repeat: no-repeat;
+   margin-left:20px;
+ }
+
+ .Contact-Symbol-Email{
+   background-image:url('./../images/gmail.png');
+   width:51px;
+   height:51px;
+   background-size:51px;
+   background-repeat: no-repeat;
+
+ }
+
+ .Contact-Symbol-Github{
+   background-image:url('./../images/github.png');
+   width:51px;
+   height:51px;
+   background-size:51px;
+   background-repeat: no-repeat;
+
+ }
+
+ .Contact-Symbol-LinkedIn{
+   background-image:url('./../images/linkedin.png');
+   width:51px;
+   height:51px;
+   background-size:51px;
+   background-repeat: no-repeat;
+
+ }
+
+ .Contact-Symbol-Dribbble{
+   background-image:url('./../images/dribbble.png');
+   width:51px;
+   height:51px;
+   background-size:51px;
+   background-repeat: no-repeat;
+
+ }
+
+ .Contact-Symbol-Flaticon{
+   background-image:url('./../images/flaticon.png');
+   width:51px;
+   height:51px;
+   background-size:51px;
+   background-repeat: no-repeat;
+
+ }

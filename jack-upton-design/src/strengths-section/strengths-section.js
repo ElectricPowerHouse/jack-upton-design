@@ -34,19 +34,19 @@ class StrengthsSection extends Component{
       </div>
       <div className = 'Strengths-Bottom'>
         <div className = 'Strengths-Strengths-Section' >
-          <div className = 'Strengths-Section-Symbol' />
+          <div className = 'Strengths-Section-Symbol-VisualDesign' />
           <div className = 'Strengths-Section-Text'>
           Visual Design
           </div>
         </div>
         <div className = 'Strengths-Strengths-Section' >
-          <div className = 'Strengths-Section-Symbol' />
+          <div className = 'Strengths-Section-Symbol-FrontEnd' />
           <div className = 'Strengths-Section-Text'>
           Front-End Integration
           </div>
         </div>
         <div className = 'Strengths-Strengths-Section' >
-          <div className = 'Strengths-Section-Symbol' />
+          <div className = 'Strengths-Section-Symbol-Communication' />
           <div className = 'Strengths-Section-Text'>
           Communication
           </div>
@@ -67,25 +67,25 @@ class StrengthsSection extends Component{
       <div className = 'Skills-Right'>
         <div className = 'Skills-Right-Row'>
           <div className = 'Strengths-Strengths-Section' >
-            <div className = 'Skills-Section-Symbol' />
+            <div className = 'Skills-Section-Symbol-React' />
             <div className = 'Skills-Section-Text'>
             React
             </div>
           </div>
           <div className = 'Strengths-Strengths-Section' >
-            <div className = 'Skills-Section-Symbol' />
+            <div className = 'Skills-Section-Symbol-Photoshop' />
             <div className = 'Skills-Section-Text'>
             Photoshop
             </div>
           </div>
           <div className = 'Strengths-Strengths-Section' >
-            <div className = 'Skills-Section-Symbol' />
+            <div className = 'Skills-Section-Symbol-Javascript' />
             <div className = 'Skills-Section-Text'>
             Javascript
             </div>
           </div>
           <div className = 'Strengths-Strengths-Section' >
-            <div className = 'Skills-Section-Symbol' />
+            <div className = 'Skills-Section-Symbol-Java' />
             <div className = 'Skills-Section-Text'>
             Java
             </div>
@@ -94,25 +94,25 @@ class StrengthsSection extends Component{
 
         <div className = 'Skills-Right-Row'>
           <div className = 'Strengths-Strengths-Section' >
-            <div className = 'Skills-Section-Symbol' />
+            <div className = 'Skills-Section-Symbol-React' />
             <div className = 'Skills-Section-Text'>
             Git
             </div>
           </div>
           <div className = 'Strengths-Strengths-Section' >
-            <div className = 'Skills-Section-Symbol' />
+            <div className = 'Skills-Section-Symbol-Photoshop' />
             <div className = 'Skills-Section-Text'>
             Node
             </div>
           </div>
           <div className = 'Strengths-Strengths-Section' >
-            <div className = 'Skills-Section-Symbol' />
+            <div className = 'Skills-Section-Symbol-Javascript' />
             <div className = 'Skills-Section-Text'>
             HTML
             </div>
           </div>
           <div className = 'Strengths-Strengths-Section' >
-            <div className = 'Skills-Section-Symbol' />
+            <div className = 'Skills-Section-Symbol-Java' />
             <div className = 'Skills-Section-Text'>
             CSS
             </div>
@@ -127,10 +127,11 @@ class StrengthsSection extends Component{
 
   renderHeader(){
     return(
-      <div className = 'Strengths-Section-Header'>
-        <div className = 'Strengths-Section-Header-Text'> Skills & Strengths </div>
-        <div className = 'Strengths-Section-Header-Symbol' />
-       </div>
+      <div className = 'Strengths-Section-Header' > <div className='Strengths-Section-Header-Text'>
+  Skills & Strengths
+</div>
+<div className='Strengths-Section-Header-Symbol'/>
+</div>
     );
   }
 

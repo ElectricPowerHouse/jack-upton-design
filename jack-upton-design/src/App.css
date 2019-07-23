@@ -8,13 +8,14 @@
    overflow-x:hidden;
    overflow-y:auto;
    */
+   font-family:Roboto;
 
-   font-family:Calibri;
 }
 
 
 
 .Parallax-Wrapper{
+
   /*
   width: 100vw;
   height:100vh;
@@ -54,10 +55,3 @@
 
 
 }
-
-
-
-
-.Contact-Section{
-   height:500px;
- }

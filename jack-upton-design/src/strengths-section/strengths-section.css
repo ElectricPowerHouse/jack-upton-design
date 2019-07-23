@@ -2,8 +2,7 @@
   background: rgb(235,235,235);
   background: linear-gradient(90deg, rgba(252,251,251,1) 0%, rgba(235,235,235,1) 100%);
   color: #08162b;
-
-
+  height:380px;
 }
 
 .Strengths-Section-Header{
@@ -18,7 +17,7 @@
   height:65px;
   width:25%;
   margin-left:9%;
-  margin-top:-425px;  /* needs to be negative so that it sits atop of the other div */
+  margin-top:-365px;  /* needs to be negative so that it sits atop of the other div */
 
   font-size:1.65rem;
   color: #081231;
@@ -47,10 +46,11 @@
   margin-left:20px;
 }
 
+
+
 .Strengths-Section-Body{
   background: rgb(235,235,235);
   background: linear-gradient(90deg, rgba(252,251,251,1) 0%, rgba(235,235,235,1) 100%);
-    height:400px;
     display:flex;
     flex-direction:row;
 
@@ -123,6 +123,92 @@
   margin-right:auto;
 
 }
+
+.Strengths-Section-Symbol-VisualDesign{
+
+  background-image:url('./../images/visualdesign.png');
+  width:95px;
+  height:100%;
+  background-size:100%;
+  background-repeat: no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.Strengths-Section-Symbol-FrontEnd{
+
+  background-image:url('./../images/integration.png');
+  width:95px;
+  height:100%;
+  background-size:100%;
+  background-repeat: no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.Strengths-Section-Symbol-Communication{
+
+  background-image:url('./../images/communication.png');
+  width:95px;
+  height:100%;
+  background-size:100%;
+  background-repeat: no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.Skills-Section-Symbol-React{
+
+  background-image:url('./../images/react.png');
+  width:65px;
+  height:65px;
+  background-size:65px;
+  background-repeat: no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.Skills-Section-Symbol-Photoshop{
+
+  background-image:url('./../images/photoshop.png');
+  width:65px;
+  height:100%;
+  background-size:100%;
+  background-repeat: no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.Skills-Section-Symbol-Javascript{
+
+  background-image:url('./../images/javascript.png');
+  width:65px;
+  height:100%;
+  background-size:100%;
+  background-repeat: no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.Skills-Section-Symbol-Java{
+
+  background-image:url('./../images/java.png');
+  width:65px;
+  height:100%;
+  background-size:100%;
+  background-repeat: no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+
 
 .Strengths-Section-Text{
   font-size:1.5rem;

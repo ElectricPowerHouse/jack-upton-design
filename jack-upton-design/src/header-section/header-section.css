@@ -3,10 +3,9 @@
 
 
 .Header-Section{
-  height:500px;
   color:white;
   font-family: Noto Serif, serif;
-  display:flex;
+
 }
 
 .Header-Section-Left{
