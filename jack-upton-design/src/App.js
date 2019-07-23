@@ -10,6 +10,12 @@ import StrengthsSection from './strengths-section/strengths-section.js';
 import WorkSection from './work-section/work-section.js';
 import ContactSection from './contact-section/contact-section.js';
 
+import SimpleParallax from 'simple-parallax-js';
+
+import LazyHero from 'react-lazy-hero';
+
+import Background from './test2.png'
+
 class App extends Component {
 
   constructor(props) {
@@ -20,23 +26,44 @@ class App extends Component {
   componentDidMount() {
     window.scrollTo(0, 500);
 
+
   }
+
+
 
   onClick() {}
 
+
+
   render() {
 
-    return (<div className='App' onClick = {()=> {window.scrollTo(0,1200)}}>
-      <div className='Parallax-Wrapper'>
+    return (
+
+
+      <div className='App' onClick = {()=> {window.scrollTo(0,1200)}} >
+
+
 
         <HeaderSection/>
         <StrengthsSection/>
+        <div className = 'Divider' />
         <WorkSection/>
         <ContactSection />
 
-      </div>
-    </div>);
+
+
+    </div>
+
+
+  );
   }
 }
+
+var image = document.getElementsByClassName('Parallax-Wrapper');
+new SimpleParallax(image, {
+  scale:1.5
+});
+
+console.log(image);
 
 export default App;

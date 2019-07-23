@@ -1,8 +1,41 @@
 .Contact-Section{
-  height:530px;
+  height:500px;
   display:flex;
   flex-direction:row;
   color:white;
+
+  /* Needed for children to be absolutely positioned relative to the parent. */
+    position: relative;
+
+ }
+
+
+ .Contact-Section::after {
+   /* Display and position the pseudo-element */
+   content: " ";
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+
+   /* Move the pseudo-element back away from the camera,
+    * then scale it back up to fill the viewport.
+    * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+   transform: translateZ(-1px) scale(1.5);
+   /* Force the background image to fill the whole element. */
+   background-size: 100%;
+   /* Keep the image from overlapping sibling elements. */
+   z-index: -1;
+ }
+
+
+
+ /* Sets the actual background images to adorable kitties. This part is crucial. */
+ .Contact-Section::after {
+   background-image: url('./../test2.png');
+   opacity:0.1;
+   background-repeat: repeat-y;
  }
 
  .Contact-Section-Left{
