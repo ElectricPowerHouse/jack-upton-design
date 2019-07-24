@@ -26,11 +26,17 @@ class WorkSection extends Component{
             </div>
             <div className = 'Work-Section-Images'>
               <div className = 'Work-Section-Images-Left'>
-                <div className = 'Work-Section-Image1' />
+                <div className = 'Image1-Wrapper'>
+                  <div className = 'Work-Section-Image1' />
+                </div>
               </div>
               <div className = 'Work-Section-Images-Right'>
-                <div className = 'Work-Section-Image2' />
-                <div className = 'Work-Section-Image3' />
+                <div className = 'Image2-Wrapper'>
+                  <div className = 'Work-Section-Image2' />
+                </div>
+                <div className = 'Image3-Wrapper'>
+                  <div className = 'Work-Section-Image3' />
+                </div>
               </div>
             </div>
             <div className = 'Work-Section-Description'>

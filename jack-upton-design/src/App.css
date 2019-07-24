@@ -1,4 +1,11 @@
 .App {
+
+
+
+}
+
+.App-Wrapper{
+
   text-align: center;
   background-color: #0c1c35;
   /*
@@ -17,6 +24,7 @@
   overflow-y: auto;
   /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
   perspective: 2px;
+
 }
 
 .Divider {

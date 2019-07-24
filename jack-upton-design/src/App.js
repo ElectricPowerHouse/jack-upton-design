@@ -40,7 +40,9 @@ class App extends Component {
     return (
 
 
-      <div className='App' onClick = {()=> {window.scrollTo(0,1200)}} >
+      <div className='App'  >
+
+        <div className = 'App-Wrapper'>
 
 
 
@@ -50,7 +52,7 @@ class App extends Component {
         <WorkSection/>
         <ContactSection />
 
-
+      </div>
 
     </div>
 
