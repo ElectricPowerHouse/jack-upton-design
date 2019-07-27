@@ -16,6 +16,12 @@ class WorkSection extends Component{
     return (
       <div className = 'Work-Section' > {/*//needs to be the wrong way round so the header sits on the div*/}
          <div className = 'Work-Section-Body'>
+           <div className = 'Work-Section-Left'>
+            <div className = 'Work-Section-Left-Arrow'>
+              <div className = 'Work-Section-Left-Arrow-Symbol' />
+            </div>
+           </div>
+           <div className = 'Work-Section-Middle'>
             <div className = 'Work-Section-Top'>
               <div className = 'Work-Section-Title'>
               1. Ensemble-C
@@ -44,13 +50,24 @@ class WorkSection extends Component{
             complex data in a user-friendly, and modern looking way.
             </div>
 
+            {/*
             <div className = 'Work-Section-Arrows'>
               <div className = 'Work-Section-Arrow-Left' > . previous projects </div>
               <div className = 'Work-Section-Arrow-Right' > next projects .</div>
             </div>
+            */}
+            </div>
+
+            <div className = 'Work-Section-Right'>
+              <div className = 'Work-Section-Right-Arrow'>
+                <div className = 'Work-Section-Right-Arrow-Symbol' />
+              </div>
+            </div>
 
          </div>
          {this.renderHeader()}
+
+
        </div>
 
     );

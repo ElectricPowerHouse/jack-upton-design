@@ -40,12 +40,16 @@ class HeaderSection extends Component {
               </div>
             </div>
             <div className='Header-Photo-Section'>
-              <div className='Header-Photo-Me'/>
+              <div className = 'Header-Photo-Circle'>
+                <div className='Header-Photo-Me'/>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className='Header-Section-Right'/>
+      <div className='Header-Section-Right'>
+        <div className = 'Header-Section-Line' />
+      </div>
     </div>);
   }
 

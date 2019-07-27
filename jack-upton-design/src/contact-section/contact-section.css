@@ -1,200 +1,206 @@
-.Contact-Section{
-  height:500px;
-  display:flex;
-  flex-direction:row;
-  color:white;
-
+.Contact-Section {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  color: white;
   /* Needed for children to be absolutely positioned relative to the parent. */
-    position: relative;
+  position: relative;
+  font-family: Roboto;
+  font-size: 1.2rem;
+}
 
- }
-
-
- .Contact-Section::after {
-   /* Display and position the pseudo-element */
-   content: " ";
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-
-   /* Move the pseudo-element back away from the camera,
+.Contact-Section::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* Move the pseudo-element back away from the camera,
     * then scale it back up to fill the viewport.
     * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-   transform: translateZ(-1px) scale(1.5);
-   /* Force the background image to fill the whole element. */
-   background-size: 100%;
-   /* Keep the image from overlapping sibling elements. */
-   z-index: -1;
- }
+  transform: translateZ(-1px) scale(1.5);
+  /* Force the background image to fill the whole element. */
+  background-size: 100%;
+  /* Keep the image from overlapping sibling elements. */
+  z-index: -1;
+}
 
+/* Sets the actual background images to adorable kitties. This part is crucial. */
+.Contact-Section::after {
+  background-image: url('./../images/background1.png');
+  opacity: 0.8;
+  background-repeat: repeat-y;
+}
 
+.Contact-Section-Left {
+  width: 7%;
+  background-color: white;
+}
 
- /* Sets the actual background images to adorable kitties. This part is crucial. */
- .Contact-Section::after {
-   background-image: url('./../test2.png');
-   opacity:0.1;
-   background-repeat: repeat-y;
- }
+.Contact-Section-Right {
+  flex: 1;
+}
 
- .Contact-Section-Left{
-   width:7%;
-   background-color:white;
- }
+.Contact-Section-Body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 3%;
+  margin-top: 65px;
+  margin-bottom: 65px;
+  height: 70%;
+}
 
- .Contact-Section-Right{
-   flex:1;
+.Contact-Section-Row {
+  flex: 1;
 
- }
+}
 
-
- .Contact-Section-Body{
+.Contact-Section-Row-Final {
+  flex: 1;
   display:flex;
-   flex-direction:column;
+  flex-direction:row;
+}
 
-   margin-left: 10%;
-   margin-right: 3%;
+.Contact-Section-Row-Wrapper {
+  height: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left;
+}
 
-   margin-top:65px;
-   margin-bottom:65px;
-   height:70%;
+.Contact-Section-Row-Wrapper {
+  display: flex;
+  flex-direction: row;
+}
 
- }
+.Contact-Section-Row-Wrapper-Final-Left {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  flex:1;
 
- .Contact-Section-Row{
-   flex:1;
-   display:flex;
-   flex-direction:row;
- }
+}
 
- .Contact-Section-Row-Final{
-   flex:1;
-   display:flex;
-   flex-direction:row;
- }
+.Contact-Section-Row-Wrapper-Final-Right {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  flex:1;
+  margin-top:5px;
 
- .Contact-Section-Row-Wrapper{
-   height:70%;
-   margin-top:auto;
-   margin-bottom:auto;
-   text-align:left;
- }
+}
 
+.Contact-Row-Left-Final{
+  flex:1;
+  text-align:right;
+  margin-right:20px;
+}
 
- .Contact-Section-Header{
+.Contact-Row-Right-Final{
+  width:18%;
+}
 
-   background: #0e2039;
-   background: linear-gradient(90deg, #0e2039 0%, #0c1d34 100%);
+.Contact-Row-Left {
+  font-size: 1.3rem;
+  text-align: right;
 
-   -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
-   -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
-   box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+}
 
-   height:65px;
-   width:25%;
-   margin-left:9%;
-   margin-top:-535px;  /* needs to be negative so that it sits atop of the other div */
+.Contact-Row-Right {
+  margin-left: 5%;
+}
 
-   font-size:1.65rem;
-   color: white;
-   font-weight:500;
+.Contact-Row-Title {
+  font-weight: 400;
+}
 
-   display:flex;
-   flex-direction:row;
-   justify-content: center;
- }
+.Contact-Row-Link {
+  font-weight: 200;
+}
 
- .Contact-Section-Header-Text{
-   margin-top:auto;
-   margin-bottom:auto;
- }
+.Flaticon-Title {
+  font-weight: 400;
+  font-size: 1.05rem;
+}
 
- .Contact-Section-Row-Wrapper{
-   display:flex;
-   flex-direction:row;
- }
+.Flaticon-Link {
+  font-size: 0.9rem;
+  font-weight:300;
+}
 
- .Contact-Section-Row-Wrapper-Final{
-   display:flex;
-   flex-direction:row;
-   text-align:left;
-   flex:1;
- }
+.Contact-Section-Header {
+  background: #0e2039;
+  background: linear-gradient(90deg, #0e2039 0%, #0c1d34 100%);
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+  height: 65px;
+  width: 25%;
+  margin-left: 9%;
+  margin-top: -505px;
+  /* needs to be negative so that it sits atop of the other div */
+  font-size: 1.65rem;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
- .Contact-Row-Left{
-   font-size:1.3rem;
-   text-align:right;
- }
+.Contact-Section-Header-Text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
- .Contact-Row-Right{
+.Contact-Section-Header-Symbol {
+  margin-top: 17px;
+  background-image: url('./../images/email.png');
+  width: 26px;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
 
-   margin-left:15%;
-   font-size:1.3rem;
+.Contact-Symbol-Email {
+  background-image: url('./../images/gmail.png');
+  width: 51px;
+  height: 51px;
+  background-size: 51px;
+  background-repeat: no-repeat;
+}
 
- }
+.Contact-Symbol-Github {
+  background-image: url('./../images/github.png');
+  width: 51px;
+  height: 51px;
+  background-size: 51px;
+  background-repeat: no-repeat;
+}
 
- .Contact-Row-Title{
- }
+.Contact-Symbol-LinkedIn {
+  background-image: url('./../images/linkedin.png');
+  width: 51px;
+  height: 51px;
+  background-size: 51px;
+  background-repeat: no-repeat;
+}
 
- .Contact-Row-Link{
-   font-weight:100;
- }
+.Contact-Symbol-Dribbble {
+  background-image: url('./../images/dribbble.png');
+  width: 51px;
+  height: 51px;
+  background-size: 51px;
+  background-repeat: no-repeat;
+}
 
- .Contact-Section-Header-Symbol{
-
-   margin-top:17px;
-
-
-   background-image:url('./../images/email.png');
-   width:26px;
-   height:100%;
-   background-size:100%;
-   background-repeat: no-repeat;
-   margin-left:20px;
- }
-
- .Contact-Symbol-Email{
-   background-image:url('./../images/gmail.png');
-   width:51px;
-   height:51px;
-   background-size:51px;
-   background-repeat: no-repeat;
-
- }
-
- .Contact-Symbol-Github{
-   background-image:url('./../images/github.png');
-   width:51px;
-   height:51px;
-   background-size:51px;
-   background-repeat: no-repeat;
-
- }
-
- .Contact-Symbol-LinkedIn{
-   background-image:url('./../images/linkedin.png');
-   width:51px;
-   height:51px;
-   background-size:51px;
-   background-repeat: no-repeat;
-
- }
-
- .Contact-Symbol-Dribbble{
-   background-image:url('./../images/dribbble.png');
-   width:51px;
-   height:51px;
-   background-size:51px;
-   background-repeat: no-repeat;
-
- }
-
- .Contact-Symbol-Flaticon{
-   background-image:url('./../images/flaticon.png');
-   width:51px;
-   height:51px;
-   background-size:51px;
-   background-repeat: no-repeat;
-
- }
+.Contact-Symbol-Flaticon {
+  background-image: url('./../images/flaticon.png');
+  width: 51px;
+  height: 51px;
+  background-size: 51px;
+  background-repeat: no-repeat;
+}

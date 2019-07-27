@@ -59,8 +59,7 @@
 
 /* Sets the actual background images to adorable kitties. This part is crucial. */
 .Divider::after {
-  background-image: url('./test2.png');
-  opacity:0.1;
+  background-image: url('./images/background2.png');
   background-repeat: repeat-y;
 }
 

@@ -61,7 +61,7 @@ class ContactSection extends Component {
             </div>
           </div>
           <div className='Contact-Section-Row-Final'>
-            <div className='Contact-Section-Row-Wrapper-Final'>
+            <div className='Contact-Section-Row-Wrapper-Final-Left'>
               <div className='Contact-Row-Left'>
                 <div className='Contact-Symbol-Dribbble'/>
               </div>
@@ -74,18 +74,15 @@ class ContactSection extends Component {
                 </div>
               </div>
             </div>
-            <div className='Contact-Section-Row-Wrapper-Final'>
-              <div className='Contact-Row-Left'>
-              <div className='Contact-Row-Title'>
-                Icons Sourced From Flaticon
-              </div>
-              <div className='Contact-Row-Link'>
-                https://dribbble.com/ElectricPowerHouse
-              </div>
-
-              </div>
-              <div className='Contact-Row-Right'>
-                <div className='Contact-Symbol-Flaticon'/>
+            <div className='Contact-Section-Row-Wrapper-Final-Right'>
+              <div className='Contact-Row-Left-Final'>
+                <div className = 'Flaticon-Title' > Icons Sourced From Flaticon < /div>
+                <div className='Flaticon-Link'>
+                  Site design and development by Jack Upton
+                </div>
+              </div >
+                <div className='Contact-Row-Right-Final'>
+                  <div className='Contact-Symbol-Flaticon'/>
               </div>
             </div>
           </div>

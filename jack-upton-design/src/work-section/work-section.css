@@ -3,12 +3,14 @@
   background: linear-gradient(90deg, rgba(252,251,251,1) 0%, rgba(235,235,235,1) 100%);
   color: #08162b;
 
-  height:700px;
+  min-height:700px;
 
 
       -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
       -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
       box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+
+
 
 }
 
@@ -24,7 +26,7 @@
   height:65px;
   width:25%;
   margin-left:9%;
-  margin-top:-690px;  /* needs to be negative so that it sits atop of the other div */
+  margin-top:-580px;  /* needs to be negative so that it sits atop of the other div */
 
   font-size:1.65rem;
   color: #081231;
@@ -57,8 +59,58 @@
   background: rgb(235,235,235);
   background: linear-gradient(90deg, rgba(252,251,251,1) 0%, rgba(235,235,235,1) 100%);
 
-  padding-left:9%;
-  padding-right:9%;
+
+
+
+  display:flex;
+  flex-direction:row;
+}
+
+.Work-Section-Left{
+  width:4%;
+}
+
+.Work-Section-Left-Arrow{
+  margin-top:190px;
+  background-color:#b5bdca;
+  padding: 30px 0px;
+
+}
+
+.Work-Section-Left-Arrow-Symbol{
+  background-image:url('./../images/left-arrow.png');
+  background-size:100%;
+  width:25px;
+  height:50px;
+  background-repeat:no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.Work-Section-Right{
+  width:4%;
+}
+
+.Work-Section-Right-Arrow{
+  margin-top:190px;
+  padding: 30px 0px;
+  background-color:#b5bdca;
+}
+
+.Work-Section-Right-Arrow-Symbol{
+  background-image:url('./../images/right-arrow.png');
+  background-size:100%;
+  width:25px;
+  height:50px;
+  background-repeat:no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.Work-Section-Middle{
+  flex:1;
+  margin-left:4%;
+  margin-right:4%;
 }
 
 .Work-Section-Top{
@@ -118,7 +170,9 @@
   height:100%;
   background-size: 100% auto;
 
-
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
 }
 
 .Image2-Wrapper{
@@ -138,6 +192,9 @@
   height:100%;
   background-size: 100% auto;
 
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
 
 
 }
@@ -156,6 +213,10 @@
   width:100%;
   height:100%;
   background-size: 100% auto;
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
 
 }
 
