@@ -41,9 +41,12 @@
 }
 
 .Header-Section-Line{
-  border-left: 1px solid black;
-  height:100%;
-  width:170%;
+  border-left: 2px solid white;
+  margin-top:85px;
+
+  height:72%;
+  position:relative;
+  left:-15%;
 }
 
 .Header-Section-Wrapper {
