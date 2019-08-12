@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {ParallaxProvider} from 'react-scroll-parallax';
-import {Parallax} from 'react-scroll-parallax';
-import {ParallaxBanner} from 'react-scroll-parallax';
+
 import mm from './mm.png';
 import HeaderSection from './header-section/header-section.js';
 import StrengthsSection from './strengths-section/strengths-section.js';
@@ -26,45 +24,30 @@ class App extends Component {
   componentDidMount() {
     window.scrollTo(0, 500);
 
-
   }
-
-
 
   onClick() {}
 
-
-
   render() {
 
-    return (
+    return (<div className='App'>
 
-
-      <div className='App'  >
-
-        <div className = 'App-Wrapper'>
-
-
+      <div className='App-Wrapper'>
 
         <HeaderSection/>
         <StrengthsSection/>
-        <div className = 'Divider' />
+        <div className='Divider'/>
         <WorkSection/>
-        <ContactSection />
+        <ContactSection/>
 
       </div>
 
-    </div>
-
-
-  );
+    </div>);
   }
 }
 
 var image = document.getElementsByClassName('Parallax-Wrapper');
-new SimpleParallax(image, {
-  scale:1.5
-});
+new SimpleParallax(image, {scale: 1.5});
 
 console.log(image);
 
