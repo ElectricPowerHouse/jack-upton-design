@@ -28,7 +28,10 @@ class HeaderSection extends Component {
               </div>
               <hr className='Header-Text-Section-Line'/>
               <div className='Header-Text-Section-Menu'>
-                <div className='Header-Text-Section-Menu-MyProjects'>
+                <div className='Header-Text-Section-Menu-MyProjects' onClick = {()=> {window.scrollTo(0,400);}}>
+                  Skills & Strengths
+                </div>
+                <div className='Header-Text-Section-Menu-Contacts'>
                   My Projects
                 </div>
                 <div className='Header-Text-Section-Menu-Contacts'>

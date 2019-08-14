@@ -32,19 +32,25 @@ class StrengthsSection extends Component {
       </div>
       <div className='Strengths-Bottom'>
         <div className='Strengths-Strengths-Section'>
-          <div className='Strengths-Section-Symbol-VisualDesign'/>
+          <div className='Strengths-Section-Symbol-Wrapper'>
+            <div className='Strengths-Section-Symbol-VisualDesign'/>
+          </div>
           <div className='Strengths-Section-Text'>
             Visual Design
           </div>
         </div>
         <div className='Strengths-Strengths-Section'>
-          <div className='Strengths-Section-Symbol-FrontEnd'/>
+          <div className='Strengths-Section-Symbol-Wrapper'>
+            <div className='Strengths-Section-Symbol-FrontEnd'/>
+          </div>
           <div className='Strengths-Section-Text'>
             Front-End Integration
           </div>
         </div>
         <div className='Strengths-Strengths-Section'>
-          <div className='Strengths-Section-Symbol-Communication'/>
+          <div className='Strengths-Section-Symbol-Wrapper'>
+            <div className='Strengths-Section-Symbol-Communication'/>
+          </div>
           <div className='Strengths-Section-Text'>
             Communication
           </div>
@@ -57,9 +63,11 @@ class StrengthsSection extends Component {
 
     return (<div className='Skills'>
       <div className='Skills-Left'>
-        <div className='Skills-Top-Dot'/>
-        <div className='Strengths-Top-Text'>
+        <div className = 'Skills-Header-Wrapper'>
+          <div className='Skills-Top-Dot'/>
+          <div className='Skills-Top-Text'>
           Skills:
+          </div>
         </div>
       </div>
       <div className='Skills-Right'>

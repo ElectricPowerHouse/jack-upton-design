@@ -38,8 +38,8 @@
   margin-top:17px;
 
 
-  background-image:url('./../images/strengths.png');
-  width:26px;
+  background-image:url('./../images/strength.svg');
+  width:32px;
   height:100%;
   background-size:100%;
   background-repeat: no-repeat;
@@ -85,6 +85,8 @@
   margin-left:3%;
   font-size:1.5rem;
   font-family: Noto Serif Regular;
+  margin-top:auto;
+  margin-bottom:auto;
 }
 
 .Strengths-Bottom{
@@ -122,45 +124,84 @@
 
 }
 
-.Strengths-Section-Symbol-VisualDesign{
-
-  background-image:url('./../images/visualdesign.png');
-  width:95px;
+.Strengths-Section-Symbol-Wrapper{
+  width:7.5vw;
   height:100%;
-  background-size:100%;
-  background-repeat: no-repeat;
   margin-left:auto;
   margin-right:auto;
+  /*border:2px solid red;*/
+}
+
+.Strengths-Section-Symbol-VisualDesign{
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+
+  border-radius:50%;
+
+ background-image:url('./../images/visual.svg');
+
+
+  padding-top:100%;
+
+  position:relative;
+  width:100%;
+  height:auto;
+
+  /*border:2px solid blue;*/
+
+  background-repeat: no-repeat;
+
 
 }
 
 .Strengths-Section-Symbol-FrontEnd{
 
-  background-image:url('./../images/integration.png');
-  width:95px;
-  height:100%;
-  background-size:100%;
-  background-repeat: no-repeat;
-  margin-left:auto;
-  margin-right:auto;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
 
+  border-radius:50%;
+
+  background-image:url('./../images/integration.svg');
+
+  padding-top:100%;
+
+  position:relative;
+  width:100%;
+  height:auto;
+
+  /*border:2px solid blue;*/
+
+  background-repeat: no-repeat;
 }
 
 .Strengths-Section-Symbol-Communication{
 
-  background-image:url('./../images/communication.png');
-  width:95px;
-  height:100%;
-  background-size:100%;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+
+  border-radius:50%;
+
+
+  background-image:url('./../images/communication.svg');
+  padding-top:100%;
+
+  position:relative;
+  width:100%;
+  height:auto;
+
+  /*border:2px solid blue;*/
+
   background-repeat: no-repeat;
-  margin-left:auto;
-  margin-right:auto;
 
 }
 
 .Skills-Section-Symbol-React{
 
-  background-image:url('./../images/react.png');
+  background-image:url('./../images/react.svg');
   width:65px;
   height:65px;
   background-size:65px;
@@ -211,6 +252,31 @@
 .Strengths-Section-Text{
   font-size:1.5rem;
   font-weight:600;
+
+}
+
+.Skills-Top-Text{
+  margin-left:6%;
+  font-size:1.5rem;
+  font-family: Noto Serif Regular;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.Skills-Header-Wrapper{
+  height:40px;
+  display:flex;
+  flex-direction:row;
+}
+
+.Skills-Top-Dot{
+  border-radius: 50%;
+  border: 3px solid #0c1c35;
+  height: 12px;
+ width: 12px;
+ margin-top:auto;
+ margin-bottom:auto;
+
 }
 
 .Skills{
@@ -221,8 +287,7 @@
 }
 
 .Skills-Left{
-  display:flex;
-  flex-direction:row;
+
   width:16%;
 }
 
@@ -240,12 +305,5 @@
 .Skills-Section-Text{
   font-size:1.2rem;
   font-weight:600;
-}
-
-.Skills-Top-Dot{
-  border-radius: 50%;
-  border: 3px solid #0c1c35;
-  height: 12px;
- width: 12px;
-
+  margin-top:10px;
 }

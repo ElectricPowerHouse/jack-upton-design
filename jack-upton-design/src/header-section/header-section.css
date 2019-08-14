@@ -92,6 +92,8 @@
   margin-bottom: auto;
 }
 
+
+
 .Header-Bar-Top-Language-Wrapper {
   flex: 1;
 }
@@ -124,7 +126,7 @@
 }
 
 .Language-Symbol {
-  background-image: url('./../images/world.png');
+  background-image: url('./../images/language.svg');
   background-size: 20px;
   width: 20px;
   height: 20px;

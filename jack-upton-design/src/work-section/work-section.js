@@ -4,19 +4,45 @@ import './work-section.css';
 import Carousel, {Modal, ModalGateway} from 'react-images';
 
 
-const image1 = require ('./mm.png');
 
-const images = [
+const modalImages1 = [
   {
     src: require ('./../images/elucimed.png')
   },
   {
-    src: "https://via.placeholder.com/150"
+    src: require ('./../images/elucimed.png')
   },
   {
-    src: 'https://via.placeholder.com/350'
+    src: require ('./../images/elucimed.png')
   }
 ];
+
+const modalImages2 = [
+  {
+    src: require ('./../images/metamorphic1.png')
+  },
+  {
+    src: require ('./../images/metamorphic2.png')
+  },
+  {
+    src: require ('./../images/metamorphic3.png')
+  }
+];
+
+const modalImages3 = [
+  {
+    src: require ('./../images/paperless1.png')
+  },
+  {
+    src: require ('./../images/paperless2.png')
+  },
+  {
+    src: require ('./../images/paperless3.png')
+  }
+];
+
+
+
 
 
 
@@ -40,7 +66,6 @@ class WorkSection extends Component {
 
   render() {
 
-    console.log(images);
     const {modalIsOpen} = this.state;
 
     return (<div className='Work-Section'>
@@ -52,30 +77,21 @@ class WorkSection extends Component {
           </div>
         </div>
         <div className='Work-Section-Middle'>
-          <div className='Work-Section-Top'>
-            <div className='Work-Section-Title'>
-              1. Ensemble-C
-            </div>
-            <div className='Work-Section-Subtitle'>
-              [Elucimed]
-            </div>
-          </div>
+            {this.renderTitle()}
           <div className='Work-Section-Images'>
             <div className='Work-Section-Images-Left'>
               <div className='Image1-Wrapper' onClick = {() => {if(this.state.modalIsOpen === false){this.toggleModal()}}}>
 
                 {this.renderModalGateway()}
-                <Carousel views = {images} />
-
-                {/* <div className = 'Work-Section-Image1' /> */}
+               {this.renderImage1()}
               </div>
             </div>
             <div className='Work-Section-Images-Right'>
               <div className='Image2-Wrapper'>
-                <div className='Work-Section-Image2'/>
+               {this.renderImage2()}
               </div>
               <div className='Image3-Wrapper'>
-                <div className='Work-Section-Image3'/>
+               {this.renderImage3()}
               </div>
             </div>
           </div>
@@ -103,7 +119,51 @@ class WorkSection extends Component {
     </div>);
   }
 
+  renderTitle(){
+
+    let title = '';
+    let subtitle = '';
+    let i = this.state.worknum;
+
+    if(i===0){
+      title = '1. Ensemble-C';
+      subtitle = '[ Elucimed ]';
+    }
+    else if(i===1){
+      title = '2. Metamorphic Website';
+      subtitle = '[ Metamorphic Studios ]';
+    }
+    else{
+      title = '3. Paperless';
+      subtitle = '[ Metamorphic Studios ]';
+    }
+
+    return(
+      <div className='Work-Section-Top'>
+        <div className='Work-Section-Title'>
+          {title}
+        </div>
+        <div className='Work-Section-Subtitle'>
+          {subtitle}
+        </div>
+      </div>
+    )
+  }
+
   renderModalGateway(){
+
+    let images = modalImages1;
+    let i = this.state.worknum;
+
+    if(i===0){
+      images = modalImages1;
+    }
+    else if(i===1){
+      images = modalImages2;
+    }
+    else{
+      images = modalImages3;
+    }
 
     const { modalIsOpen } = this.state;
     console.log(modalIsOpen);
@@ -117,6 +177,72 @@ class WorkSection extends Component {
         ) : null}
       </ModalGateway>
     );
+
+  }
+
+  renderImage1(){
+
+    let i = this.state.worknum;
+
+    if(i===0){
+      return(
+      <div className = 'Work-Section-Elucimed1' />
+      );
+    }
+    else if(i===1){
+      return(
+      <div className = 'Work-Section-Metamorphic1' />
+      );
+    }
+    else{
+      return(
+      <div className = 'Work-Section-Paperless2' />
+      );
+    }
+
+  }
+
+  renderImage2(){
+
+    let i = this.state.worknum;
+
+    if(i===0){
+      return(
+      <div className = 'Work-Section-Elucimed1' />
+      );
+    }
+    else if(i===1){
+      return(
+      <div className = 'Work-Section-Metamorphic2' />
+      );
+    }
+    else{
+      return(
+      <div className = 'Work-Section-Paperless3' />
+      );
+    }
+
+  }
+
+  renderImage3(){
+
+    let i = this.state.worknum;
+
+    if(i===0){
+      return(
+      <div className = 'Work-Section-Elucimed1' />
+      );
+    }
+    else if(i===1){
+      return(
+      <div className = 'Work-Section-Metamorphic3' />
+      );
+    }
+    else{
+      return(
+      <div className = 'Work-Section-Paperless1' />
+      );
+    }
 
   }
 
@@ -151,9 +277,9 @@ class WorkSection extends Component {
 
     let text1 = 'Ensemble-C is a web-app designed to make nurse and doctor’s workflows simpler. ' + 'It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. ' + 'This app would reduce human error, increase connectivity, and simplify data analysis. ' + 'I worked on Ensemble-C for 8 months during my time employed at Elucimed. ' + 'I designed and coded the front-end in React myself, frequently talking to medical professionals to ' + 'get feedback and discuss their needs. This project was full of interesting challenges, ' + 'often to do with how to present' + 'complex data in a user-friendly, and modern looking way.';
 
-    let text2 = 'zeep';
+    let text2 = 'The Metamorphic Studios webpage was designed to be the homepage and first point of contact when wanting to find out more about the company. It was also an opportunity for me to re-design the branding, as the previous visual design was outdated and lacking. I decided on a few bold colors and a theme of change represented by the caterpillar transformation. The site was meant to appeal to other businesses as well as everyday users. I did all of the design for the site, working with a team of coders to get it up and running.';
 
-    let text3 = 'zoop';
+    let text3 = 'PaperLess is a subscription based service for making creating and filling out web-forms simpler and streamlined. The application was designed for businesses such as construction companies to more simply create and distribute large numbers of forms for their employees to fill out. For this app I had to figure out how to efficiently lay out the UI so that the process was easily understood but complex enough to get exactly the type of form that you wanted. I also worked on a lot of the branding for the app myself. ';
 
     let w = this.state.worknum;
 

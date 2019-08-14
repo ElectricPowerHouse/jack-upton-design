@@ -3,7 +3,7 @@
   background: linear-gradient(90deg, rgba(252,251,251,1) 0%, rgba(235,235,235,1) 100%);
   color: #08162b;
 
-  min-height:700px;
+  min-height:600px;
 
 
       -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
@@ -26,7 +26,7 @@
   height:65px;
   width:25%;
   margin-left:9%;
-  margin-top:-580px;  /* needs to be negative so that it sits atop of the other div */
+  margin-top:-540px;  /* needs to be negative so that it sits atop of the other div */
 
   font-size:1.65rem;
   color: #081231;
@@ -47,8 +47,8 @@
   margin-top:17px;
 
 
-  background-image:url('./../images/work.png');
-  width:34px;
+  background-image:url('./../images/work.svg');
+  width:36px;
   height:100%;
   background-size:100%;
   background-repeat: no-repeat;
@@ -126,8 +126,8 @@
 .Work-Section-Top{
   display:flex;
   flex-direction:row;
-  height:80px;
-  margin-bottom:20px;
+  height:110px;
+  margin-bottom:6px;
 }
 
 .Work-Section-Title{
@@ -152,7 +152,7 @@
   margin-right:auto;
   display:flex;
   flex-direction:row;
-  height:300px;
+  height:260px;
 }
 
 .Work-Section-Images-Left{
@@ -184,6 +184,92 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
   box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
 }
+
+
+.Work-Section-Elucimed1{
+
+  background-image:url('./../images/elucimed.png');
+  width:100%;
+  height:100%;
+  background-size: 100% auto;
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+}
+
+.Work-Section-Paperless1{
+
+  background-image:url('./../images/paperless1.png');
+  width:100%;
+  height:100%;
+  background-size: 100% auto;
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+}
+
+.Work-Section-Paperless2{
+
+  background-image:url('./../images/paperless2.png');
+  width:100%;
+  height:100%;
+  background-size: 100% auto;
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+}
+
+.Work-Section-Paperless3{
+
+  background-image:url('./../images/paperless3.png');
+  width:100%;
+  height:100%;
+  background-size: 100% auto;
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+}
+
+.Work-Section-Metamorphic1{
+
+  background-image:url('./../images/metamorphic1.png');
+  width:100%;
+  height:100%;
+  background-size: 100% auto;
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+}
+
+.Work-Section-Metamorphic2{
+
+  background-image:url('./../images/metamorphic2.png');
+  width:100%;
+  height:100%;
+  background-size: 100% auto;
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+}
+
+.Work-Section-Metamorphic3{
+
+  background-image:url('./../images/metamorphic3.png');
+  width:100%;
+  height:100%;
+  background-size: 100% auto;
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+}
+
 
 .Image2-Wrapper{
   width:70%;
@@ -231,10 +317,10 @@
 }
 
 .Work-Section-Description{
-  margin-top:40px;
+  margin-top:20px;
   margin-left:auto;
   margin-right:auto;
-  font-size:1rem;
+  font-size:0.91rem;
   text-align:left;
   line-height:27px;
 }
