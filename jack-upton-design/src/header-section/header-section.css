@@ -75,7 +75,7 @@
   font-size: 1.25rem;
 }
 
-.Header-Text-Section-Menu-Contacts {
+.Header-Text-Section-Menu-Contact {
   margin-left: 5%;
 }
 
@@ -165,11 +165,13 @@
 
 .Header-Photo-Me {
 
-  width: 200px;
+  width: 290px;
   height: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: 30px;
-  background-image: url('./../images/me.png');
+  background-image: url('./../images/me-cropped.png');
   margin-right: auto;
+
+
 }

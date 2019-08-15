@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './header-section.css';
 import MePhoto from './../images/me.png';
+import { Link, animateScroll as scroll  } from 'react-scroll';
 
 class HeaderSection extends Component {
 
@@ -28,15 +29,33 @@ class HeaderSection extends Component {
               </div>
               <hr className='Header-Text-Section-Line'/>
               <div className='Header-Text-Section-Menu'>
-                <div className='Header-Text-Section-Menu-MyProjects' onClick = {()=> {window.scrollTo(0,400);}}>
+                <Link
+                activeClass = 'active'
+                smooth = {true}
+                className='Header-Text-Section-Menu-MyProjects'
+                to='Strengths-Section'
+                offset={-100}
+                 >
                   Skills & Strengths
-                </div>
-                <div className='Header-Text-Section-Menu-Contacts'>
+                </Link>
+                <Link
+                activeClass = 'active'
+                smooth = {true}
+                className='Header-Text-Section-Menu-Contact'
+                to='Work-Section'
+                offset={-100}
+                >
                   My Projects
-                </div>
-                <div className='Header-Text-Section-Menu-Contacts'>
-                  Contacts
-                </div>
+                </Link>
+                <Link
+                activeClass = 'active'
+                smooth = {true}
+                className='Header-Text-Section-Menu-Contact'
+                to='Contact-Section'
+                offset={-100}
+                >
+                  Contact
+                </Link>
               </div>
               <div className='Header-Text-Section-AboutMe'>
                 I’m a digital designer & front-end-developer who specializes in combining aesthetics & code. I have a degree in Design Innovation and experience working commercialy. Most recently I worked for a startup that created medical software in Wellington, New Zealand. I’m currently living in France and am looking for remote or local work.

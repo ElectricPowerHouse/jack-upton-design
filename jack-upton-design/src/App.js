@@ -22,7 +22,6 @@ class App extends Component {
   }
 
   componentDidMount() {
-    window.scrollTo(0, 500);
 
   }
 

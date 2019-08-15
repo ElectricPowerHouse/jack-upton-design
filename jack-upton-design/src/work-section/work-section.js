@@ -7,13 +7,13 @@ import Carousel, {Modal, ModalGateway} from 'react-images';
 
 const modalImages1 = [
   {
-    src: require ('./../images/elucimed.png')
+    src: require ('./../images/ensemble-c1-resized.png'),
   },
   {
-    src: require ('./../images/elucimed.png')
+    src: require ('./../images/ensemble-c2-resized.png')
   },
   {
-    src: require ('./../images/elucimed.png')
+    src: require ('./../images/ensemble-c3-resized.png')
   }
 ];
 
@@ -40,6 +40,8 @@ const modalImages3 = [
     src: require ('./../images/paperless3.png')
   }
 ];
+
+
 
 
 
@@ -172,7 +174,8 @@ class WorkSection extends Component {
       <ModalGateway>
         {modalIsOpen ? (
           <Modal onClose={this.toggleModal}>
-            <Carousel views={images} />
+            <Carousel views={images}
+            />
           </Modal>
         ) : null}
       </ModalGateway>
@@ -208,7 +211,7 @@ class WorkSection extends Component {
 
     if(i===0){
       return(
-      <div className = 'Work-Section-Elucimed1' />
+      <div className = 'Work-Section-Elucimed2' />
       );
     }
     else if(i===1){
@@ -230,7 +233,7 @@ class WorkSection extends Component {
 
     if(i===0){
       return(
-      <div className = 'Work-Section-Elucimed1' />
+      <div className = 'Work-Section-Elucimed3' />
       );
     }
     else if(i===1){

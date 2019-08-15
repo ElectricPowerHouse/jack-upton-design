@@ -16,6 +16,7 @@
 
   height:65px;
   width:25%;
+  width:320px;
   margin-left:9%;
   margin-top:-365px;  /* needs to be negative so that it sits atop of the other div */
 
@@ -140,7 +141,7 @@
 
   border-radius:50%;
 
- background-image:url('./../images/visual.svg');
+ background-image:url('./../images/visualdesign.svg');
 
 
   padding-top:100%;
@@ -164,7 +165,7 @@
 
   border-radius:50%;
 
-  background-image:url('./../images/integration.svg');
+  background-image:url('./../images/frontend.svg');
 
   padding-top:100%;
 
@@ -199,51 +200,183 @@
 
 }
 
-.Skills-Section-Symbol-React{
-
-  background-image:url('./../images/react.svg');
-  width:65px;
-  height:65px;
-  background-size:65px;
-  background-repeat: no-repeat;
+.Skills-Section-Symbol-Wrapper{
+  width:5.5vw;
+  height:100%;
   margin-left:auto;
   margin-right:auto;
+  /*border:2px solid red;*/
+}
+
+
+
+.Skills-Section-Symbol-React{
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+
+  border-radius:50%;
+
+  background-image:url('./../images/react.svg');
+
+  padding-top:100%;
+
+  position:relative;
+  width:100%;
+  height:auto;
+
+  /*border:2px solid blue;*/
+
+  background-repeat: no-repeat;
 
 }
 
 .Skills-Section-Symbol-Photoshop{
 
-  background-image:url('./../images/photoshop.png');
-  width:65px;
-  height:100%;
-  background-size:100%;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+
+  border-radius:50%;
+
+  background-image:url('./../images/photoshop.svg');
+  padding-top:100%;
+
+  position:relative;
+  width:100%;
+  height:auto;
+
+  /*border:2px solid blue;*/
+
   background-repeat: no-repeat;
-  margin-left:auto;
-  margin-right:auto;
 
 }
 
 .Skills-Section-Symbol-Javascript{
 
-  background-image:url('./../images/javascript.png');
-  width:65px;
-  height:100%;
-  background-size:100%;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+
+  border-radius:50%;
+
+  background-image:url('./../images/javascript.svg');
+  padding-top:100%;
+
+  position:relative;
+  width:100%;
+  height:auto;
+
+  /*border:2px solid blue;*/
+
   background-repeat: no-repeat;
-  margin-left:auto;
-  margin-right:auto;
 
 }
 
 .Skills-Section-Symbol-Java{
 
-  background-image:url('./../images/java.png');
-  width:65px;
-  height:100%;
-  background-size:100%;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+
+  border-radius:50%;
+
+  background-image:url('./../images/java.svg');
+  padding-top:100%;
+
+  position:relative;
+  width:100%;
+  height:auto;
+
+  /*border:2px solid blue;*/
+
   background-repeat: no-repeat;
-  margin-left:auto;
-  margin-right:auto;
+
+}
+
+.Skills-Section-Symbol-Git{
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+
+  border-radius:50%;
+
+  background-image:url('./../images/git.svg');
+  padding-top:100%;
+
+  position:relative;
+  width:100%;
+  height:auto;
+
+  /*border:2px solid blue;*/
+
+  background-repeat: no-repeat;
+
+}
+
+.Skills-Section-Symbol-Node{
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+
+  border-radius:50%;
+
+  background-image:url('./../images/node.svg');
+  padding-top:100%;
+
+  position:relative;
+  width:100%;
+  height:auto;
+
+  /*border:2px solid blue;*/
+
+  background-repeat: no-repeat;
+
+}
+
+
+.Skills-Section-Symbol-Html{
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+
+  border-radius:50%;
+
+  background-image:url('./../images/html.svg');
+  padding-top:100%;
+
+  position:relative;
+  width:100%;
+  height:auto;
+
+  /*border:2px solid blue;*/
+
+  background-repeat: no-repeat;
+
+}
+
+.Skills-Section-Symbol-Css{
+
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.36);
+
+  border-radius:50%;
+
+  background-image:url('./../images/css.svg');
+  padding-top:100%;
+
+  position:relative;
+  width:100%;
+  height:auto;
+
+  /*border:2px solid blue;*/
+
+  background-repeat: no-repeat;
 
 }
 
@@ -295,9 +428,12 @@
   display:flex;
   flex-direction:column;
 
+
 }
 
 .Skills-Right-Row{
+
+  flex:1;
   display:flex;
   flex-direction:row;
 }

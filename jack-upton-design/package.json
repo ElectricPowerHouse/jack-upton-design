@@ -8,6 +8,7 @@
     "react-images": "^1.0.0",
     "react-lazy-hero": "^2.0.0",
     "react-scripts": "3.0.1",
+    "react-scroll": "^1.7.13",
     "simple-parallax-js": "^5.1.0",
     "styled-components": "^4.3.2"
   },

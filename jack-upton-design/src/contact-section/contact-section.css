@@ -43,7 +43,8 @@
 
 .Contact-Section-Left {
   width: 7%;
-  background-color: white;
+  background: rgba(252,251,251,1);
+
 }
 
 .Contact-Section-Right {
@@ -173,7 +174,7 @@
 }
 
 .Contact-Symbol-Email {
-  background-image: url('./../images/gmail.png');
+  background-image: url('./../images/gmail.svg');
   width: 51px;
   height: 51px;
   background-size: 51px;
@@ -181,7 +182,7 @@
 }
 
 .Contact-Symbol-Github {
-  background-image: url('./../images/github.png');
+  background-image: url('./../images/github.svg');
   width: 51px;
   height: 51px;
   background-size: 51px;
@@ -189,7 +190,7 @@
 }
 
 .Contact-Symbol-LinkedIn {
-  background-image: url('./../images/linkedin.png');
+  background-image: url('./../images/linkedin.svg');
   width: 51px;
   height: 51px;
   background-size: 51px;
@@ -197,7 +198,7 @@
 }
 
 .Contact-Symbol-Dribbble {
-  background-image: url('./../images/dribbble.png');
+  background-image: url('./../images/dribbble.svg');
   width: 51px;
   height: 51px;
   background-size: 51px;
@@ -205,7 +206,7 @@
 }
 
 .Contact-Symbol-Flaticon {
-  background-image: url('./../images/flaticon.png');
+  background-image: url('./../images/flaticon.svg');
   width: 51px;
   height: 51px;
   background-size: 51px;
