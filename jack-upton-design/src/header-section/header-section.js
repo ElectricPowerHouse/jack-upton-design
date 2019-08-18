@@ -32,7 +32,7 @@ class HeaderSection extends Component {
                 <Link
                 activeClass = 'active'
                 smooth = {true}
-                className='Header-Text-Section-Menu-MyProjects'
+                className='Header-Text-Section-Menu-Left'
                 to='Strengths-Section'
                 offset={-100}
                  >
@@ -41,7 +41,7 @@ class HeaderSection extends Component {
                 <Link
                 activeClass = 'active'
                 smooth = {true}
-                className='Header-Text-Section-Menu-Contact'
+                className='Header-Text-Section-Menu-Right'
                 to='Work-Section'
                 offset={-100}
                 >
@@ -50,7 +50,7 @@ class HeaderSection extends Component {
                 <Link
                 activeClass = 'active'
                 smooth = {true}
-                className='Header-Text-Section-Menu-Contact'
+                className='Header-Text-Section-Menu-Right'
                 to='Contact-Section'
                 offset={-100}
                 >

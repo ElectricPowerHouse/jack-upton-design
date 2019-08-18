@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import mm from './mm.png';
 import HeaderSection from './header-section/header-section.js';
 import StrengthsSection from './strengths-section/strengths-section.js';
 import WorkSection from './work-section/work-section.js';
@@ -12,7 +11,6 @@ import SimpleParallax from 'simple-parallax-js';
 
 import LazyHero from 'react-lazy-hero';
 
-import Background from './test2.png'
 
 class App extends Component {
 

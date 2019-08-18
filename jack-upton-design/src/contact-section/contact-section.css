@@ -7,6 +7,11 @@
   font-family: Roboto;
   font-size: 1.2rem;
 
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+
 }
 
 /*
@@ -63,7 +68,12 @@
 
 .Contact-Section-Row {
   flex: 1;
+  transition: filter 0.5s;
+}
 
+.Contact-Section-Row:hover{
+  filter: sepia(70%);
+  cursor:pointer;
 }
 
 .Contact-Section-Row-Final {
@@ -77,6 +87,9 @@
   margin-top: auto;
   margin-bottom: auto;
   text-align: left;
+
+  color:inherit;
+  text-decoration:none;
 }
 
 .Contact-Section-Row-Wrapper {
@@ -90,6 +103,14 @@
   text-align: left;
   flex:1;
 
+  color:inherit;
+  text-decoration:none;
+
+}
+
+.Contact-Section-Row-Wrapper-Final-Left:hover{
+  filter: sepia(70%);
+  cursor:pointer;
 }
 
 .Contact-Section-Row-Wrapper-Final-Right {
@@ -101,13 +122,22 @@
 
 }
 
+.Contact-Section-Row-Wrapper-Final-Right:hover{
+  cursor:default;
+
+}
+
 .Contact-Row-Left-Final{
   flex:1;
   text-align:right;
   margin-right:20px;
 }
 
-.Contact-Row-Right-Final{
+.Contact-Row-Right-Final-Left{
+  margin-left:10%;
+}
+
+.Contact-Row-Right-Final-Right{
   width:18%;
 }
 
@@ -119,6 +149,7 @@
 
 .Contact-Row-Right {
   margin-left: 5%;
+
 }
 
 .Contact-Row-Title {
@@ -156,6 +187,11 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
 }
 
 .Contact-Section-Header-Text {
@@ -172,6 +208,8 @@
   background-repeat: no-repeat;
   margin-left: 20px;
 }
+
+
 
 .Contact-Symbol-Email {
   background-image: url('./../images/gmail.svg');

@@ -4,6 +4,10 @@
 
 }
 
+.a{
+  color:inherit;
+}
+
 .App-Wrapper{
 
   background-image: url('./images/background3.png');
@@ -80,7 +84,6 @@ height: 100px;
 .App-Background {
   border: 15px solid red;
   position: absolute;
-  background-image: url('./test2.png');
   z-index: 3;
   height: 100%;
   width: 100%;

@@ -73,11 +73,25 @@
   flex-direction: row;
   margin-top: 23px;
   font-size: 1.25rem;
+  text-decoration:none;
+  transition: text-decoration 1s;
 }
 
-.Header-Text-Section-Menu-Contact {
+.Header-Text-Section-Menu-Left:hover{
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+.Header-Text-Section-Menu-Right {
   margin-left: 5%;
 }
+
+.Header-Text-Section-Menu-Right:hover{
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+
 
 .Header-Bar-Top-Dot {
   flex: 1;
@@ -138,6 +152,20 @@
   text-align: left;
   font-weight: 200;
   color: #dae8fd;
+
+
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+
+  opacity:1;
+  transition: opacity 0.5s;
+}
+
+.Header-Text-Section-Title:hover{
+  opacity:0.8;
+
 }
 
 .Header-Text-Section-AboutMe {
@@ -147,6 +175,10 @@
   width: 80%;
   font-family: Calibri;
   font-weight: 300;
+}
+
+.Header-Text-Section-AboutMe:hover{
+  cursor:default;
 }
 
 .Header-Photo-Section {

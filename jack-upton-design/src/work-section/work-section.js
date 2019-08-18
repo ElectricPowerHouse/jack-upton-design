@@ -89,10 +89,10 @@ class WorkSection extends Component {
               </div>
             </div>
             <div className='Work-Section-Images-Right'>
-              <div className='Image2-Wrapper'>
+              <div className='Image2-Wrapper' onClick = {() => {if(this.state.modalIsOpen === false){this.toggleModal()}}}>
                {this.renderImage2()}
               </div>
-              <div className='Image3-Wrapper'>
+              <div className='Image3-Wrapper' onClick = {() => {if(this.state.modalIsOpen === false){this.toggleModal()}}}>
                {this.renderImage3()}
               </div>
             </div>

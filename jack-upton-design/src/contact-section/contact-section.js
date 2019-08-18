@@ -10,43 +10,56 @@ class ContactSection extends Component {
     }
   }
 
+  handleClick = (e) => {
+  e.preventDefault();
+  console.log('The link was clicked.');
+  };
+
+
   render() {
     return (<div className='Contact-Section'>
       <div className='Contact-Section-Left'/>
       <div className='Contact-Section-Right'>
         <div className='Contact-Section-Body'>
           <div className='Contact-Section-Row'>
-            <div className='Contact-Section-Row-Wrapper'>
+            <a className='Contact-Section-Row-Wrapper'
+            target="_blank"
+            a href = 'mailto: jackupton2255@gmail.com'>
               <div className='Contact-Row-Left'>
                 <div className='Contact-Symbol-Email'/>
               </div>
               <div className='Contact-Row-Right'>
-                <div className='Contact-Row-Title'>
+                <div className='Contact-Row-Title' >
                   Gmail
                 </div>
                 <div className='Contact-Row-Link'>
                   jackupton2255@gmail.com
                 </div>
               </div>
-            </div>
+            </a>
           </div>
           <div className='Contact-Section-Row'>
-            <div className='Contact-Section-Row-Wrapper'>
-              <div className='Contact-Row-Left'>
-                <div className='Contact-Symbol-Github'/>
-              </div>
-              <div className='Contact-Row-Right'>
-                <div className='Contact-Row-Title'>
-                  Github
+            <a div className='Contact-Section-Row-Wrapper'
+            target="_blank"
+            a href = "https://github.com/ElectricPowerHouse">
+                <div className='Contact-Row-Left'>
+                  <div className='Contact-Symbol-Github'/>
                 </div>
-                <div className='Contact-Row-Link'>
-                  https://github.com/ElectricPowerHouse
+                <div className='Contact-Row-Right'>
+                  <div className='Contact-Row-Title'>
+                    Github
+                  </div>
+                  <div className='Contact-Row-Link'>
+                    https://github.com/ElectricPowerHouse
+                  </div>
                 </div>
-              </div>
-            </div>
+            </a>
           </div>
           <div className='Contact-Section-Row'>
-            <div className='Contact-Section-Row-Wrapper'>
+            <a className='Contact-Section-Row-Wrapper'
+            target="_blank"
+            a href = "https://www.linkedin.com/in/jackuptondesign/"
+            >
               <div className='Contact-Row-Left'>
                 <div className='Contact-Symbol-LinkedIn'/>
               </div>
@@ -58,14 +71,17 @@ class ContactSection extends Component {
                   https://linkedin.com/in/jackuptondesign/
                 </div>
               </div>
-            </div>
+            </a>
           </div>
           <div className='Contact-Section-Row-Final'>
-            <div className='Contact-Section-Row-Wrapper-Final-Left'>
+            <a className='Contact-Section-Row-Wrapper-Final-Left'
+            target="_blank"
+            a href = "https://dribbble.com/ElectricPowerHouse"
+            >
               <div className='Contact-Row-Left'>
                 <div className='Contact-Symbol-Dribbble'/>
               </div>
-              <div className='Contact-Row-Right'>
+              <div className='Contact-Row-Right-Final-Left'>
                 <div className='Contact-Row-Title'>
                   Dribbble
                 </div>
@@ -73,7 +89,7 @@ class ContactSection extends Component {
                   https://dribbble.com/ElectricPowerHouse
                 </div>
               </div>
-            </div>
+            </a>
             <div className='Contact-Section-Row-Wrapper-Final-Right'>
               <div className='Contact-Row-Left-Final'>
                 <div className = 'Flaticon-Title' > Icons Sourced From Flaticon < /div>
@@ -81,7 +97,7 @@ class ContactSection extends Component {
                   Site design and development by Jack Upton
                 </div>
               </div >
-                <div className='Contact-Row-Right-Final'>
+                <div className='Contact-Row-Right-Final-Right'>
                   <div className='Contact-Symbol-Flaticon'/>
               </div>
             </div>
