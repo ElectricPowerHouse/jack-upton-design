@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './strengths-section.css';
+import Fade from 'react-reveal/Fade';
 
 class StrengthsSection extends Component {
 
@@ -23,7 +24,9 @@ class StrengthsSection extends Component {
   }
 
   renderStrengths() {
-    return (<div className='Strengths'>
+    return (
+      <Fade duration = {2500}>
+      <div className='Strengths'>
       <div className='Strengths-Top'>
         <div className='Strengths-Top-Dot'/>
         <div className='Strengths-Top-Text'>
@@ -56,12 +59,16 @@ class StrengthsSection extends Component {
           </div>
         </div>
       </div>
-    </div>);
+    </div>
+    </Fade>
+  );
   }
 
   renderSkills() {
 
-    return (<div className='Skills'>
+    return (
+      <Fade duration = {2500}>
+      <div className='Skills'>
       <div className='Skills-Left'>
         <div className = 'Skills-Header-Wrapper'>
           <div className='Skills-Top-Dot'/>
@@ -141,7 +148,9 @@ class StrengthsSection extends Component {
           </div>
         </div>
       </div>
-    </div>);
+    </div>
+    </Fade>
+  );
 
   }
 

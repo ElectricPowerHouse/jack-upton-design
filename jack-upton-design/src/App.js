@@ -11,6 +11,8 @@ import SimpleParallax from 'simple-parallax-js';
 
 import LazyHero from 'react-lazy-hero';
 
+import Fade from 'react-reveal/Fade';
+
 
 class App extends Component {
 
@@ -31,11 +33,11 @@ class App extends Component {
 
       <div className='App-Wrapper'>
 
-        <HeaderSection/>
-        <StrengthsSection/>
-        <div className='Divider'/>
-        <WorkSection/>
-        <ContactSection/>
+          <HeaderSection/>
+          <StrengthsSection/>
+          <div className='Divider'/>
+          <WorkSection/>
+          <ContactSection/>
 
       </div>
 

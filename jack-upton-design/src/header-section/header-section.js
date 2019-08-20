@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './header-section.css';
 import MePhoto from './../images/me.png';
 import { Link, animateScroll as scroll  } from 'react-scroll';
+import Fade from 'react-reveal/Fade';
+
 
 class HeaderSection extends Component {
 
@@ -14,6 +16,7 @@ class HeaderSection extends Component {
 
   render() {
     return (<div className='Header-Section'>
+      <Fade duration = {2500}>
       <div className='Header-Section-Left'>
         <div className='Header-Container'>
           <div className='Header-Bar-Top'>
@@ -61,14 +64,18 @@ class HeaderSection extends Component {
                 I’m a digital designer & front-end-developer who specializes in combining aesthetics & code. I have a degree in Design Innovation and experience working commercialy. Most recently I worked for a startup that created medical software in Wellington, New Zealand. I’m currently living in France and am looking for remote or local work.
               </div>
             </div>
-            <div className='Header-Photo-Section'>
-              <div className = 'Header-Photo-Circle'>
-                <div className='Header-Photo-Me'/>
+            <Fade duration = {4000} >
+              <div className='Header-Photo-Section'>
+                {/*<div className = 'Header-Photo-Circle'>*/}
+                  <div className='Header-Photo-Me'/>
+                {/*</div>*/}
               </div>
-            </div>
+            </Fade>
           </div>
+
         </div>
       </div>
+      </Fade>
       <div className='Header-Section-Right'>
         <div className = 'Header-Section-Line' />
       </div>

@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './contact-section.css';
+import Fade from 'react-reveal/Fade';
+
 
 class ContactSection extends Component {
 
@@ -17,9 +19,11 @@ class ContactSection extends Component {
 
 
   render() {
-    return (<div className='Contact-Section'>
+    return (
+      <div className='Contact-Section'>
       <div className='Contact-Section-Left'/>
       <div className='Contact-Section-Right'>
+        <Fade duration = {2500}>
         <div className='Contact-Section-Body'>
           <div className='Contact-Section-Row'>
             <a className='Contact-Section-Row-Wrapper'
@@ -98,15 +102,19 @@ class ContactSection extends Component {
                 </div>
               </div >
                 <div className='Contact-Row-Right-Final-Right'>
-                  <div className='Contact-Symbol-Flaticon'/>
+                  <a href = "https://www.flaticon.com/"  target="_blank">
+                    <div className='Contact-Symbol-Flaticon'/>
+                  </a>
               </div>
             </div>
           </div>
         </div>
+        </Fade>
         {this.renderHeader()}
       </div>
 
-    </div>);
+    </div>
+  );
   }
 
   renderHeader() {

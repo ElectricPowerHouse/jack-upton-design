@@ -143,13 +143,15 @@
   margin-right:auto;
   /*border:2px solid red;*/
   opacity:1;
-  transition: opacity 0.3s;
+  transition: filter 0.3s;
 
 }
 
-.Strengths-Section-Symbol-Wrapper:hover{
-  opacity:0.8;
+.Strengths-Section-Symbol-Wrapper:hover {
+  filter: brightness(1.1);
 }
+
+
 
 .Strengths-Section-Symbol-VisualDesign{
 
@@ -225,12 +227,13 @@
   margin-right:auto;
   /*border:2px solid red;*/
   opacity:1;
-  transition: opacity 0.3s;
+  transition: filter 0.3s;
 }
 
-.Skills-Section-Symbol-Wrapper:hover{
-  opacity:0.8;
 
+
+.Skills-Section-Symbol-Wrapper:hover {
+  filter: brightness(1.1);
 }
 
 

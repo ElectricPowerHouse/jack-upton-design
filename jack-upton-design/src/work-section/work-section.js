@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './work-section.css';
+import Fade from 'react-reveal/Fade';
+
 
 import Carousel, {Modal, ModalGateway} from 'react-images';
 
@@ -19,25 +21,25 @@ const modalImages1 = [
 
 const modalImages2 = [
   {
-    src: require ('./../images/metamorphic1.png')
+    src: require ('./../images/metamorphic1-resized.png')
   },
   {
-    src: require ('./../images/metamorphic2.png')
+    src: require ('./../images/metamorphic2-resized.png')
   },
   {
-    src: require ('./../images/metamorphic3.png')
+    src: require ('./../images/metamorphic3-resized.png')
   }
 ];
 
 const modalImages3 = [
   {
-    src: require ('./../images/paperless1.png')
+    src: require ('./../images/paperless1-resized.png')
   },
   {
-    src: require ('./../images/paperless2.png')
+    src: require ('./../images/paperless2-resized.png')
   },
   {
-    src: require ('./../images/paperless3.png')
+    src: require ('./../images/paperless3-resized.png')
   }
 ];
 
@@ -70,7 +72,8 @@ class WorkSection extends Component {
 
     const {modalIsOpen} = this.state;
 
-    return (<div className='Work-Section'>
+    return (
+      <div className='Work-Section'>
       {/* //needs to be the wrong way round so the header sits on the div */}
       <div className='Work-Section-Body'>
         <div className='Work-Section-Left'>
@@ -78,6 +81,7 @@ class WorkSection extends Component {
             <div className='Work-Section-Left-Arrow-Symbol'/>
           </div>
         </div>
+        <Fade duration = {2500}>
         <div className='Work-Section-Middle'>
             {this.renderTitle()}
           <div className='Work-Section-Images'>
@@ -108,6 +112,7 @@ class WorkSection extends Component {
             */
           }
         </div>
+        </Fade>
 
         <div className='Work-Section-Right'>
           <div className='Work-Section-Right-Arrow' onClick={() => {this.increaseWorkNum()}}>
@@ -118,7 +123,8 @@ class WorkSection extends Component {
       </div>
       {this.renderHeader()}
 
-    </div>);
+    </div>
+  );
   }
 
   renderTitle(){

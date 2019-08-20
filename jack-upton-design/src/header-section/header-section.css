@@ -75,6 +75,11 @@
   font-size: 1.25rem;
   text-decoration:none;
   transition: text-decoration 1s;
+
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
 }
 
 .Header-Text-Section-Menu-Left:hover{
@@ -110,6 +115,7 @@
 
 .Header-Bar-Top-Language-Wrapper {
   flex: 1;
+  opacity:0;
 }
 
 .Header-Bar-Top-Language {
@@ -187,11 +193,11 @@
 }
 
 .Header-Photo-Circle{
-  width:260px;
+  width:20.5vw;
   height:100%;
   padding-left:60px;
   border-radius: 50%;
-  background-color: rgba(6,37,80,0.1);
+  background-color: rgba(6,37,80,0.6);
 
 }
 
@@ -201,9 +207,13 @@
   height: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-top: 30px;
   background-image: url('./../images/me-cropped.png');
-  margin-right: auto;
 
+  opacity:1;
+  transition: opacity 0.5s;
+}
+
+.Header-Photo-Me:hover{
+  opacity:0.85;
 
 }

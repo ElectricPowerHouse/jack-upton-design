@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 72"><title>left-arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M33,0h9V8Q30,19.49,18,31c-1.62,1.56-3.11,3.27-5.11,5.37C22.4,45.79,31.5,54.8,40.64,63.76c.27.27.9.17,1.36.24v8H33a15.62,15.62,0,0,0-1.92-3.19Q17,54.68,2.81,40.69A13.53,13.53,0,0,0,0,39V33a31.58,31.58,0,0,0,3.82-2.81Q15.46,18.66,27,7C29.1,4.78,31,2.33,33,0Z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 72">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#10233e;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#25364f;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <title>left-arrow</title>
+
+  <g id="Layer_2" data-name="Layer 2">
+
+    <g id="Layer_1-2" data-name="Layer 1">
+
+      <path
+        fill="url(#grad)"
+        d="M33,0h9V8Q30,19.49,18,31c-1.62,1.56-3.11,3.27-5.11,5.37C22.4,45.79,31.5,54.8,40.64,63.76c.27.27.9.17,1.36.24v8H33a15.62,15.62,0,0,0-1.92-3.19Q17,54.68,2.81,40.69A13.53,13.53,0,0,0,0,39V33a31.58,31.58,0,0,0,3.82-2.81Q15.46,18.66,27,7C29.1,4.78,31,2.33,33,0Z"/></g>
+  </g>
+</svg>
