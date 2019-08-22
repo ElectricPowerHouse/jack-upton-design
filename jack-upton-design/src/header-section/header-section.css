@@ -1,36 +1,10 @@
 .Header-Section {
   color: white;
   font-family: Noto Serif, serif;
-  /* Needed for children to be absolutely positioned relative to the parent. */
   position: relative;
-  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  min-height: 500px;
+  min-height: 560px;
   display: flex;
   flex-direction: row;
-}
-
-.Header-Section::after {
-  /* Display and position the pseudo-element */
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  /* Move the pseudo-element back away from the camera,
-   * then scale it back up to fill the viewport.
-   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-  transform: translateZ(-1px) scale(1.5);
-  /* Force the background image to fill the whole element. */
-  background-size: 100%;
-  /* Keep the image from overlapping sibling elements. */
-  z-index: -1;
-}
-
-/* Sets the actual background images to adorable kitties. This part is crucial. */
-.Header-Section::after {
-  background-image: url('./../images/background-v2.png');
-  background-repeat: repeat-y;
 }
 
 .Header-Section-Left {}
@@ -38,15 +12,15 @@
 .Header-Section-Right {
   width: 16%;
   background-color: rgba(235, 235, 235, 1);
+  position: relative;
 }
 
-.Header-Section-Line{
+.Header-Section-Line {
   border-left: 2px solid white;
-  margin-top:85px;
-
-  height:72%;
-  position:relative;
-  left:-15%;
+  margin-top: 85px;
+  height: 72%;
+  position: relative;
+  left: -15%;
 }
 
 .Header-Section-Wrapper {
@@ -73,17 +47,20 @@
   flex-direction: row;
   margin-top: 23px;
   font-size: 1.25rem;
-  text-decoration:none;
+  text-decoration: none;
   transition: text-decoration 1s;
-
-  -webkit-user-select: none; /* Safari 3.1+ */
-  -moz-user-select: none; /* Firefox 2+ */
-  -ms-user-select: none; /* IE 10+ */
-  user-select: none; /* Standard syntax */
+  -webkit-user-select: none;
+  /* Safari 3.1+ */
+  -moz-user-select: none;
+  /* Firefox 2+ */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Standard syntax */
 }
 
-.Header-Text-Section-Menu-Left:hover{
-  cursor:pointer;
+.Header-Text-Section-Menu-Left:hover {
+  cursor: pointer;
   text-decoration: underline;
 }
 
@@ -91,12 +68,10 @@
   margin-left: 5%;
 }
 
-.Header-Text-Section-Menu-Right:hover{
-  cursor:pointer;
+.Header-Text-Section-Menu-Right:hover {
+  cursor: pointer;
   text-decoration: underline;
 }
-
-
 
 .Header-Bar-Top-Dot {
   flex: 1;
@@ -111,11 +86,10 @@
   margin-bottom: auto;
 }
 
-
-
+/*currently disabled, may add back if i want to translate the page into french*/
 .Header-Bar-Top-Language-Wrapper {
   flex: 1;
-  opacity:0;
+  opacity: 0;
 }
 
 .Header-Bar-Top-Language {
@@ -158,20 +132,20 @@
   text-align: left;
   font-weight: 200;
   color: #dae8fd;
-
-
-  -webkit-user-select: none; /* Safari 3.1+ */
-  -moz-user-select: none; /* Firefox 2+ */
-  -ms-user-select: none; /* IE 10+ */
-  user-select: none; /* Standard syntax */
-
-  opacity:1;
+  -webkit-user-select: none;
+  /* Safari 3.1+ */
+  -moz-user-select: none;
+  /* Firefox 2+ */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Standard syntax */
+  opacity: 1;
   transition: opacity 0.5s;
 }
 
-.Header-Text-Section-Title:hover{
-  opacity:0.8;
-
+.Header-Text-Section-Title:hover {
+  opacity: 0.8;
 }
 
 .Header-Text-Section-AboutMe {
@@ -183,37 +157,32 @@
   font-weight: 300;
 }
 
-.Header-Text-Section-AboutMe:hover{
-  cursor:default;
+.Header-Text-Section-AboutMe:hover {
+  cursor: default;
 }
 
 .Header-Photo-Section {
   width: 50%;
-
 }
 
-.Header-Photo-Circle{
-  width:20.5vw;
-  height:100%;
-  padding-left:60px;
+.Header-Photo-Circle {
+  width: 20.5vw;
+  height: 100%;
+  padding-left: 60px;
   border-radius: 50%;
-  background-color: rgba(6,37,80,0.6);
-
+  background-color: rgba(6, 37, 80, 0.6);
 }
 
 .Header-Photo-Me {
-
   width: 290px;
   height: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
   background-image: url('./../images/me-cropped.png');
-
-  opacity:1;
+  opacity: 1;
   transition: opacity 0.5s;
 }
 
-.Header-Photo-Me:hover{
-  opacity:0.85;
-
+.Header-Photo-Me:hover {
+  opacity: 0.85;
 }

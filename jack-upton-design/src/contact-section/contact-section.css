@@ -1,69 +1,39 @@
 .Contact-Section {
-  height: 500px;
-  display: flex;
-  flex-direction: row;
+  min-height: 500px;
   color: white;
-  /* Needed for children to be absolutely positioned relative to the parent. */
   font-family: Roboto;
   font-size: 1.2rem;
-
+  margin-top:-25px;
   -webkit-user-select: none; /* Safari 3.1+ */
   -moz-user-select: none; /* Firefox 2+ */
   -ms-user-select: none; /* IE 10+ */
   user-select: none; /* Standard syntax */
-
 }
-
-/*
-.Contact-Section::after {
-  /* Display and position the pseudo-element */
-  /*
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  /* Move the pseudo-element back away from the camera,
-    * then scale it back up to fill the viewport.
-    * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-    /*
-  transform: translateZ(-1px) scale(1.5);
-  /* Force the background image to fill the whole element. */
-  /*
-  background-size: 100%;
-  /* Keep the image from overlapping sibling elements. */
-  /*
-  z-index: -1;
-}
-
-/* Sets the actual background images to adorable kitties. This part is crucial. */
-/*
-.Contact-Section::after {
-  background-image: url('./../images/background1.png');
-  opacity: 0.8;
-  background-repeat: repeat-y;
-}
-*/
 
 .Contact-Section-Left {
   width: 7%;
   background: rgba(252,251,251,1);
-
 }
 
 .Contact-Section-Right {
   flex: 1;
 }
 
+.Contact-Section-Wrapper{
+  display:flex;
+  flex-direction:row;
+  height: 500px;
+  margin-top:-45px;
+}
+
 .Contact-Section-Body {
-  display: flex;
-  flex-direction: column;
   margin-left: 10%;
   margin-right: 3%;
-  margin-top: 115px;
-  margin-bottom: 65px;
-  height: 70%;
+  margin-top:80px;
+  height:80%;
+  display:flex;
+  flex-direction:column;
+
 }
 
 .Contact-Section-Row {
@@ -87,7 +57,6 @@
   margin-top: auto;
   margin-bottom: auto;
   text-align: left;
-
   color:inherit;
   text-decoration:none;
 }
@@ -102,10 +71,8 @@
   flex-direction: row;
   text-align: left;
   flex:1;
-
   color:inherit;
   text-decoration:none;
-
 }
 
 .Contact-Section-Row-Wrapper-Final-Left:hover{
@@ -119,12 +86,10 @@
   text-align: left;
   flex:1;
   margin-top:5px;
-
 }
 
 .Contact-Section-Row-Wrapper-Final-Right:hover{
   cursor:default;
-
 }
 
 .Contact-Row-Left-Final{
@@ -144,12 +109,10 @@
 .Contact-Row-Left {
   font-size: 1.3rem;
   text-align: right;
-
 }
 
 .Contact-Row-Right {
   margin-left: 5%;
-
 }
 
 .Contact-Row-Title {
@@ -178,16 +141,14 @@
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   height: 65px;
   width: 25%;
-  margin-left: 9%;
-  margin-top: -560px;
-  /* needs to be negative so that it sits atop of the other div */
+  margin-left: 16%;
   font-size: 1.65rem;
   color: white;
   font-weight: 500;
+  position:relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
-
   -webkit-user-select: none; /* Safari 3.1+ */
   -moz-user-select: none; /* Firefox 2+ */
   -ms-user-select: none; /* IE 10+ */
@@ -208,8 +169,6 @@
   background-repeat: no-repeat;
   margin-left: 20px;
 }
-
-
 
 .Contact-Symbol-Email {
   background-image: url('./../images/gmail.svg');

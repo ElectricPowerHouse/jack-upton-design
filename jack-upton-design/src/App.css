@@ -1,95 +1,21 @@
-.App {
+.App {}
 
-
-
+.a {
+  color: inherit;
 }
 
-.a{
-  color:inherit;
-}
-
-.App-Wrapper{
-
+.App-Wrapper {
   background: #10233e;
-  background-image: url('./images/background3.png'); /* fallback */
+  background-image: url('./images/background3.png');
+  /* fallback */
   background-image: url('./images/background3.png'), linear-gradient(#10233e 0%, #0c1c35 100%);
   background-attachment: fixed;
   background-repeat: repeat-y;
-
   text-align: center;
-/*
-  perspective: 1px;
-  transform-style: preserve-3d;
-  overflow-x: hidden;
-  overflow-y: auto;
-  */
   font-family: Roboto;
-
-
-  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
   overflow-x: hidden;
-  /* Enable scrolling on the page. */
-  /*overflow-y: auto;
-  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
-  /*perspective: 2px;*/
-
 }
 
 .Divider {
-
-  /* Needed for children to be absolutely positioned relative to the parent. */
-    /*position: relative;
-    /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-    /*height: 100px;
-*/
-height: 100px;
-
-
-}
-
-/*
-
-.Divider::after {
-  /* Display and position the pseudo-element */
-  /*
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  /* Move the pseudo-element back away from the camera,
-   * then scale it back up to fill the viewport.
-   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-   /*
-  transform: translateZ(-1px) scale(1.5);
-  /* Force the background image to fill the whole element. */
-  /*
-  background-size: 100%;
-  /* Keep the image from overlapping sibling elements. */
-  /*
-  z-index: -1;
-}
-
-
-
-
-/* Sets the actual background images to adorable kitties. This part is crucial. */
-/*
-.Divider::after {
-  background-image: url('./images/background2.png');
-  background-repeat: repeat-y;
-}*/
-
-.App-Background {
-  border: 15px solid red;
-  position: absolute;
-  z-index: 3;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
-  background-size: auto;
+  height: 100px;
 }
