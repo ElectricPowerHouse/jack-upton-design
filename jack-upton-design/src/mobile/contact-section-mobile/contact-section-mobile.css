@@ -1,0 +1,187 @@
+.Contact-Section-Mobile {
+  min-height: 500px;
+  color: white;
+  font-family: Roboto;
+  font-size: 0.9rem;
+  margin-top:-25px;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+}
+
+
+
+.Contact-Section-Middle {
+  flex: 1;
+}
+
+.Contact-Section-Mobile-Wrapper{
+  display:flex;
+  flex-direction:row;
+  height: 500px;
+  margin-top:-45px;
+  margin-left:5%;
+}
+
+.Contact-Section-Mobile-Body {
+  margin-left: 10%;
+  margin-right: 3%;
+  margin-top:80px;
+  height:80%;
+  display:flex;
+  flex-direction:column;
+
+}
+
+.Contact-Section-Mobile-Row {
+  flex: 1;
+  transition: filter 0.5s;
+}
+
+.Contact-Section-Mobile-Row:hover{
+  filter: sepia(70%);
+  cursor:pointer;
+}
+
+.Contact-Section-Mobile-Row-Final {
+  flex: 1;
+  display:flex;
+  flex-direction:row;
+}
+
+.Contact-Section-Mobile-Row-Wrapper {
+  height: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left;
+  color:inherit;
+  text-decoration:none;
+}
+
+.Contact-Section-Mobile-Row-Wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.Contact-Section-Mobile-Row-Wrapper-Final {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  flex:1;
+  margin-top:5px;
+}
+
+.Contact-Section-Mobile-Row-Wrapper-Final:hover{
+  cursor:default;
+}
+
+
+
+
+.Contact-Mobile-Row-Right-Final{
+  width:18%;
+}
+
+.Contact-Mobile-Row-Left {
+  font-size: 1.3rem;
+  text-align: right;
+}
+
+.Contact-Mobile-Row-Right {
+  margin-left: 5%;
+}
+
+.Contact-Mobile-Row-Title {
+  font-weight: 400;
+}
+
+.Contact-Mobile-Row-Link {
+  font-weight: 200;
+}
+
+.Flaticon-Title {
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+.Flaticon-Link {
+  font-size: 0.75rem;
+  font-weight:300;
+}
+
+.Contact-Section-Mobile-Header {
+  background: #0e2039;
+  background: linear-gradient(90deg, #0e2039 0%, #0c1d34 100%);
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+  height: 50px;
+  width: 230px;
+  margin-left: 15%;
+  z-index: 5;
+  position: relative;
+  font-size: 1.15rem;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Contact-Section-Mobile-Header-Text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Contact-Section-Mobile-Header-Symbol {
+  margin-top: 12px;
+  background-image: url('./../../images/email.svg');
+  width: 26px;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left:25px;
+}
+
+.Contact-Mobile-Symbol-Email {
+  background-image: url('./../../images/gmail.svg');
+  width: 41px;
+  height: 41px;
+  background-size: 41px;
+  background-repeat: no-repeat;
+}
+
+.Contact-Mobile-Symbol-Github {
+  background-image: url('./../../images/github.svg');
+  width: 41px;
+  height: 41px;
+  background-size: 41px;
+  background-repeat: no-repeat;
+}
+
+.Contact-Mobile-Symbol-LinkedIn {
+  background-image: url('./../../images/linkedin.svg');
+  width: 41px;
+  height: 41px;
+  background-size: 41px;
+  background-repeat: no-repeat;
+}
+
+.Contact-Mobile-Symbol-Dribbble {
+  background-image: url('./../../images/dribbble.svg');
+  width: 41px;
+  height: 41px;
+  background-size: 41px;
+  background-repeat: no-repeat;
+}
+
+.Contact-Mobile-Symbol-Flaticon {
+  background-image: url('./../../images/flaticon.svg');
+  width: 41px;
+  height: 41px;
+  background-size: 41px;
+  background-repeat: no-repeat;
+}

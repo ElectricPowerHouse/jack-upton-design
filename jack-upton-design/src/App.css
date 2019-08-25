@@ -19,3 +19,7 @@
 .Divider {
   height: 100px;
 }
+
+.Divider-Mobile {
+  height: 45px;
+}
