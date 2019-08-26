@@ -42,7 +42,7 @@
 
 .Strengths-Section-Header-Symbol {
   margin-top: 17px;
-  background-image: url('./../images/strength.svg');
+  background-image: url('./../../images/strength.svg');
   width: 32px;
   height: 100%;
   background-size: 100%;
@@ -149,7 +149,7 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   border-radius: 50%;
-  background-image: url('./../images/visualdesign.svg');
+  background-image: url('./../../images/visualdesign.svg');
   padding-top: 100%;
   position: relative;
   width: 100%;
@@ -162,7 +162,7 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   border-radius: 50%;
-  background-image: url('./../images/frontend.svg');
+  background-image: url('./../../images/frontend.svg');
   padding-top: 100%;
   position: relative;
   width: 100%;
@@ -175,7 +175,7 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   border-radius: 50%;
-  background-image: url('./../images/communication.svg');
+  background-image: url('./../../images/communication.svg');
   padding-top: 100%;
   position: relative;
   width: 100%;
@@ -202,7 +202,7 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   border-radius: 50%;
-  background-image: url('./../images/react.svg');
+  background-image: url('./../../images/react.svg');
   padding-top: 100%;
   position: relative;
   width: 100%;
@@ -215,7 +215,7 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   border-radius: 50%;
-  background-image: url('./../images/photoshop.svg');
+  background-image: url('./../../images/photoshop.svg');
   padding-top: 100%;
   position: relative;
   width: 100%;
@@ -228,7 +228,7 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   border-radius: 50%;
-  background-image: url('./../images/javascript.svg');
+  background-image: url('./../../images/javascript.svg');
   padding-top: 100%;
   position: relative;
   width: 100%;
@@ -241,7 +241,7 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   border-radius: 50%;
-  background-image: url('./../images/java.svg');
+  background-image: url('./../../images/java.svg');
   padding-top: 100%;
   position: relative;
   width: 100%;
@@ -254,7 +254,7 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   border-radius: 50%;
-  background-image: url('./../images/git.svg');
+  background-image: url('./../../images/git.svg');
   padding-top: 100%;
   position: relative;
   width: 100%;
@@ -267,7 +267,7 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   border-radius: 50%;
-  background-image: url('./../images/node.svg');
+  background-image: url('./../../images/node.svg');
   padding-top: 100%;
   position: relative;
   width: 100%;
@@ -280,7 +280,7 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   border-radius: 50%;
-  background-image: url('./../images/html.svg');
+  background-image: url('./../../images/html.svg');
   padding-top: 100%;
   position: relative;
   width: 100%;
@@ -293,7 +293,7 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   border-radius: 50%;
-  background-image: url('./../images/css.svg');
+  background-image: url('./../../images/css.svg');
   padding-top: 100%;
   position: relative;
   width: 100%;

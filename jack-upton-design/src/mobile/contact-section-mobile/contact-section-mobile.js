@@ -15,7 +15,6 @@ class ContactSectionMobile extends Component {
     return (<div className='Contact-Section-Mobile'>
       {this.renderHeader()}
       <div className='Contact-Section-Mobile-Wrapper'>
-        <div className='Contact-Section-Mobile-Middle'>
           <Fade duration={2500}>
             <div className='Contact-Section-Mobile-Body'>
               <div className='Contact-Section-Mobile-Row'>
@@ -79,36 +78,34 @@ class ContactSectionMobile extends Component {
                 </a>
 
               </div>
-
-              <div className='Contact-Section-Mobile-Row-Final'>
-                <div className='Contact-Mobile-Row-Wrapper-Final'>
-                  <div className='Flaticon-Title'>
-                    Icons Sourced From Flaticon < /div>
-                    <div className='Flaticon-Link'>
-                      Site design and development by Jack Upton
-                    </div>
-                  </div >
-                  <div className='Contact-Row-Right-Final'>
-                    <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer">
-                      <div className='Contact-Mobile-Symbol-Flaticon'/>
-                    </a>
-                  </div>
+            </div>
+            <div className='Contact-Section-Mobile-Row-Final'>
+              <div className='Contact-Section-Mobile-Row-Wrapper-Final'>
+                <div className='Flaticon-Title-Mobile'>
+                  Icons Sourced From Flaticon
                 </div>
+                <div className='Flaticon-Link-Mobile'>
+                  Site design and development by Jack Upton
+                </div>
+              </div >
+              <div className='Contact-Row-Right-Final'>
+                <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer">
+                  <div className='Contact-Mobile-Symbol-Flaticon'/>
+                </a>
               </div>
-
-            </Fade>
-          </div>
-        </div>
-
+            </div>
+          </Fade>
       </div>
-      ); } renderHeader() {
-        return (<div className='Contact-Section-Mobile-Header'>
-          <div className='Contact-Section-Mobile-Header-Text'>
-            Contact
-          </div>
-          <div className='Contact-Section-Mobile-Header-Symbol'/>
-        </div>);
-      }
-      }
+    </div>);
+  }
+  renderHeader() {
+    return (<div className='Contact-Section-Mobile-Header'>
+      <div className='Contact-Section-Mobile-Header-Text'>
+        Contact
+      </div>
+      <div className='Contact-Section-Mobile-Header-Symbol'/>
+    </div>);
+  }
+}
 
 export default ContactSectionMobile;

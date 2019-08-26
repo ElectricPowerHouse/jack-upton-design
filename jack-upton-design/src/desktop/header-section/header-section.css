@@ -120,7 +120,7 @@
 }
 
 .Language-Symbol {
-  background-image: url('./../images/language.svg');
+  background-image: url('./../../images/language.svg');
   background-size: 20px;
   width: 20px;
   height: 20px;
@@ -178,7 +178,7 @@
   height: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url('./../images/me-cropped.png');
+  background-image: url('./../../images/me-cropped.png');
   opacity: 1;
   transition: opacity 0.5s;
 }

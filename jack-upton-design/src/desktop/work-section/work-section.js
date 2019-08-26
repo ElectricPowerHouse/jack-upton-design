@@ -6,31 +6,31 @@ import Carousel, {Modal, ModalGateway} from 'react-images';
 
 const modalImages1 = [
   {
-    src: require('./../images/ensemble-c1-resized.png')
+    src: require('./../../images/ensemble-c1-resized.png')
   }, {
-    src: require('./../images/ensemble-c2-resized.png')
+    src: require('./../../images/ensemble-c2-resized.png')
   }, {
-    src: require('./../images/ensemble-c3-resized.png')
+    src: require('./../../images/ensemble-c3-resized.png')
   }
 ];
 
 const modalImages2 = [
   {
-    src: require('./../images/metamorphic1-resized.png')
+    src: require('./../../images/metamorphic1.png')
   }, {
-    src: require('./../images/metamorphic2-resized.png')
+    src: require('./../../images/metamorphic2.png')
   }, {
-    src: require('./../images/metamorphic3-resized.png')
+    src: require('./../../images/metamorphic3.png')
   }
 ];
 
 const modalImages3 = [
   {
-    src: require('./../images/paperless2-resized.png')
+    src: require('./../../images/paperless2.png')
   }, {
-    src: require('./../images/paperless3-resized.png')
+    src: require('./../../images/paperless3.png')
   }, {
-    src: require('./../images/paperless1-resized.png')
+    src: require('./../../images/paperless1.png')
   }
 ];
 

@@ -16,6 +16,29 @@
   overflow-x: hidden;
 }
 
+.App-Wrapper-Mobile {
+  background: #10233e;
+  background-image: url('./images/background-mobile.png');
+  /* fallback */
+  background-image: url('./images/background-mobile.png'), linear-gradient(#10233e 0%, #0c1c35 100%);
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  text-align: center;
+  font-family: Roboto;
+  overflow-x: hidden;
+}
+
+/*-------- iPads (portrait and landscape) --------*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+#ci-hero-11 .widget-wrap , #ci-hero-12 .widget-wrap {
+
+    background-attachment: initial;
+
+}
+}
+
 .Divider {
   height: 100px;
 }

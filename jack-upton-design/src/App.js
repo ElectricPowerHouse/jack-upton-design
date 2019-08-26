@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import './App.css';
 
-import HeaderSection from './header-section/header-section.js';
-import StrengthsSection from './strengths-section/strengths-section.js';
-import WorkSection from './work-section/work-section.js';
-import ContactSection from './contact-section/contact-section.js';
+import HeaderSection from './desktop/header-section/header-section.js';
+import StrengthsSection from './desktop/strengths-section/strengths-section.js';
+import WorkSection from './desktop/work-section/work-section.js';
+import ContactSection from './desktop/contact-section/contact-section.js';
 
 import HeaderSectionMobile from './mobile/header-section-mobile/header-section-mobile.js';
 import StrengthsSectionMobile from './mobile/strengths-section-mobile/strengths-section-mobile.js';
@@ -55,7 +55,7 @@ handleWindowSizeChange = () => {
     }
     else{
       return (<div className='App'>
-        <div className='App-Wrapper'>
+        <div className='App-Wrapper-Mobile'>
           <HeaderSectionMobile/>
           <StrengthsSectionMobile/>
           <div className='Divider-Mobile'/>

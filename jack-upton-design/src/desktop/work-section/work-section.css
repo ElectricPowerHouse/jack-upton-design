@@ -39,7 +39,7 @@
 
 .Work-Section-Header-Symbol {
   margin-top: 17px;
-  background-image: url('./../images/work.svg');
+  background-image: url('./../../images/work.svg');
   width: 36px;
   height: 100%;
   background-size: 100%;
@@ -74,7 +74,7 @@
 }
 
 .Work-Section-Left-Arrow-Symbol {
-  background-image: url('./../images/left-arrow.svg');
+  background-image: url('./../../images/left-arrow.svg');
   background-size: 100%;
   width: 25px;
   height: 50px;
@@ -101,7 +101,7 @@
 }
 
 .Work-Section-Right-Arrow-Symbol {
-  background-image: url('./../images/right-arrow.svg');
+  background-image: url('./../../images/right-arrow.svg');
   background-size: 100%;
   width: 25px;
   height: 50px;
@@ -182,7 +182,7 @@
 
 
 .Work-Section-Elucimed1 {
-  background-image: url('./../images/ensemble-c1-thumbnail.png');
+  background-image: url('./../../images/ensemble-c1-thumbnail.png');
   width: 100%;
   height: 100%;
   background-size: 100% auto;
@@ -198,7 +198,7 @@
 }
 
 .Work-Section-Elucimed2 {
-  background-image: url('./../images/ensemble-c2-thumbnail.png');
+  background-image: url('./../../images/ensemble-c2-thumbnail.png');
   width: 100%;
   height: 100%;
   background-size: 100% auto;
@@ -214,7 +214,7 @@
 }
 
 .Work-Section-Elucimed3 {
-  background-image: url('./../images/ensemble-c3-thumbnail.png');
+  background-image: url('./../../images/ensemble-c3-thumbnail.png');
   width: 100%;
   height: 100%;
   background-size: 100% auto;
@@ -230,7 +230,7 @@
 }
 
 .Work-Section-Paperless1 {
-  background-image: url('./../images/paperless1-resized.png');
+  background-image: url('./../../images/paperless1.png');
   width: 100%;
   height: 100%;
   background-size: 100% auto;
@@ -246,7 +246,7 @@
 }
 
 .Work-Section-Paperless2 {
-  background-image: url('./../images/paperless2-resized.png');
+  background-image: url('./../../images/paperless2.png');
   width: 100%;
   height: 100%;
   background-size: 100% auto;
@@ -262,7 +262,7 @@
 }
 
 .Work-Section-Paperless3 {
-  background-image: url('./../images/paperless3-resized.png');
+  background-image: url('./../../images/paperless3.png');
   width: 100%;
   height: 100%;
   background-size: 100% auto;
@@ -278,7 +278,7 @@
 }
 
 .Work-Section-Metamorphic1 {
-  background-image: url('./../images/metamorphic1-resized.png');
+  background-image: url('./../../images/metamorphic1.png');
   width: 100%;
   height: 100%;
   background-size: 100% auto;
@@ -294,7 +294,7 @@
 }
 
 .Work-Section-Metamorphic2 {
-  background-image: url('./../images/metamorphic2-resized.png');
+  background-image: url('./../../images/metamorphic2.png');
   width: 100%;
   height: 100%;
   background-size: 100% auto;
@@ -310,7 +310,7 @@
 }
 
 .Work-Section-Metamorphic3 {
-  background-image: url('./../images/metamorphic3-resized.png');
+  background-image: url('./../../images/metamorphic3.png');
   width: 100%;
   height: 100%;
   background-size: 100% auto;

@@ -78,7 +78,7 @@
 .Strengths-Mobile-Top {
   height: 15%;
   display: flex;
-  margin-left: 15%;
+  margin-left: 9%;
 }
 
 .Strengths-Mobile-Top-Dot {
@@ -93,7 +93,7 @@
 .Strengths-Mobile-Top-Text {
   margin-left: 3%;
   font-size: 1.5rem;
-  font-family: Noto Serif Regular;
+  font-family: Noto Serif, serif;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -311,7 +311,7 @@
 .Skills-Mobile-Top-Text {
   margin-left: 3%;
   font-size: 1.5rem;
-  font-family: Noto Serif Regular;
+  font-family: Noto Serif, serif;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -340,7 +340,7 @@
 .Skills-Mobile-Top {
   height: 15%;
   display: flex;
-  margin-left: 15%;
+  margin-left: 7%;
 }
 
 .Skills-Mobile-Bottom {

@@ -16,21 +16,21 @@ const modalImages1 = [
 
 const modalImages2 = [
   {
-    src: require('./../../images/metamorphic1-resized.png')
+    src: require('./../../images/metamorphic1.png')
   }, {
-    src: require('./../../images/metamorphic2-resized.png')
+    src: require('./../../images/metamorphic2.png')
   }, {
-    src: require('./../../images/metamorphic3-resized.png')
+    src: require('./../../images/metamorphic3.png')
   }
 ];
 
 const modalImages3 = [
   {
-    src: require('./../../images/paperless2-resized.png')
+    src: require('./../../images/paperless2.png')
   }, {
-    src: require('./../../images/paperless3-resized.png')
+    src: require('./../../images/paperless3.png')
   }, {
-    src: require('./../../images/paperless1-resized.png')
+    src: require('./../../images/paperless1.png')
   }
 ];
 
@@ -43,7 +43,8 @@ class WorkSectionMobile extends Component {
       worknum: 0,
       workmax: 2,
       modalIsOpen: false,
-      currentIndex: 1
+      currentIndex: 1,
+      doFade:true
     }
   }
 
@@ -65,7 +66,7 @@ class WorkSectionMobile extends Component {
             <div className='Work-Section-Left-Arrow-Symbol'/>
           </div>
         </div>
-        <Fade duration={2500}>
+        <Fade duration={2500} >
           <div className='Work-Section-Mobile-Middle'>
             {this.renderTitle()}
             <div className='Work-Section-Mobile-Images'>
@@ -192,12 +193,20 @@ class WorkSectionMobile extends Component {
   }
 
   increaseWorkNum() {
+
+    this.setState({doFade:true});
+
     let w = this.state.worknum;
     w = w + 1;
 
     if (w > this.state.workmax) {
       w = 0;
     }
+
+    let doFade = this.state.doFade
+    doFade = !doFade;
+
+    this.setState({doFade:false})
     this.setState({worknum: w});
   }
 
