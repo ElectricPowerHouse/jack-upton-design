@@ -12,7 +12,7 @@
   background-attachment: fixed;
   background-repeat: repeat-y;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
 }
 
@@ -24,7 +24,7 @@
   background-attachment: fixed;
   background-repeat: repeat-y;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
 }
 
@@ -44,5 +44,5 @@ and (max-device-width : 1024px) {
 }
 
 .Divider-Mobile {
-  height: 45px;
+  height: 85px;
 }

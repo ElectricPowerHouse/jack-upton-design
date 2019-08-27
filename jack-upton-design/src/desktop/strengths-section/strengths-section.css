@@ -23,9 +23,9 @@
   margin-left: 9%;
   z-index: 5;
   position: relative;
-  font-size: 1.65rem;
+  font-size: 1.5rem;
   color: #081231;
-  font-weight: 500;
+  font-weight: 600;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -107,7 +107,15 @@
 
 .Strengths-Strengths-Section {
   flex: 1;
-  padding: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height:90%;
+}
+
+.Strengths-Skills-Section {
+  padding: 10px;
+  margin: 0px 6px;
   display: flex;
   flex-direction: column;
 }
@@ -131,7 +139,7 @@
 }
 
 .Strengths-Section-Symbol-Wrapper {
-  width: calc((2vw)/4 + 75px);
+  width: calc((2.5vw)/4 + 85px);
   /*change size to screen width to some degree */
   height: 100%;
   margin-left: auto;
@@ -184,13 +192,14 @@
 }
 
 .Skills-Section-Symbol-Wrapper {
-  width: calc(2.5vw + 35px);
+  width: calc(2.5vw + 25px);
   /*change size to screen width to some degree */
   height: 100%;
   margin-left: auto;
   margin-right: auto;
   opacity: 1;
   transition: filter 0.3s;
+
 }
 
 .Skills-Section-Symbol-Wrapper:hover {
@@ -302,8 +311,9 @@
 }
 
 .Strengths-Section-Text {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
+  font-family:'Open Sans', sans-serif;
 }
 
 .Skills-Top-Text {
@@ -346,13 +356,16 @@
 }
 
 .Skills-Right-Row {
-  flex: 1;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  max-width:600px;
+
+
 }
 
 .Skills-Section-Text {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   margin-top: 10px;
 }

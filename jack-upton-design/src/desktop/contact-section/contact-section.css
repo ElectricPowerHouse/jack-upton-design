@@ -1,8 +1,8 @@
 .Contact-Section {
   min-height: 500px;
   color: white;
-  font-family: Roboto;
-  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
   margin-top:-25px;
   -webkit-user-select: none; /* Safari 3.1+ */
   -moz-user-select: none; /* Firefox 2+ */
@@ -99,7 +99,7 @@
 }
 
 .Contact-Row-Right-Final-Left{
-  margin-left:10%;
+  margin-left:6%;
 }
 
 .Contact-Row-Right-Final-Right{
@@ -112,25 +112,25 @@
 }
 
 .Contact-Row-Right {
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 .Contact-Row-Title {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .Contact-Row-Link {
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .Flaticon-Title {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.05rem;
 }
 
 .Flaticon-Link {
   font-size: 0.9rem;
-  font-weight:300;
+  font-weight:100;
 }
 
 .Contact-Section-Header {
@@ -142,9 +142,9 @@
   height: 65px;
   width: 25%;
   margin-left: 16%;
-  font-size: 1.65rem;
+  font-size: 1.5rem;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   position:relative;
   display: flex;
   flex-direction: row;

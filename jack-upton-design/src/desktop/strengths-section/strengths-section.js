@@ -75,7 +75,7 @@ class StrengthsSection extends Component {
         </div>
         <div className='Skills-Right'>
           <div className='Skills-Right-Row'>
-            <div className='Strengths-Strengths-Section'>
+            <div className='Strengths-Skills-Section'>
               <div className='Skills-Section-Symbol-Wrapper'>
                 <div className='Skills-Section-Symbol-React'/>
               </div>
@@ -83,7 +83,7 @@ class StrengthsSection extends Component {
                 React
               </div>
             </div>
-            <div className='Strengths-Strengths-Section'>
+            <div className='Strengths-Skills-Section'>
               <div className='Skills-Section-Symbol-Wrapper'>
                 <div className='Skills-Section-Symbol-Photoshop'/>
               </div>
@@ -91,15 +91,15 @@ class StrengthsSection extends Component {
                 Photoshop
               </div>
             </div>
-            <div className='Strengths-Strengths-Section'>
+            <div className='Strengths-Skills-Section'>
               <div className='Skills-Section-Symbol-Wrapper'>
                 <div className='Skills-Section-Symbol-Javascript'/>
               </div>
               <div className='Skills-Section-Text'>
-                Javascript
+                JavaScript
               </div>
             </div>
-            <div className='Strengths-Strengths-Section'>
+            <div className='Strengths-Skills-Section'>
               <div className='Skills-Section-Symbol-Wrapper'>
                 <div className='Skills-Section-Symbol-Java'/>
               </div>
@@ -107,10 +107,13 @@ class StrengthsSection extends Component {
                 Java
               </div>
             </div>
+
+
           </div>
 
+
           <div className='Skills-Right-Row'>
-            <div className='Strengths-Strengths-Section'>
+            <div className='Strengths-Skills-Section'>
               <div className='Skills-Section-Symbol-Wrapper'>
                 <div className='Skills-Section-Symbol-Git'/>
               </div>
@@ -118,23 +121,23 @@ class StrengthsSection extends Component {
                 Git
               </div>
             </div>
-            <div className='Strengths-Strengths-Section'>
+            <div className='Strengths-Skills-Section'>
               <div className='Skills-Section-Symbol-Wrapper'>
                 <div className='Skills-Section-Symbol-Node'/>
               </div>
               <div className='Skills-Section-Text'>
-                Node
+                <span> &nbsp; &nbsp; </span> Node <span> &nbsp; &nbsp; </span>
               </div>
             </div>
-            <div className='Strengths-Strengths-Section'>
+            <div className='Strengths-Skills-Section'>
               <div className='Skills-Section-Symbol-Wrapper'>
                 <div className='Skills-Section-Symbol-Html'/>
               </div>
               <div className='Skills-Section-Text'>
-                HTML
+                <span> &nbsp; &nbsp; </span>  HTML <span> &nbsp; &nbsp; </span>
               </div>
             </div>
-            <div className='Strengths-Strengths-Section'>
+            <div className='Strengths-Skills-Section'>
               <div className='Skills-Section-Symbol-Wrapper'>
                 <div className='Skills-Section-Symbol-Css'/>
               </div>

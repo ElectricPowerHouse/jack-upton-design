@@ -44,7 +44,6 @@ class WorkSectionMobile extends Component {
       workmax: 2,
       modalIsOpen: false,
       currentIndex: 1,
-      doFade:true
     }
   }
 
@@ -194,7 +193,6 @@ class WorkSectionMobile extends Component {
 
   increaseWorkNum() {
 
-    this.setState({doFade:true});
 
     let w = this.state.worknum;
     w = w + 1;
@@ -203,10 +201,6 @@ class WorkSectionMobile extends Component {
       w = 0;
     }
 
-    let doFade = this.state.doFade
-    doFade = !doFade;
-
-    this.setState({doFade:false})
     this.setState({worknum: w});
   }
 
@@ -241,7 +235,7 @@ class WorkSectionMobile extends Component {
       text = text3;
     }
 
-    return (<div className='Work-Section-Description'>
+    return (<div className='Work-Section-Mobile-Description'>
       {text}
     </div>)
   }

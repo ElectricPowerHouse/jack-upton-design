@@ -88,7 +88,7 @@ class ContactSectionMobile extends Component {
                   Site design and development by Jack Upton
                 </div>
               </div >
-              <div className='Contact-Row-Right-Final'>
+              <div className='Contact-Mobile-Row-Right-Final'>
                 <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer">
                   <div className='Contact-Mobile-Symbol-Flaticon'/>
                 </a>

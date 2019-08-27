@@ -115,7 +115,7 @@
 }
 
 .Language-Text {
-  Font-Family: Roboto;
+  Font-Family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
 
@@ -151,10 +151,11 @@
 .Header-Text-Section-AboutMe {
   margin-top: 35px;
   text-align: left;
-  font-size: 1.05rem;
-  width: 80%;
-  font-family: Roboto;
+  font-size: 0.88rem;
+  width: 88%;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  line-height:20px;
 }
 
 .Header-Text-Section-AboutMe:hover {
