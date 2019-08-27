@@ -84,7 +84,7 @@
   height: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url('./../../images/me-cropped.png');
+  background-image: url('./../../images/me-cropped-mobile.png');
   opacity: 1;
   transition: opacity 0.5s;
 }
@@ -105,8 +105,8 @@
 .Header-Section-Mobile-AboutMe {
   margin-top: 25px;
   text-align: left;
-  font-size: 0.86rem;
-  font-family: Calibri;
+  font-size: 0.83rem;
+  font-family: Roboto;
   font-weight: 300;
 }
 
