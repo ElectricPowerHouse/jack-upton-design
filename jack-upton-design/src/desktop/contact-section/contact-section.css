@@ -11,8 +11,17 @@
 }
 
 .Contact-Section-Left {
-  width: 7%;
+  width: 120px;
+
   background: rgba(252,251,251,1);
+}
+
+.Contact-Section-Line {
+  border-right: 2px solid white;
+  margin-top: 85px;
+  height: 75%;
+  position: relative;
+  right: -15%;
 }
 
 .Contact-Section-Right {

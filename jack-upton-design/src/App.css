@@ -6,14 +6,15 @@
 
 .App-Wrapper {
   background: #10233e;
-  background-image: url('./images/background3.png');
+  background-image: url('./images/background5.svg');
   /* fallback */
-  background-image: url('./images/background3.png'), linear-gradient(#10233e 0%, #0c1c35 100%);
+  background-image: url('./images/background5.svg'), linear-gradient(#10233e 0%, #0c1c35 100%);
   background-attachment: fixed;
   background-repeat: repeat-y;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
+  background-size: cover;
 }
 
 .App-Wrapper-Mobile {

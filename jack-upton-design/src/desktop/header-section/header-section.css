@@ -10,7 +10,8 @@
 .Header-Section-Left {}
 
 .Header-Section-Right {
-  width: 16%;
+  max-width: 230px;
+  min-width: 100px;
   background-color: rgba(235, 235, 235, 1);
   position: relative;
 }
@@ -153,6 +154,7 @@
   text-align: left;
   font-size: 0.88rem;
   width: 88%;
+
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height:20px;

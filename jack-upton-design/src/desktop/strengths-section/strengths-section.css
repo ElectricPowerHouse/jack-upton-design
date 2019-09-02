@@ -139,7 +139,7 @@
 }
 
 .Strengths-Section-Symbol-Wrapper {
-  width: calc((2.5vw)/4 + 85px);
+  width: calc((2.1vw)/2 + 65px);
   /*change size to screen width to some degree */
   height: 100%;
   margin-left: auto;
@@ -192,8 +192,7 @@
 }
 
 .Skills-Section-Symbol-Wrapper {
-  width: calc(2.5vw + 25px);
-  /*change size to screen width to some degree */
+  width: calc((2.1vw)/2 + 35px);  /*change size to screen width to some degree */
   height: 100%;
   margin-left: auto;
   margin-right: auto;

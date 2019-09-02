@@ -15,7 +15,9 @@ class ContactSection extends Component {
     return (<div className='Contact-Section'>
       {this.renderHeader()}
       <div className='Contact-Section-Wrapper'>
-        <div className='Contact-Section-Left'/>
+        <div className='Contact-Section-Left'>
+          <div className='Contact-Section-Line'/>
+        </div>
         <div className='Contact-Section-Right'>
           <Fade duration={2500}>
             <div className='Contact-Section-Body'>
