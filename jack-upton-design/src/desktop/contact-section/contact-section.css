@@ -50,11 +50,11 @@
 
 .Contact-Section-Row {
   flex: 1;
-  transition: filter 0.5s;
+  transition: filter 0.3s;
 }
 
 .Contact-Section-Row:hover {
-  filter: sepia(70%);
+  filter: sepia(160%);
   cursor: pointer;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .Contact-Section-Row-Wrapper-Final-Left:hover {
-  filter: sepia(70%);
+  filter: sepia(160%);
   cursor: pointer;
 }
 

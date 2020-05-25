@@ -53,7 +53,7 @@ class StrengthsSectionMobile extends Component {
               <div className='Strengths-Section-Mobile-Symbol-Communication'/>
             </div>
             <div className='Strengths-Section-Mobile-Text'>
-              Communication
+              User Research
             </div>
           </div>
         </div>
@@ -66,9 +66,9 @@ class StrengthsSectionMobile extends Component {
     return (<Fade duration={2500}>
       <div className='Skills-Mobile'>
         <div className='Skills-Mobile-Top'>
-            <div className='Skills-Mobile-Top-Dot'/>
-            <div className='Skills-Mobile-Top-Text'>
-              Skills:
+          <div className='Skills-Mobile-Top-Dot'/>
+          <div className='Skills-Mobile-Top-Text'>
+            Skills:
           </div>
         </div>
         <div className='Skills-Mobile-Bottom'>
@@ -121,7 +121,13 @@ class StrengthsSectionMobile extends Component {
                 <div className='Skills-Section-Mobile-Symbol-Node'/>
               </div>
               <div className='Skills-Section-Mobile-Text'>
-                <span> &nbsp;  </span> Node <span>  &nbsp; </span>
+                <span>
+                  &nbsp;
+                </span>
+                Node
+                <span>
+                  &nbsp;
+                </span>
               </div>
             </div>
             <div className='Strengths-Mobile-Strengths-Section'>
@@ -129,7 +135,13 @@ class StrengthsSectionMobile extends Component {
                 <div className='Skills-Section-Mobile-Symbol-Html'/>
               </div>
               <div className='Skills-Section-Mobile-Text'>
-              <span> &nbsp;  </span>  HTML <span>  &nbsp; </span>
+                <span>
+                  &nbsp;
+                </span>
+                HTML
+                <span>
+                  &nbsp;
+                </span>
               </div>
             </div>
             <div className='Strengths-Mobile-Strengths-Section'>

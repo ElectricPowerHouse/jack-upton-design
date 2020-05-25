@@ -55,7 +55,7 @@ class StrengthsSection extends Component {
               <div className='Strengths-Section-Symbol-Communication'/>
             </div>
             <div className='Strengths-Section-Text'>
-              Communication
+              User Research
             </div>
           </div>
         </div>
