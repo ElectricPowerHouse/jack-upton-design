@@ -102,11 +102,13 @@ class ContactSection extends Component {
 
       </div>
       ); } renderHeader() {
-        return (<div className='Contact-Section-Header'>
-          <div className='Contact-Section-Header-Text'>
-            Contact
+        return (<div className='Contact-Section-Header-Container'>
+          <div className='Contact-Section-Header'>
+            <div className='Contact-Section-Header-Text'>
+              Contact
+            </div>
+            <div className='Contact-Section-Header-Symbol'/>
           </div>
-          <div className='Contact-Section-Header-Symbol'/>
         </div>);
       }
       }

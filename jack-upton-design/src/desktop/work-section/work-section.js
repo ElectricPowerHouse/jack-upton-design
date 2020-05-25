@@ -67,24 +67,41 @@ class WorkSection extends Component {
         </div>
         <Fade duration={2500}>
           <div className='Work-Section-Middle'>
-            {this.renderTitle()}
-            <div className='Work-Section-Images'>
-              <div className='Work-Section-Images-Left'>
-                <div className='Image1-Wrapper' onClick={() => {if(this.state.modalIsOpen === false){this.toggleModal(); this.setState({currentIndex:0})}}}>
-                  {this.renderModalGateway()}
-                  {this.renderImage1()}
+            <div className='Work-Section-Middle2'>
+              {this.renderTitle()}
+              <div className='Work-Section-Images'>
+                <div className='Work-Section-Images-Left'>
+                  <div className='Image1-Wrapper' onClick={() => {
+                      if (this.state.modalIsOpen === false) {
+                        this.toggleModal();
+                        this.setState({currentIndex: 0})
+                      }
+                    }}>
+                    {this.renderModalGateway()}
+                    {this.renderImage1()}
+                  </div>
+                </div>
+                <div className='Work-Section-Images-Right'>
+                  <div className='Image2-Wrapper' onClick={() => {
+                      if (this.state.modalIsOpen === false) {
+                        this.toggleModal();
+                        this.setState({currentIndex: 1})
+                      }
+                    }}>
+                    {this.renderImage2()}
+                  </div>
+                  <div className='Image3-Wrapper' onClick={() => {
+                      if (this.state.modalIsOpen === false) {
+                        this.toggleModal();
+                        this.setState({currentIndex: 2})
+                      }
+                    }}>
+                    {this.renderImage3()}
+                  </div>
                 </div>
               </div>
-              <div className='Work-Section-Images-Right'>
-                <div className='Image2-Wrapper' onClick={() => {if(this.state.modalIsOpen === false){this.toggleModal(); this.setState({currentIndex:1})}}}>
-                  {this.renderImage2()}
-                </div>
-                <div className='Image3-Wrapper' onClick={() => {if(this.state.modalIsOpen === false){this.toggleModal(); this.setState({currentIndex:2})}}}>
-                  {this.renderImage3()}
-                </div>
-              </div>
+              {this.renderDescription()}
             </div>
-            {this.renderDescription()}
           </div>
         </Fade>
         <div className='Work-Section-Right'>
@@ -238,11 +255,13 @@ class WorkSection extends Component {
   }
 
   renderHeader() {
-    return (<div className='Work-Section-Header'>
-      <div className='Work-Section-Header-Text'>
-        My Work
+    return (<div className='Work-Section-Header-Container'>
+      <div className='Work-Section-Header'>
+        <div className='Work-Section-Header-Text'>
+          My Work
+        </div>
+        <div className='Work-Section-Header-Symbol'/>
       </div>
-      <div className='Work-Section-Header-Symbol'/>
     </div>);
   }
 

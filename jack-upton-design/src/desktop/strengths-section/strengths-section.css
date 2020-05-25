@@ -11,6 +11,12 @@
   margin-top: -50px;
 }
 
+.Strengths-Section-Header-Container {
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .Strengths-Section-Header {
   background: rgb(235, 235, 235);
   background: linear-gradient(90deg, rgba(252, 251, 251, 1) 0%, rgba(235, 235, 235, 1) 100%);
@@ -18,9 +24,7 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   height: 65px;
-  width: 25%;
   width: 320px;
-  margin-left: 9%;
   z-index: 5;
   position: relative;
   font-size: 1.5rem;
@@ -58,14 +62,20 @@
   /* needs to be negative so that it sits atop of the other div */
   background: rgb(235, 235, 235);
   background: linear-gradient(90deg, rgba(252, 251, 251, 1) 0%, rgba(235, 235, 235, 1) 100%);
-  display: flex;
-  flex-direction: row;
-  z-index: 1;
   padding-bottom: 30px;
   padding-top: 15px;
   -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+}
+
+.Strengths-Section-Body2 {
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Strengths {
@@ -110,7 +120,7 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
-  height:90%;
+  height: 90%;
 }
 
 .Strengths-Skills-Section {
@@ -192,13 +202,13 @@
 }
 
 .Skills-Section-Symbol-Wrapper {
-  width: calc((2.1vw)/2 + 35px);  /*change size to screen width to some degree */
+  width: calc((2.1vw)/2 + 35px);
+  /*change size to screen width to some degree */
   height: 100%;
   margin-left: auto;
   margin-right: auto;
   opacity: 1;
   transition: filter 0.3s;
-
 }
 
 .Skills-Section-Symbol-Wrapper:hover {
@@ -312,7 +322,7 @@
 .Strengths-Section-Text {
   font-size: 1.3rem;
   font-weight: 600;
-  font-family:'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .Skills-Top-Text {
@@ -358,9 +368,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  max-width:600px;
-
-
+  max-width: 600px;
 }
 
 .Skills-Section-Text {

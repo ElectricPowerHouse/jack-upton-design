@@ -16,8 +16,10 @@ class StrengthsSection extends Component {
     return (<div className='Strengths-Section'>
       {this.renderHeader()}
       <div className='Strengths-Section-Body'>
-        {this.renderStrengths()}
-        {this.renderSkills()}
+        <div className='Strengths-Section-Body2'>
+          {this.renderStrengths()}
+          {this.renderSkills()}
+        </div>
       </div>
     </div>);
   }
@@ -108,9 +110,7 @@ class StrengthsSection extends Component {
               </div>
             </div>
 
-
           </div>
-
 
           <div className='Skills-Right-Row'>
             <div className='Strengths-Skills-Section'>
@@ -126,7 +126,13 @@ class StrengthsSection extends Component {
                 <div className='Skills-Section-Symbol-Node'/>
               </div>
               <div className='Skills-Section-Text'>
-                <span> &nbsp; &nbsp; </span> Node <span> &nbsp; &nbsp; </span>
+                <span>
+                  &nbsp; &nbsp;
+                </span>
+                Node
+                <span>
+                  &nbsp; &nbsp;
+                </span>
               </div>
             </div>
             <div className='Strengths-Skills-Section'>
@@ -134,7 +140,13 @@ class StrengthsSection extends Component {
                 <div className='Skills-Section-Symbol-Html'/>
               </div>
               <div className='Skills-Section-Text'>
-                <span> &nbsp; &nbsp; </span>  HTML <span> &nbsp; &nbsp; </span>
+                <span>
+                  &nbsp; &nbsp;
+                </span>
+                HTML
+                <span>
+                  &nbsp; &nbsp;
+                </span>
               </div>
             </div>
             <div className='Strengths-Skills-Section'>
@@ -153,11 +165,13 @@ class StrengthsSection extends Component {
   }
 
   renderHeader() {
-    return (<div className='Strengths-Section-Header'>
-      <div className='Strengths-Section-Header-Text'>
-        Skills & Strengths
+    return (<div className='Strengths-Section-Header-Container'>
+      <div className='Strengths-Section-Header'>
+        <div className='Strengths-Section-Header-Text'>
+          Skills & Strengths
+        </div>
+        <div className='Strengths-Section-Header-Symbol'/>
       </div>
-      <div className='Strengths-Section-Header-Symbol'/>
     </div>);
   }
 

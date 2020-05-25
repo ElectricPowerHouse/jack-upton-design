@@ -6,6 +6,12 @@
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
 }
 
+.Work-Section-Header-Container {
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .Work-Section-Header {
   background: rgb(235, 235, 235);
   background: linear-gradient(90deg, rgba(252, 251, 251, 1) 0%, rgba(235, 235, 235, 1) 100%);
@@ -13,8 +19,7 @@
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   height: 65px;
-  width: 25%;
-  margin-left: 9%;
+  width: 320px;
   position: relative;
   font-size: 1.5rem;
   color: #081231;
@@ -116,6 +121,12 @@
   margin-right: 4%;
 }
 
+.Work-Section-Middle2 {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .Work-Section-Top {
   display: flex;
   flex-direction: row;
@@ -179,7 +190,6 @@
   margin-right: auto;
   margin-top: 15px;
 }
-
 
 .Work-Section-Elucimed1 {
   background-image: url('./../../images/ensemble-c1-thumbnail.png');
@@ -333,8 +343,6 @@
   margin-top: 15px;
 }
 
-
-
 .Image3-Wrapper {
   width: 87%;
   height: 50%;
@@ -342,8 +350,6 @@
   margin-right: auto;
   margin-top: 20px;
 }
-
-
 
 .Work-Section-Description {
   margin-top: 40px;
