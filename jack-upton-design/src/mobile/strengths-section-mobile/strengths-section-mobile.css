@@ -60,13 +60,11 @@
   z-index: 1;
   padding-bottom: 30px;
   padding-top: 15px;
-  padding-left:25px;
-  padding-right:25px;
-
+  padding-left: 25px;
+  padding-right: 25px;
   -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-
 }
 
 .Strengths-Mobile {
@@ -79,7 +77,7 @@
   height: 15%;
   display: flex;
   margin-left: 9%;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .Strengths-Mobile-Top-Dot {
@@ -275,12 +273,12 @@
   background-repeat: no-repeat;
 }
 
-.Skills-Section-Mobile-Symbol-Html {
+.Skills-Section-Mobile-Symbol-AdobeXD {
   -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   border-radius: 50%;
-  background-image: url('./../../images/html.svg');
+  background-image: url('./../../images/xd.svg');
   padding-top: 100%;
   position: relative;
   width: 100%;
@@ -288,12 +286,12 @@
   background-repeat: no-repeat;
 }
 
-.Skills-Section-Mobile-Symbol-Css {
+.Skills-Section-Mobile-Symbol-Figma {
   -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   border-radius: 50%;
-  background-image: url('./../../images/css.svg');
+  background-image: url('./../../images/figma.svg');
   padding-top: 100%;
   position: relative;
   width: 100%;
@@ -305,7 +303,6 @@
   font-size: 0.95rem;
   font-weight: 600;
   margin-top: 10px;
-
 }
 
 .Skills-Mobile-Top-Text {
@@ -341,8 +338,8 @@
   height: 15%;
   display: flex;
   margin-left: 7%;
-  margin-bottom:10px;
-  margin-top:10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .Skills-Mobile-Bottom {
@@ -354,7 +351,7 @@
   flex: 1;
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
 .Skills-Section-Mobile-Text {

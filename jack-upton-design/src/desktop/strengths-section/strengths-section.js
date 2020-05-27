@@ -79,6 +79,26 @@ class StrengthsSection extends Component {
           <div className='Skills-Right-Row'>
             <div className='Strengths-Skills-Section'>
               <div className='Skills-Section-Symbol-Wrapper'>
+                <div className='Skills-Section-Symbol-AdobeXD'/>
+              </div>
+              <div className='Skills-Section-Text'>
+
+                Adobe XD
+                <span>
+                  &nbsp; &nbsp;
+                </span>
+              </div>
+            </div>
+            <div className='Strengths-Skills-Section'>
+              <div className='Skills-Section-Symbol-Wrapper'>
+                <div className='Skills-Section-Symbol-Figma'/>
+              </div>
+              <div className='Skills-Section-Text'>
+                Figma
+              </div>
+            </div>
+            <div className='Strengths-Skills-Section'>
+              <div className='Skills-Section-Symbol-Wrapper'>
                 <div className='Skills-Section-Symbol-React'/>
               </div>
               <div className='Skills-Section-Text'>
@@ -93,6 +113,10 @@ class StrengthsSection extends Component {
                 Photoshop
               </div>
             </div>
+
+          </div>
+
+          <div className='Skills-Right-Row'>
             <div className='Strengths-Skills-Section'>
               <div className='Skills-Section-Symbol-Wrapper'>
                 <div className='Skills-Section-Symbol-Javascript'/>
@@ -109,10 +133,6 @@ class StrengthsSection extends Component {
                 Java
               </div>
             </div>
-
-          </div>
-
-          <div className='Skills-Right-Row'>
             <div className='Strengths-Skills-Section'>
               <div className='Skills-Section-Symbol-Wrapper'>
                 <div className='Skills-Section-Symbol-Git'/>
@@ -135,28 +155,7 @@ class StrengthsSection extends Component {
                 </span>
               </div>
             </div>
-            <div className='Strengths-Skills-Section'>
-              <div className='Skills-Section-Symbol-Wrapper'>
-                <div className='Skills-Section-Symbol-Html'/>
-              </div>
-              <div className='Skills-Section-Text'>
-                <span>
-                  &nbsp; &nbsp;
-                </span>
-                HTML
-                <span>
-                  &nbsp; &nbsp;
-                </span>
-              </div>
-            </div>
-            <div className='Strengths-Skills-Section'>
-              <div className='Skills-Section-Symbol-Wrapper'>
-                <div className='Skills-Section-Symbol-Css'/>
-              </div>
-              <div className='Skills-Section-Text'>
-                CSS
-              </div>
-            </div>
+
           </div>
         </div>
       </div>

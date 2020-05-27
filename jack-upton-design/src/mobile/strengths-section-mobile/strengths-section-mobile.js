@@ -75,6 +75,28 @@ class StrengthsSectionMobile extends Component {
           <div className='Skills-Mobile-Right-Row'>
             <div className='Strengths-Mobile-Strengths-Section'>
               <div className='Skills-Section-Mobile-Symbol-Wrapper'>
+                <div className='Skills-Section-Mobile-Symbol-AdobeXD'/>
+              </div>
+              <div className='Skills-Section-Mobile-Text'>
+                <span>
+                  &nbsp;
+                </span>
+                Adobe XD
+                <span>
+                  &nbsp;
+                </span>
+              </div>
+            </div>
+            <div className='Strengths-Mobile-Strengths-Section'>
+              <div className='Skills-Section-Mobile-Symbol-Wrapper'>
+                <div className='Skills-Section-Mobile-Symbol-Figma'/>
+              </div>
+              <div className='Skills-Section-Mobile-Text'>
+                Figma
+              </div>
+            </div>
+            <div className='Strengths-Mobile-Strengths-Section'>
+              <div className='Skills-Section-Mobile-Symbol-Wrapper'>
                 <div className='Skills-Section-Mobile-Symbol-React'/>
               </div>
               <div className='Skills-Section-Mobile-Text'>
@@ -89,6 +111,10 @@ class StrengthsSectionMobile extends Component {
                 Photoshop
               </div>
             </div>
+
+          </div>
+
+          <div className='Skills-Mobile-Right-Row'>
             <div className='Strengths-Mobile-Strengths-Section'>
               <div className='Skills-Section-Mobile-Symbol-Wrapper'>
                 <div className='Skills-Section-Mobile-Symbol-Javascript'/>
@@ -105,9 +131,6 @@ class StrengthsSectionMobile extends Component {
                 Java
               </div>
             </div>
-          </div>
-
-          <div className='Skills-Mobile-Right-Row'>
             <div className='Strengths-Mobile-Strengths-Section'>
               <div className='Skills-Section-Mobile-Symbol-Wrapper'>
                 <div className='Skills-Section-Mobile-Symbol-Git'/>
@@ -130,28 +153,7 @@ class StrengthsSectionMobile extends Component {
                 </span>
               </div>
             </div>
-            <div className='Strengths-Mobile-Strengths-Section'>
-              <div className='Skills-Section-Mobile-Symbol-Wrapper'>
-                <div className='Skills-Section-Mobile-Symbol-Html'/>
-              </div>
-              <div className='Skills-Section-Mobile-Text'>
-                <span>
-                  &nbsp;
-                </span>
-                HTML
-                <span>
-                  &nbsp;
-                </span>
-              </div>
-            </div>
-            <div className='Strengths-Mobile-Strengths-Section'>
-              <div className='Skills-Section-Mobile-Symbol-Wrapper'>
-                <div className='Skills-Section-Mobile-Symbol-Css'/>
-              </div>
-              <div className='Skills-Section-Mobile-Text'>
-                CSS
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
