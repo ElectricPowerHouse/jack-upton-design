@@ -12,19 +12,18 @@ class HeaderSectionMobile extends Component {
     }
   }
 
-  render(){
-    return(
-      <div className='Header-Section-Mobile'>
-        <Fade duration={2500}>
-        <div className = 'Header-Section-Mobile-Dot-Wrapper'>
-          <div className = 'Header-Section-Mobile-Dot' />
+  render() {
+    return (<div className='Header-Section-Mobile'>
+      <Fade duration={2500}>
+        <div className='Header-Section-Mobile-Dot-Wrapper'>
+          <div className='Header-Section-Mobile-Dot'/>
         </div>
         <div className='Header-Section-Mobile-Top'>
           <div className='Header-Section-Mobile-Top-Left'>
             <div className='Header-Section-Mobile-Title'>
-            Jack Upton Design
+              Jack Upton Design
             </div>
-            <div className = 'Header-Section-Mobile-Line' />
+            <div className='Header-Section-Mobile-Line'/>
           </div>
           <div className='Header-Section-Mobile-Top-Right'>
             <div className='Header-Section-Mobile-Photo-Me'/>
@@ -32,7 +31,7 @@ class HeaderSectionMobile extends Component {
         </div>
         <div className='Header-Section-Mobile-Bottom'>
           <div className='Header-Section-Mobile-Menu'>
-            <Link activeClass='active' smooth={true} to='Strengths-Section-Mobile' offset={-60}  className='Header-Section-Mobile-Menu-Top'>
+            <Link activeClass='active' smooth={true} to='Strengths-Section-Mobile' offset={-60} className='Header-Section-Mobile-Menu-Top'>
               Skills & Strengths
             </Link>
             <Link activeClass='active' smooth={true} to='Work-Section-Mobile' offset={-60} className='Header-Section-Mobile-Menu-Bottom'>
@@ -43,15 +42,12 @@ class HeaderSectionMobile extends Component {
             </Link>
           </div>
           <div className='Header-Section-Mobile-AboutMe'>
-          I’m a digital designer & front-end developer, specialising in bridging aesthetics and code. Most recently I worked for a start-up in Wellington, New Zealand, where my team and I created a web-app to be used by the neonatal unit in Wellington Hospital. I have a degree in Design Innovation, and a year of full-time work experience. I’m currently living in Toulouse, France, and am looking for full-time, part-time, local, or remote work.
+            I’m a designer & front-end developer, specialising in bridging aesthetics and code. I most recently finished up my contract working with Cenareo in Toulouse, France, aiding with creating and updating a design system for their content management system. With 3 years of professional experience, I am competent in a wide variety of domains including user experience design, visual design, illustration, and front end code. If you have a project or task in mind, send me a message and i’ll let you know if I can help.
           </div>
         </div>
-        </Fade>
-      </div>
-  );
+      </Fade>
+    </div>);
   }
-
-
 
   renderLanguageButton() {
     return (<div className='Header-Bar-Top-Language-Wrapper'>

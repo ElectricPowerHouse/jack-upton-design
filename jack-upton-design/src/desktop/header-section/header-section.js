@@ -41,7 +41,7 @@ class HeaderSection extends Component {
                   </Link>
                 </div>
                 <div className='Header-Text-Section-AboutMe'>
-                  I’m a digital designer & front-end developer, specialising in bridging aesthetics and code. Most recently I worked for a start-up in Wellington, New Zealand, where my team and I created a web-app to be used by the neonatal unit in Wellington Hospital. I have a degree in Design Innovation, and a year of full-time work experience. I’m currently living in Toulouse, France, and am looking for full-time, part-time, local, or remote work.
+                  I’m a designer & front-end developer, specialising in bridging aesthetics and code. I most recently finished up my contract working with Cenareo in Toulouse, France, aiding with creating and updating a design system for their content management system. With 3 years of professional experience, I am competent in a wide variety of domains including user experience design, visual design, illustration, and front end code. If you have a project or task in mind, send me a message and i’ll let you know if I can help.
                 </div>
               </div>
               <Fade duration={4000}>

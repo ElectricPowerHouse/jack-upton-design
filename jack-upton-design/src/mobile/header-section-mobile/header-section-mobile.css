@@ -2,19 +2,17 @@
   color: white;
   font-family: Noto Serif, serif;
   position: relative;
-  min-height: 580px;
-  display:flex;
-  flex-direction:column;
-  padding:30px 60px;
-
+  min-height: 620px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 60px;
 }
 
-.Header-Section-Mobile-Dot-Wrapper{
+.Header-Section-Mobile-Dot-Wrapper {
   /*border:2px solid black;*/
-
 }
 
-.Header-Section-Mobile-Dot{
+.Header-Section-Mobile-Dot {
   border-radius: 50%;
   border: 3px solid white;
   height: 12px;
@@ -23,21 +21,20 @@
   margin-bottom: auto;
 }
 
-.Header-Section-Mobile-Top{
+.Header-Section-Mobile-Top {
   /*border:2px solid black;*/
-
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
 }
 
-.Header-Section-Mobile-Bottom{
+.Header-Section-Mobile-Bottom {
   /*border:2px solid black;*/
-  flex:1;
+  flex: 1;
 }
 
-.Header-Section-Mobile-Top-Left{
+.Header-Section-Mobile-Top-Left {
   /*border:1px solid red;*/
-  flex:1;
+  flex: 1;
   font-size: 2.5rem;
   text-align: left;
   font-weight: 200;
@@ -54,15 +51,15 @@
   transition: opacity 0.5s;
 }
 
-.Header-Section-Mobile-Top-Right{
+.Header-Section-Mobile-Top-Right {
   /*border:1px solid red;*/
-  flex:1;
+  flex: 1;
 }
 
 .Header-Section-Mobile-Title {
-  margin-top:20px;
+  margin-top: 20px;
   font-size: 2.2rem;
-  line-height:45px;
+  line-height: 45px;
   text-align: left;
   font-weight: 200;
   color: #dae8fd;
@@ -79,7 +76,7 @@
 }
 
 .Header-Section-Mobile-Photo-Me {
-  margin-top:10px;
+  margin-top: 10px;
   width: 160px;
   height: 100%;
   background-size: 100%;
@@ -88,8 +85,6 @@
   opacity: 1;
   transition: opacity 0.5s;
 }
-
-
 
 .Header-Section-Mobile-Line {
   background-color: #8ca8cc;
@@ -111,13 +106,13 @@
 }
 
 .Header-Section-Mobile-Menu {
-  padding-top:25px;
-  color:#fefdf5;
+  padding-top: 25px;
+  color: #fefdf5;
   display: flex;
   flex-direction: column;
   margin-top: 5px;
   font-size: 0.9rem;
-  text-align:left;
+  text-align: left;
   text-decoration: none;
   transition: text-decoration 1s;
   -webkit-user-select: none;
@@ -130,6 +125,6 @@
   /* Standard syntax */
 }
 
-.Header-Section-Mobile-Menu-Bottom{
-  margin-top:3%;
+.Header-Section-Mobile-Menu-Bottom {
+  margin-top: 3%;
 }
