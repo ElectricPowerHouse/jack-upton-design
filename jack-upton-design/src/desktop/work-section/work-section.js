@@ -155,17 +155,17 @@ class WorkSection extends Component {
       <Slider>
         <Slide index={0}> <Image
           src={require('./../../images/ensemble-c1-resized.png')}
-          hasMasterSpinner={false}
+          hasMasterSpinner={true}
         />
         </Slide>
         <Slide index={1}> <Image
           src={require('./../../images/ensemble-c2-resized.png')}
-          hasMasterSpinner={false}
+          hasMasterSpinner={true}
         />
         </Slide>
         <Slide index={2}> <Image
           src={require('./../../images/ensemble-c3-resized.png')}
-          hasMasterSpinner={false}
+          hasMasterSpinner={true}
         />
         </Slide>
       </Slider>
@@ -183,17 +183,17 @@ class WorkSection extends Component {
       <Slider>
         <Slide index={0}> <Image
           src={require('./../../images/metamorphic1.png')}
-          hasMasterSpinner={false}
+          hasMasterSpinner={true}
         />
         </Slide>
         <Slide index={1}> <Image
           src={require('./../../images/metamorphic2.png')}
-          hasMasterSpinner={false}
+          hasMasterSpinner={true}
         />
         </Slide>
         <Slide index={2}> <Image
           src={require('./../../images/metamorphic3.png')}
-          hasMasterSpinner={false}
+          hasMasterSpinner={true}
         />
         </Slide>
       </Slider>
@@ -211,17 +211,17 @@ class WorkSection extends Component {
       <Slider>
         <Slide index={0}> <Image
           src={require('./../../images/paperless1.png')}
-          hasMasterSpinner={false}
+          hasMasterSpinner={true}
         />
         </Slide>
         <Slide index={1}> <Image
           src={require('./../../images/paperless2.png')}
-          hasMasterSpinner={false}
+          hasMasterSpinner={true}
         />
         </Slide>
         <Slide index={2}> <Image
           src={require('./../../images/paperless3.png')}
-          hasMasterSpinner={false}
+          hasMasterSpinner={true}
         />
         </Slide>
       </Slider>
