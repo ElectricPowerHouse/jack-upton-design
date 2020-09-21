@@ -53,7 +53,7 @@
   width: 8%;
 }
 
-.Work-Section-Left-Arrow {
+.Work-Section-Mobile-Left-Arrow {
   margin-top: 190px;
   background-color: #b5bdca;
   padding: 15px 0px;
@@ -61,12 +61,12 @@
   transition: opacity 0.3s;
 }
 
-.Work-Section-Left-Arrow:hover {
+.Work-Section-Mobile-Left-Arrow:hover {
   opacity: 0.7;
   cursor: pointer;
 }
 
-.Work-Section-Left-Arrow-Symbol {
+.Work-Section-Mobile-Left-Arrow-Symbol {
   background-image: url('./../../images/left-arrow.svg');
   background-size: 100%;
   width: 18px;
@@ -80,7 +80,7 @@
   width: 8%;
 }
 
-.Work-Section-Right-Arrow {
+.Work-Section-Mobile-Right-Arrow {
   margin-top: 190px;
   padding: 15px 0px;
   background-color: #b5bdca;
@@ -88,12 +88,12 @@
   transition: opacity 0.3s;
 }
 
-.Work-Section-Right-Arrow:hover {
+.Work-Section-Mobile-Right-Arrow:hover {
   opacity: 0.7;
   cursor: pointer;
 }
 
-.Work-Section-Right-Arrow-Symbol {
+.Work-Section-Mobile-Right-Arrow-Symbol {
   background-image: url('./../../images/right-arrow.svg');
   background-size: 100%;
   width: 18px;

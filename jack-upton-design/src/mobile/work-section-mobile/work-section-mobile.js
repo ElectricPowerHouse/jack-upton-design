@@ -59,10 +59,10 @@ class WorkSectionMobile extends Component {
       {this.renderHeader()}
       <div className='Work-Section-Body'>
         <div className='Work-Mobile-Section-Left'>
-          <div className='Work-Section-Left-Arrow' onClick={() => {
+          <div className='Work-Section-Mobile-Left-Arrow' onClick={() => {
               this.decreaseWorkNum()
             }}>
-            <div className='Work-Section-Left-Arrow-Symbol'/>
+            <div className='Work-Section-Mobile-Left-Arrow-Symbol'/>
           </div>
         </div>
         <Fade duration={2500} >
@@ -88,10 +88,10 @@ class WorkSectionMobile extends Component {
           </div>
         </Fade>
         <div className='Work-Section-Mobile-Right'>
-          <div className='Work-Section-Right-Arrow' onClick={() => {
+          <div className='Work-Section-Mobile-Right-Arrow' onClick={() => {
               this.increaseWorkNum()
             }}>
-            <div className='Work-Section-Right-Arrow-Symbol'/>
+            <div className='Work-Section-Mobile-Right-Arrow-Symbol'/>
           </div>
         </div>
       </div>

@@ -175,8 +175,8 @@ class WorkSection extends Component {
 
   renderPureCarousel2() {
     return (<CarouselProvider
-      naturalSlideWidth={800}
-      naturalSlideHeight={387}
+      naturalSlideWidth={1325}
+      naturalSlideHeight={654}
       totalSlides={3}
       isPlaying={true}
     >
@@ -203,8 +203,8 @@ class WorkSection extends Component {
 
   renderPureCarousel3() {
     return (<CarouselProvider
-      naturalSlideWidth={800}
-      naturalSlideHeight={387}
+      naturalSlideWidth={2732}
+      naturalSlideHeight={1536}
       totalSlides={3}
       isPlaying={true}
     >
@@ -372,34 +372,59 @@ class WorkSection extends Component {
 
     let text = '';
 
-    let text1 = 'Ensemble-C is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using.';
+    let description1 = 'Ensemble-C is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. I designed and coded the front-end in React.';
 
-    let text2 = 'The Metamorphic Studios homepage is the first point of contact when wanting to find out more about the company. I was tasked with re-designing the branding and website, as the previous visual design was outdated and lacking. It was a chance to do something creative - and as the company’s values heavily focused on innovation and change, I settled on a metamorphosis theme. I designed the branding and webpage design myself, and worked with the developers at the company to code the page in React. ';
+    let problem1=' Converting a dense medical paper document into the digital space, and retaining necessary complexity whilst retaining readability & usability.';
 
-    let text3 = 'PaperLess is a web-app service to help streamline creating and filling out forms for large businesses. It features a simple drag & drop system of different inputs such as text fields and multi-choice questions. The goal of the application was to allow business owners and managers to create forms easily without needing to use complex PDF processes, and reducing paper waste. I completed all of the designs for the interface and worked with a team of developers to create the app in React. I had to figure out the most efficient way to lay out the UI, combining complexity with ease-of use. '
+    let solution1=' Many draft prototypes, constant contact with the nurses & doctors who would be using the interface. The layout of the interface was revised many times before reaching its final ready-to-be-deployed stage. ';
+
+    let description2 = 'The Metamorphic Studios homepage is the first point of contact when wanting to find out more about the company. I was tasked with re-designing the branding and website. ';
+
+    let problem2=' Create a new visual aesthetic for the company, retaining the fun and playful image of the company whilst modernising it and updating the outdated elements.';
+
+    let solution2='  I settled on a metamorphosis theme, as the company’s values focused on innovation and change. I drew the illustrations myself and intertwined them with the visual design of the new website.  ';
+
+    let description3 = 'PaperLess is a web-app service to help streamline creating and filling out forms for large businesses. It features a simple drag & drop system of different inputs such as text fields and multi-choice questions.';
+
+    let problem3=' Create & lead the direction of the UX and UI for a new online application. Communicate with developers to realize this goal and make sure the design principles are maintained.';
+
+    let solution3='Do initial user research, prototypes and testing before the interface is ready for production. Work closely with developers to verify whether UI elements will be feasible or too difficult to implement. ';
+
+    let description = '';
+
+    let problem = '';
+
+    let solution = '';
+
 
     let w = this.state.worknum;
 
     if (w === 0) {
-      text = text1;
+      description = description1;
+      problem = problem1;
+      solution = solution1;
     } else if (w === 1) {
-      text = text2;
+      description = description2;
+      problem = problem2;
+      solution = solution2;
     } else {
-      text = text3;
+      description = description3;
+      problem = problem3;
+      solution = solution3;
     }
 
     return (<div className='Work-Section-Description'>
       <div className = 'Work-Section-Description-Section'>
-        <span style={{ fontSize: '1.3rem' }}><b>Description:   </b></span>
-        {text}
+        <span style={{ fontSize: '1.1rem' }}><b>Description:   </b></span>
+        {description}
       </div>
       <div className = 'Work-Section-Description-Section'>
-        <span style={{ fontSize: '1.3rem' }}><b>Problem:</b></span>
-        {text}
+        <span style={{ fontSize: '1.1rem' }}><b>Problem:  </b></span>
+        {problem}
       </div>
       <div className = 'Work-Section-Description-Section'>
-        <span style={{ fontSize: '1.3rem' }}><b>Solution:</b></span>
-        {text}
+        <span style={{ fontSize: '1.1rem' }}><b>Solution:  </b></span>
+        {solution}
       </div>
     </div>)
   }

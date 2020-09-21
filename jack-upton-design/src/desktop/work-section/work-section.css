@@ -62,7 +62,7 @@
 }
 
 .Work-Section-Carousel{
-  margin:60px;
+  margin:3% 8%;
    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
     -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
     box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
@@ -78,7 +78,7 @@
 }
 
 .Work-Section-Left-Arrow {
-  margin-top: 190px;
+  margin-top: 230px;
   background-color: #b5bdca;
   padding: 30px 0px;
   opacity: 1;
@@ -105,7 +105,7 @@
 }
 
 .Work-Section-Right-Arrow {
-  margin-top: 190px;
+  margin-top: 230px;
   padding: 30px 0px;
   background-color: #b5bdca;
   opacity: 1;
