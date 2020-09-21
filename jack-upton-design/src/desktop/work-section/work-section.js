@@ -1,8 +1,11 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './work-section.css';
 import Fade from 'react-reveal/Fade';
 
-import Carousel, {Modal, ModalGateway} from 'react-images';
+import Carousel, { Modal, ModalGateway } from 'react-images';
+
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Image } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 
 const modalImages1 = [
   {
@@ -43,7 +46,9 @@ class WorkSection extends Component {
       worknum: 0,
       workmax: 2,
       modalIsOpen: false,
-      currentIndex: 1
+      currentIndex: 1,
+      workShowing:true,
+      callback: null
     }
   }
 
@@ -55,22 +60,29 @@ class WorkSection extends Component {
 
   render() {
 
+
     return (<div className='Work-Section'>
       {this.renderHeader()}
       <div className='Work-Section-Body'>
         <div className='Work-Section-Left'>
           <div className='Work-Section-Left-Arrow' onClick={() => {
-              this.decreaseWorkNum()
-            }}>
-            <div className='Work-Section-Left-Arrow-Symbol'/>
+            this.decreaseWorkNum()
+          }}>
+            <div className='Work-Section-Left-Arrow-Symbol' />
           </div>
         </div>
         <Fade duration={2500}>
           <div className='Work-Section-Middle'>
             <div className='Work-Section-Middle2'>
               {this.renderTitle()}
-              <div className='Work-Section-Images'>
-                <div className='Work-Section-Images-Left'>
+              <Fade when={this.state.workShowing}>
+              <div className='Work-Section-Carousel'>
+                {this.renderPureCarousel()}
+              </div>
+              </Fade>
+              {/*<div className='Work-Section-Images'>
+
+                {/*<div className='Work-Section-Images-Left'>
                   <div className='Image1-Wrapper' onClick={() => {
                       if (this.state.modalIsOpen === false) {
                         this.toggleModal();
@@ -80,8 +92,8 @@ class WorkSection extends Component {
                     {this.renderModalGateway()}
                     {this.renderImage1()}
                   </div>
-                </div>
-                <div className='Work-Section-Images-Right'>
+                </div>*/}
+              {/*<div className='Work-Section-Images-Right'>
                   <div className='Image2-Wrapper' onClick={() => {
                       if (this.state.modalIsOpen === false) {
                         this.toggleModal();
@@ -98,21 +110,123 @@ class WorkSection extends Component {
                     }}>
                     {this.renderImage3()}
                   </div>
-                </div>
-              </div>
+                </div>*/}
+              {/*</div>*/}
+              <Fade when={this.state.workShowing}>
               {this.renderDescription()}
+              </Fade>
             </div>
           </div>
         </Fade>
         <div className='Work-Section-Right'>
           <div className='Work-Section-Right-Arrow' onClick={() => {
-              this.increaseWorkNum()
-            }}>
-            <div className='Work-Section-Right-Arrow-Symbol'/>
+            this.increaseWorkNum()
+          }}>
+            <div className='Work-Section-Right-Arrow-Symbol' />
           </div>
         </div>
+
       </div>
+
     </div>);
+  }
+
+  renderPureCarousel() {
+    if (this.state.worknum == 0) {
+      return (this.renderPureCarousel1())
+    }
+    else if (this.state.worknum == 1) {
+      return (
+        this.renderPureCarousel2()
+      )
+    }
+    else {
+      return (this.renderPureCarousel3())
+    }
+  }
+
+  renderPureCarousel1() {
+    return (<CarouselProvider
+      naturalSlideWidth={800}
+      naturalSlideHeight={387}
+      totalSlides={3}
+      isPlaying={true}
+    >
+      <Slider>
+        <Slide index={0}> <Image
+          src={require('./../../images/ensemble-c1-resized.png')}
+          hasMasterSpinner={false}
+        />
+        </Slide>
+        <Slide index={1}> <Image
+          src={require('./../../images/ensemble-c2-resized.png')}
+          hasMasterSpinner={false}
+        />
+        </Slide>
+        <Slide index={2}> <Image
+          src={require('./../../images/ensemble-c3-resized.png')}
+          hasMasterSpinner={false}
+        />
+        </Slide>
+      </Slider>
+
+    </CarouselProvider>);
+  }
+
+  renderPureCarousel2() {
+    return (<CarouselProvider
+      naturalSlideWidth={800}
+      naturalSlideHeight={387}
+      totalSlides={3}
+      isPlaying={true}
+    >
+      <Slider>
+        <Slide index={0}> <Image
+          src={require('./../../images/metamorphic1.png')}
+          hasMasterSpinner={false}
+        />
+        </Slide>
+        <Slide index={1}> <Image
+          src={require('./../../images/metamorphic2.png')}
+          hasMasterSpinner={false}
+        />
+        </Slide>
+        <Slide index={2}> <Image
+          src={require('./../../images/metamorphic3.png')}
+          hasMasterSpinner={false}
+        />
+        </Slide>
+      </Slider>
+
+    </CarouselProvider>);
+  }
+
+  renderPureCarousel3() {
+    return (<CarouselProvider
+      naturalSlideWidth={800}
+      naturalSlideHeight={387}
+      totalSlides={3}
+      isPlaying={true}
+    >
+      <Slider>
+        <Slide index={0}> <Image
+          src={require('./../../images/paperless1.png')}
+          hasMasterSpinner={false}
+        />
+        </Slide>
+        <Slide index={1}> <Image
+          src={require('./../../images/paperless2.png')}
+          hasMasterSpinner={false}
+        />
+        </Slide>
+        <Slide index={2}> <Image
+          src={require('./../../images/paperless3.png')}
+          hasMasterSpinner={false}
+        />
+        </Slide>
+      </Slider>
+
+    </CarouselProvider>);
   }
 
   renderTitle() {
@@ -132,14 +246,14 @@ class WorkSection extends Component {
       subtitle = '[ Metamorphic Studios ]';
     }
 
-    return (<div className='Work-Section-Top'>
+    return (<Fade when = {this.state.workShowing}><div className='Work-Section-Top'>
       <div className='Work-Section-Title'>
         {title}
       </div>
       <div className='Work-Section-Subtitle'>
         {subtitle}
       </div>
-    </div>)
+    </div></Fade>)
   }
 
   renderModalGateway() {
@@ -155,13 +269,13 @@ class WorkSection extends Component {
       images = modalImages3;
     }
 
-    const {modalIsOpen} = this.state;
+    const { modalIsOpen } = this.state;
 
     return (<ModalGateway>
       {
         modalIsOpen
           ? (<Modal onClose={this.toggleModal}>
-            <Carousel views={images} currentIndex={this.state.currentIndex}/>
+            <Carousel views={images} currentIndex={this.state.currentIndex} />
           </Modal>)
           : null
       }
@@ -174,11 +288,11 @@ class WorkSection extends Component {
     let i = this.state.worknum;
 
     if (i === 0) {
-      return (<div className='Work-Section-Elucimed1'/>);
+      return (<div className='Work-Section-Elucimed1' />);
     } else if (i === 1) {
-      return (<div className='Work-Section-Metamorphic1'/>);
+      return (<div className='Work-Section-Metamorphic1' />);
     } else {
-      return (<div className='Work-Section-Paperless2'/>);
+      return (<div className='Work-Section-Paperless2' />);
     }
   }
 
@@ -187,11 +301,11 @@ class WorkSection extends Component {
     let i = this.state.worknum;
 
     if (i === 0) {
-      return (<div className='Work-Section-Elucimed2'/>);
+      return (<div className='Work-Section-Elucimed2' />);
     } else if (i === 1) {
-      return (<div className='Work-Section-Metamorphic2'/>);
+      return (<div className='Work-Section-Metamorphic2' />);
     } else {
-      return (<div className='Work-Section-Paperless3'/>);
+      return (<div className='Work-Section-Paperless3' />);
     }
   }
 
@@ -200,25 +314,35 @@ class WorkSection extends Component {
     let i = this.state.worknum;
 
     if (i === 0) {
-      return (<div className='Work-Section-Elucimed3'/>);
+      return (<div className='Work-Section-Elucimed3' />);
     } else if (i === 1) {
-      return (<div className='Work-Section-Metamorphic3'/>);
+      return (<div className='Work-Section-Metamorphic3' />);
     } else {
-      return (<div className='Work-Section-Paperless1'/>);
+      return (<div className='Work-Section-Paperless1' />);
     }
   }
 
+  startOpacityTransition(){
+    let d = new Date();
+    let setTime = d.getTime();
+    let showing = false;
+    this.state.callback = setInterval(this.animationTransition,1000,setTime,this);
+    this.setState({ workShowing: showing})
+  }
+
   increaseWorkNum() {
+    this.startOpacityTransition();
     let w = this.state.worknum;
     w = w + 1;
 
     if (w > this.state.workmax) {
       w = 0;
     }
-    this.setState({worknum: w});
+    this.setState({ worknum: w });
   }
 
   decreaseWorkNum() {
+    this.startOpacityTransition();
     let w = this.state.worknum;
     w = w - 1;
 
@@ -226,14 +350,29 @@ class WorkSection extends Component {
       w = this.state.workmax;
     }
 
-    this.setState({worknum: w});
+    this.setState({ worknum: w });
+  }
+
+  animationTransition(setTime,o){
+    console.log('doing');
+    let transitionTime = 2;
+    let d = new Date();
+    let nowTime = d.getTime();
+
+    let passedTime = nowTime-setTime;
+    console.log(passedTime);
+    if(passedTime>=transitionTime){
+      o.setState({workShowing:true});
+      clearInterval(o.state.callback);
+    }
+
   }
 
   renderDescription() {
 
     let text = '';
 
-    let text1 = 'Ensemble-C is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. This app would reduce human error, increase connectivity, and simplify data analysis. I worked on Ensemble-C for 8 months during my time employed at Elucimed. I designed and coded the front-end in React myself, frequently talking to medical professionals to get feedback and discuss their needs for the interface. This project was full of interesting challenges, especially  presenting complex data in a user-friendly, and modern looking way.';
+    let text1 = 'Ensemble-C is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using.';
 
     let text2 = 'The Metamorphic Studios homepage is the first point of contact when wanting to find out more about the company. I was tasked with re-designing the branding and website, as the previous visual design was outdated and lacking. It was a chance to do something creative - and as the company’s values heavily focused on innovation and change, I settled on a metamorphosis theme. I designed the branding and webpage design myself, and worked with the developers at the company to code the page in React. ';
 
@@ -250,7 +389,18 @@ class WorkSection extends Component {
     }
 
     return (<div className='Work-Section-Description'>
-      {text}
+      <div className = 'Work-Section-Description-Section'>
+        <span style={{ fontSize: '1.3rem' }}><b>Description:   </b></span>
+        {text}
+      </div>
+      <div className = 'Work-Section-Description-Section'>
+        <span style={{ fontSize: '1.3rem' }}><b>Problem:</b></span>
+        {text}
+      </div>
+      <div className = 'Work-Section-Description-Section'>
+        <span style={{ fontSize: '1.3rem' }}><b>Solution:</b></span>
+        {text}
+      </div>
     </div>)
   }
 
@@ -260,7 +410,7 @@ class WorkSection extends Component {
         <div className='Work-Section-Header-Text'>
           My Work
         </div>
-        <div className='Work-Section-Header-Symbol'/>
+        <div className='Work-Section-Header-Symbol' />
       </div>
     </div>);
   }
