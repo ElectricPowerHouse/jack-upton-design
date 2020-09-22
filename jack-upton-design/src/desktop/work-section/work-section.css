@@ -62,7 +62,7 @@
 }
 
 .Work-Section-Carousel{
-  margin:3% 10%;
+  margin:3% 15vh;
    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
     -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
     box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
@@ -80,7 +80,7 @@
 .Work-Section-Left-Arrow {
   margin-top: 280px;
   background-color: #b5bdca;
-  padding: 30px 0px;
+  padding: 15px 0px;
   opacity: 1;
   transition: opacity 0.3s;
 }
@@ -93,8 +93,8 @@
 .Work-Section-Left-Arrow-Symbol {
   background-image: url('./../../images/left-arrow.svg');
   background-size: 100%;
-  width: 25px;
-  height: 50px;
+  width: 18px;
+  height: 35px;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
@@ -106,7 +106,7 @@
 
 .Work-Section-Right-Arrow {
   margin-top: 280px;
-  padding: 30px 0px;
+  padding: 15px 0px;
   background-color: #b5bdca;
   opacity: 1;
   transition: opacity 0.3s;
@@ -120,8 +120,8 @@
 .Work-Section-Right-Arrow-Symbol {
   background-image: url('./../../images/right-arrow.svg');
   background-size: 100%;
-  width: 25px;
-  height: 50px;
+  width: 18px;
+  height: 35px;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;

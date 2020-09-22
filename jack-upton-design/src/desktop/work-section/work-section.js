@@ -354,13 +354,11 @@ class WorkSection extends Component {
   }
 
   animationTransition(setTime,o){
-    console.log('doing');
     let transitionTime = 2;
     let d = new Date();
     let nowTime = d.getTime();
 
     let passedTime = nowTime-setTime;
-    console.log(passedTime);
     if(passedTime>=transitionTime){
       o.setState({workShowing:true});
       clearInterval(o.state.callback);
@@ -374,7 +372,7 @@ class WorkSection extends Component {
 
     let description1 = 'Ensemble-C is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. I designed and coded the front-end in React.';
 
-    let problem1=' Converting a dense medical paper document into the digital space, and retaining necessary complexity whilst retaining readability & usability.';
+    let problem1=' Converting a dense medical paper document into the digital space, and retaining necessary complexity whilst adding readability & usability. ';
 
     let solution1=' Many draft prototypes, constant contact with the nurses & doctors who would be using the interface. The layout of the interface was revised many times before reaching its final ready-to-be-deployed stage. ';
 

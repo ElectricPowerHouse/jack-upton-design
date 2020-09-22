@@ -128,7 +128,7 @@ class StrengthsSectionMobile extends Component {
                 <div className='Skills-Section-Mobile-Symbol-Java'/>
               </div>
               <div className='Skills-Section-Mobile-Text'>
-                Java
+              Java
               </div>
             </div>
             <div className='Strengths-Mobile-Strengths-Section'>
@@ -136,7 +136,7 @@ class StrengthsSectionMobile extends Component {
                 <div className='Skills-Section-Mobile-Symbol-Git'/>
               </div>
               <div className='Skills-Section-Mobile-Text'>
-                Git
+                  Git
               </div>
             </div>
             <div className='Strengths-Mobile-Strengths-Section'>
@@ -147,7 +147,19 @@ class StrengthsSectionMobile extends Component {
                 <span>
                   &nbsp;
                 </span>
+                <span>
+                  &nbsp;
+                </span>
+                <span>
+                  &nbsp;
+                </span>
                 Node
+                <span>
+                  &nbsp;
+                </span>
+                <span>
+                  &nbsp;
+                </span>
                 <span>
                   &nbsp;
                 </span>

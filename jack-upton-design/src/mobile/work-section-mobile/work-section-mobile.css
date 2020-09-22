@@ -49,14 +49,21 @@
   padding-bottom: 80px;
 }
 
+.Work-Section-Mobile-Carousel{
+  margin-top:10px;
+   -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+}
+
 .Work-Mobile-Section-Left {
   width: 8%;
 }
 
 .Work-Section-Mobile-Left-Arrow {
-  margin-top: 190px;
+  margin-top: 150px;
   background-color: #b5bdca;
-  padding: 15px 0px;
+  padding: 4px 0px;
   opacity: 1;
   transition: opacity 0.3s;
 }
@@ -69,8 +76,9 @@
 .Work-Section-Mobile-Left-Arrow-Symbol {
   background-image: url('./../../images/left-arrow.svg');
   background-size: 100%;
-  width: 18px;
-  height: 35px;
+  margin-top:6px;
+  width: 12px;
+  height: 29px;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
@@ -81,8 +89,8 @@
 }
 
 .Work-Section-Mobile-Right-Arrow {
-  margin-top: 190px;
-  padding: 15px 0px;
+  margin-top: 150px;
+  padding: 4px 0px;
   background-color: #b5bdca;
   opacity: 1;
   transition: opacity 0.3s;
@@ -96,8 +104,9 @@
 .Work-Section-Mobile-Right-Arrow-Symbol {
   background-image: url('./../../images/right-arrow.svg');
   background-size: 100%;
-  width: 18px;
-  height: 35px;
+    margin-top:6px;
+  width: 12px;
+  height: 29px;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
@@ -114,13 +123,13 @@
   display: flex;
   flex-direction: row;
   height: 35px;
-  margin-bottom: 9px;
-  padding-top:20px;
+  margin-bottom: 19px;
+  padding-top:10px;
 }
 
 .Work-Section-Mobile-Title {
   margin-top: auto;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   font-weight: 600;
   font-family: Noto Serif, serif;
   -webkit-user-select: none;
@@ -136,9 +145,9 @@
 .Work-Section-Mobile-Subtitle {
   margin-left: 4%;
   margin-top: auto;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: Noto Serif, serif;
-  padding-bottom: 3px;
+  padding-bottom: 1px;
   -webkit-user-select: none;
   /* Safari 3.1+ */
   -moz-user-select: none;
@@ -356,6 +365,11 @@
 
 .Work-Section-Description:hover {
   cursor: default;
+}
+
+.Work-Section-Mobile-Description-Section{
+  font-size:0.76rem;
+  margin-bottom:15px;
 }
 
 .Work-Section-Arrows {

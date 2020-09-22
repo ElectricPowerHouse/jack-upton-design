@@ -42,7 +42,7 @@ class HeaderSectionMobile extends Component {
             </Link>
           </div>
           <div className='Header-Section-Mobile-AboutMe'>
-            I’m a designer & front-end developer, specialising in bridging aesthetics and code. I most recently finished up my contract working with Cenareo in Toulouse, France, aiding with creating and updating a design system for their content management system. With 3 years of professional experience, I am competent in a wide variety of domains including user experience design, visual design, illustration, and front end code. If you have a project or task in mind, send me a message and i’ll let you know if I can help.
+            I’m a designer & front-end developer, specialising in bridging aesthetics and code. I most recently finished up my contract working with Cenareo in Toulouse, France, aiding with creating and updating a design system for their content management system. With 3 years of professional experience, I am competent in a wide variety of domains including user experience design, visual design, illustration, and front end code.
           </div>
         </div>
       </Fade>
