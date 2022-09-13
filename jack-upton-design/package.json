@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "autoprefixer": "^10.4.9",
+    "caniuse-lite": "^1.0.30001390",
     "pure-react-carousel": "^1.27.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -35,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack": "^4.42.0"
   }
 }
