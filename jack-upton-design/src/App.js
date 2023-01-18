@@ -3,14 +3,13 @@ import './App.css';
 
 import HeaderSection from './desktop/header-section/header-section.js';
 import StrengthsSection from './desktop/strengths-section/strengths-section.js';
-import WorkSection from './desktop/work-section/work-section.js';
+import WorkSection from './work-section-2023/work-section.js';
 import ContactSection from './desktop/contact-section/contact-section.js';
 
 import HeaderSectionMobile from './mobile/header-section-mobile/header-section-mobile.js';
 import StrengthsSectionMobile from './mobile/strengths-section-mobile/strengths-section-mobile.js';
 import WorkSectionMobile from './mobile/work-section-mobile/work-section-mobile.js';
 import ContactSectionMobile from './mobile/contact-section-mobile/contact-section-mobile.js';
-
 
 class App extends Component {
 
@@ -27,22 +26,22 @@ class App extends Component {
   }
 
   // make sure to remove the listener
-// when the component is not mounted anymore
-componentWillUnmount() {
-  window.removeEventListener('resize', this.handleWindowSizeChange);
-}
+  // when the component is not mounted anymore
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleWindowSizeChange);
+  }
 
-handleWindowSizeChange = () => {
-  this.setState({ width: window.innerWidth });
-};
+  handleWindowSizeChange = () => {
+    this.setState({width: window.innerWidth});
+  };
 
   render() {
 
-    const { width } = this.state;
+    const {width} = this.state;
     const isMobile = width <= 500;
     // the rest is the same...
 
-    if(!isMobile){
+    if (!isMobile) {
       return (<div className='App'>
         <div className='App-Wrapper'>
           <HeaderSection/>
@@ -52,8 +51,7 @@ handleWindowSizeChange = () => {
           <ContactSection/>
         </div>
       </div>);
-    }
-    else{
+    } else {
       return (<div className='App'>
         <div className='App-Wrapper-Mobile'>
           <HeaderSectionMobile/>
@@ -62,7 +60,7 @@ handleWindowSizeChange = () => {
           <WorkSectionMobile/>
           <ContactSectionMobile/>
 
-          </div>
+        </div>
       </div>);
     }
 
