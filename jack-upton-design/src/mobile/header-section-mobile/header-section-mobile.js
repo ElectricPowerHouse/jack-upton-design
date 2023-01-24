@@ -15,9 +15,10 @@ class HeaderSectionMobile extends Component {
   render() {
     return (<div className='Header-Section-Mobile'>
       <Fade duration={2500}>
-        <div className='Header-Section-Mobile-Dot-Wrapper'>
+        {/*<div className='Header-Section-Mobile-Dot-Wrapper'>
           <div className='Header-Section-Mobile-Dot'/>
-        </div>
+        </div>*/
+        }
         <div className='Header-Section-Mobile-Top'>
           <div className='Header-Section-Mobile-Top-Left'>
             <div className='Header-Section-Mobile-Title'>

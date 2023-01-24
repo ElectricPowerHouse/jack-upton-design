@@ -181,11 +181,11 @@
 }
 
 .Header-Photo-Me {
-  width: 290px;
-  height: 100%;
+  width: 390px;
+  height: 120%;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url('./../../images/me-cropped.png');
+  background-image: url('./../../images/me_v2.png');
   opacity: 1;
   transition: opacity 0.5s;
 }

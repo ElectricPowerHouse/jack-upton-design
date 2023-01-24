@@ -1,9 +1,15 @@
 .Work-Section {
   color: #08162b;
-  min-height: 600px;
   -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+}
+
+@media only screen and (max-width: 500px) {
+  .Work-Section-Body {
+    font-size: 0.76rem;
+    border: 50px 0px;
+  }
 }
 
 .Work-Section-Header-Container {
@@ -52,11 +58,46 @@
   margin-left: 20px;
 }
 
+@media only screen and (max-width: 500px) {
+  .Work-Section-Header {
+    background: rgb(235, 235, 235);
+    background: linear-gradient(90deg, rgba(252, 251, 251, 1) 0%, rgba(235, 235, 235, 1) 100%);
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+    height: 50px;
+    width: 230px;
+    margin-left: 15%;
+    z-index: 5;
+    position: relative;
+    font-size: 1.15rem;
+    color: #081231;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .Work-Section-Header-Text {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .Work-Section-Header-Symbol {
+    margin-top: 12px;
+    background-image: url('./../images/work.svg');
+    width: 26px;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+  }
+}
+
 .Work-Section-Body {
-  margin-top: -25px;
   background: rgb(235, 235, 235);
   background: linear-gradient(90deg, rgba(252, 251, 251, 1) 0%, rgba(235, 235, 235, 1) 100%);
-  padding-bottom: 120px;
+  padding-bottom: 75px;
 }
 
 .Work-Section-Body2 {
@@ -66,9 +107,16 @@
   margin-right: auto;
 }
 
+@media only screen and (max-width: 500px) {
+  .Work-Section-Body2 {
+    max-width: inherit;
+    padding: 0px 40px;
+  }
+}
+
 .Work-Title {
+  padding-top: 75px;
   text-align: left;
-  margin-top: 100px;
   font-size: 2.6rem;
   font-weight: 600;
   font-family: Noto Serif;
@@ -82,11 +130,23 @@
   /* Standard syntax */
 }
 
+@media only screen and (max-width: 500px) {
+  .Work-Title {
+    font-size: 1.9rem;
+  }
+}
+
 .Work-Link {
   font-size: 0.9rem;
-  margin-top: 8px;
+  margin-top: 14px;
   color: #597cbd;
   font-weight: 600;
+}
+
+@media only screen and (max-width: 500px) {
+  .Work-Link {
+    font-size: 0.85rem;
+  }
 }
 
 .Work-Link-Text:visited {
@@ -105,236 +165,18 @@
   font-weight: 600;
 }
 
-.Work-Section-Title {
-  margin-top: auto;
-  font-size: 1.95rem;
-  font-weight: 600;
-  font-family: Noto Serif Regular;
-  -webkit-user-select: none;
-  /* Safari 3.1+ */
-  -moz-user-select: none;
-  /* Firefox 2+ */
-  -ms-user-select: none;
-  /* IE 10+ */
-  user-select: none;
-  /* Standard syntax */
-}
-
-.Work-Section-Subtitle {
-  margin-left: 4%;
-  margin-top: auto;
-  font-size: 1.3rem;
-  font-family: Noto Serif Regular;
-  padding-bottom: 3px;
-  -webkit-user-select: none;
-  /* Safari 3.1+ */
-  -moz-user-select: none;
-  /* Firefox 2+ */
-  -ms-user-select: none;
-  /* IE 10+ */
-  user-select: none;
-  /* Standard syntax */
-}
-
-.Work-Section-Images {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: row;
-  height: calc(12.5vh/1.5 + 250px);
-  margin-top: 25px;
-}
-
 .Photo-Wrapper {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 90px;
+  margin-top: 70px;
 }
 
 .Work-Photo {
-  background-image: url('./../images/wm1.jpg');
-  width: 100%;
-  height: 100%;
-  background-size: 100% auto;
   -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
   transition: filter 0.5s;
 }
 
-.Work-Photob {
-  margin-top: 90px;
-  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  transition: filter 0.5s;
-}
-
-.Image1-Wrapper {
-  width: 95%;
-  height: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-}
-
-.Work-Section-Elucimed1 {
-  background-image: url('./../images/ensemble-c1-thumbnail.png');
-  width: 100%;
-  height: 100%;
-  background-size: 100% auto;
-  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  transition: filter 0.5s;
-}
-
-.Work-Section-Elucimed1:hover {
-  cursor: pointer;
-  filter: brightness(1.1);
-}
-
-.Work-Section-Elucimed2 {
-  background-image: url('./../images/ensemble-c2-thumbnail.png');
-  width: 100%;
-  height: 100%;
-  background-size: 100% auto;
-  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  transition: filter 0.5s;
-}
-
-.Work-Section-Elucimed2:hover {
-  filter: brightness(1.1);
-  cursor: pointer;
-}
-
-.Work-Section-Elucimed3 {
-  background-image: url('./../images/ensemble-c3-thumbnail.png');
-  width: 100%;
-  height: 100%;
-  background-size: 100% auto;
-  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  transition: filter 0.5s;
-}
-
-.Work-Section-Elucimed3:hover {
-  filter: brightness(1.1);
-  cursor: pointer;
-}
-
-.Work-Section-Paperless1 {
-  background-image: url('./../images/paperless1.png');
-  width: 100%;
-  height: 100%;
-  background-size: 100% auto;
-  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  transition: filter 0.5s;
-}
-
-.Work-Section-Paperless1:hover {
-  filter: brightness(1.1);
-  cursor: pointer;
-}
-
-.Work-Section-Paperless2 {
-  background-image: url('./../images/paperless2.png');
-  width: 100%;
-  height: 100%;
-  background-size: 100% auto;
-  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  transition: filter 0.5s;
-}
-
-.Work-Section-Paperless2:hover {
-  filter: brightness(1.1);
-  cursor: pointer;
-}
-
-.Work-Section-Paperless3 {
-  background-image: url('./../images/paperless3.png');
-  width: 100%;
-  height: 100%;
-  background-size: 100% auto;
-  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  transition: filter 0.5s;
-}
-
-.Work-Section-Paperless3:hover {
-  filter: brightness(1.1);
-  cursor: pointer;
-}
-
-.Work-Section-Metamorphic1 {
-  background-image: url('./../images/metamorphic1.png');
-  width: 100%;
-  height: 100%;
-  background-size: 100% auto;
-  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  transition: filter 0.5s;
-}
-
-.Work-Section-Metamorphic1:hover {
-  filter: brightness(1.1);
-  cursor: pointer;
-}
-
-.Work-Section-Metamorphic2 {
-  background-image: url('./../images/metamorphic2.png');
-  width: 100%;
-  height: 100%;
-  background-size: 100% auto;
-  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  transition: filter 0.5s;
-}
-
-.Work-Section-Metamorphic2:hover {
-  filter: brightness(1.1);
-  cursor: pointer;
-}
-
-.Work-Section-Metamorphic3 {
-  background-image: url('./../images/metamorphic3.png');
-  width: 100%;
-  height: 100%;
-  background-size: 100% auto;
-  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-  transition: filter 0.5s;
-}
-
-.Work-Section-Metamorphic3:hover {
-  filter: brightness(1.1);
-  cursor: pointer;
-}
-
-.Image2-Wrapper {
-  width: 87%;
-  height: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-}
-
-.Image3-Wrapper {
-  width: 87%;
-  height: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-}
+.Work-Photo:hover {}

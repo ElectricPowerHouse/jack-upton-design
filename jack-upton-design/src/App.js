@@ -57,7 +57,7 @@ class App extends Component {
           <HeaderSectionMobile/>
           <StrengthsSectionMobile/>
           <div className='Divider-Mobile'/>
-          <WorkSectionMobile/>
+          <WorkSection/>
           <ContactSectionMobile/>
 
         </div>

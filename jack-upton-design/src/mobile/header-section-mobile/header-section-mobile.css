@@ -5,7 +5,7 @@
   min-height: 620px;
   display: flex;
   flex-direction: column;
-  padding: 30px 60px;
+  padding: 30px 40px;
 }
 
 .Header-Section-Mobile-Dot-Wrapper {
@@ -77,11 +77,11 @@
 
 .Header-Section-Mobile-Photo-Me {
   margin-top: 10px;
-  width: 160px;
+  width: 190px;
   height: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url('./../../images/me-cropped-mobile.png');
+  background-image: url('./../../images/me_v2.png');
   opacity: 1;
   transition: opacity 0.5s;
 }

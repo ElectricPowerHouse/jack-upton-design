@@ -61,16 +61,15 @@
   padding-bottom: 120px;
 }
 
-.Work-Section-Carousel{
-  margin:3% 15vh;
-   -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
-    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+.Work-Section-Carousel {
+  margin: 3% 15vh;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.36);
 }
 
-.Work-Section-Description-Title{
-  font-size:1.2rem;
-
+.Work-Section-Description-Title {
+  font-size: 1.2rem;
 }
 
 .Work-Section-Left {
@@ -373,7 +372,7 @@
   line-height: 27px;
 }
 
-.Work-Section-Description-Section{
+.Work-Section-Description-Section {
   margin-bottom: 20px;
 }
 
