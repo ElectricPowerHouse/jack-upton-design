@@ -12,13 +12,16 @@ class WorkSection extends Component {
           marginTop: "-25px"
         }}>
         <div className="Work-Section-Body2">
-          {this.renderWMExample()}
+          <Fade duration={2500}>
+            {this.renderWMExample()}
+          </Fade>
         </div>
       </div>
       <div className='Work-Section-Body'>
         <div className="Work-Section-Body2">
-
-          {this.renderNECExample()}
+          <Fade duration={2500}>
+            {this.renderNECExample()}
+          </Fade>
         </div>
 
       </div>
@@ -26,20 +29,24 @@ class WorkSection extends Component {
           background: "#ebebea"
         }}>
         <div className="Work-Section-Body2">
-          {this.renderCenareoExample()}
+          <Fade duration={2500}>
+            {this.renderCenareoExample()}
+          </Fade>
         </div>
       </div>
 
       <div className='Work-Section-Body'>
         <div className="Work-Section-Body2">
-          {this.renderElucimedExample()}
+          <Fade duration={2500}>
+            {this.renderElucimedExample()}
+          </Fade>
         </div>
       </div>
     </div>);
   }
   renderWMExample() {
     return (<div className="Work-Example">
-      <div className="Work-Title">
+      <div className="Work-Title WM-Title">
         Waste Management
       </div>
       <div className="Work-Link">
@@ -48,19 +55,19 @@ class WorkSection extends Component {
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Background:
         </span>
-        Waste Management is New Zealand's largest Waste Management provider.
+        &nbsp; Waste Management is New Zealand's largest Waste Management provider.
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Problem:</span>
-        Waste Management were creating a new and improved website to improve their brand image and create additional sales. A focus for the new site was to enable customers to place an order for a new bin and to make sure that process was as streamlined as possible.
+        &nbsp; Waste Management were creating a new and improved website to improve their brand image and create additional sales. A focus for the new site was to enable customers to place an order for a new bin and to make sure that process was as streamlined as possible.
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Solution:</span>
-        Integrating the “order a bin” path primarily throughout the site. Particular focus was paid to making sure that this UX path was understandable and easy to access.
+        &nbsp; Integrating the “order a bin” path primarily throughout the site. Particular focus was paid to making sure that this UX path was understandable and easy to access.
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Role:</span>
-        I was working with an external team of Designers and Developers, helping with all aspects of the design of the website, including creating UI, thinking through UX, and leading usability tests.
+        &nbsp; I was working with an external team of Designers and Developers, helping with all aspects of the design of the website, including creating UI, thinking through UX, and leading usability tests.
       </div>
 
       <div className="Photo-Wrapper">
@@ -83,17 +90,20 @@ class WorkSection extends Component {
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Background:
         </span>
-        is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. This app would reduce human error, increase connectivity, and simplify data analysis. I worked on Ensemble-C for 8 months
+        &nbsp; Nelson English Centre is a school located in Nelson who help students learn english and have a great time during their stay in NZ.
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Problem:</span>
-        is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. This app would reduce human error, increase connectivity, and simplify data analysis. I worked on Ensemble-C for 8 months</div>
+        &nbsp; Nelson English Centre created a new website in 2020, but it hadn’t been updated since then. They needed a designer to help them update their site to make sure the design and content of the site was fresh and relevant. They also needed re-designs of some of their existing outdated marketing material.
+      </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Solution:</span>
-        is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. This app would reduce human error, increase connectivity, and simplify data analysis. I worked on Ensemble-C for 8 months</div>
+        &nbsp; I worked closely with NEC, initially spending time with them to understand the business, where there could be places that needed improvement, and where I could help out the most. I took them through the full design process, from initial comprehension of the problem to solved, to UX wireframes, to implementation.
+      </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Role:</span>
-        is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. This app would reduce human error, increase connectivity, and simplify data analysis. I worked on Ensemble-C for 8 months</div>
+        &nbsp; I designed the Marketing materials myself in figma, and designed and coded the changes I made on their site.
+      </div>
 
       <div className="Photo-Wrapper">
         <img className="Work-Photo" src={require("./../images/NECflyers.png")} width="100%" height="auto"/>
@@ -115,23 +125,26 @@ class WorkSection extends Component {
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Background:
         </span>
-        is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. This app would reduce human error, increase connectivity, and simplify data analysis. I worked on Ensemble-C for 8 months
+        &nbsp; Cenareo is a Digital Signage company in Toulouse, France, that helps companies manage large amounts of screens in one place with their software.
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Problem:</span>
-        is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. This app would reduce human error, increase connectivity, and simplify data analysis. I worked on Ensemble-C for 8 months</div>
+        &nbsp; Cenareo uses a web-application to help their clients manage their screens. However the application was created over years by only developers and could be obtuse to use as a result. They wanted to hire a Designer to begin the process of improving the interface using design principles.
+      </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Solution:</span>
-        is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. This app would reduce human error, increase connectivity, and simplify data analysis. I worked on Ensemble-C for 8 months</div>
+        &nbsp; I worked with the managers and developers to start to integrate some design thinking into the application whenever we needed a UI change. I also created a Design System for them in figma.
+      </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Role:</span>
-        is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. This app would reduce human error, increase connectivity, and simplify data analysis. I worked on Ensemble-C for 8 months</div>
+        &nbsp; I was the first & sole designer in the company, and as a result spent a lot of time advocating for design principles in the application. I created UX prototypes, UI, and also integrated my designs using code.
+      </div>
 
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/cenareoDesignSystem.png")} width="100%" height="auto"/>
+        <img className="Work-Photo" src={require("./../images/cenareoDesktop.png")} width="100%" height="auto"/>
       </div>
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/cenareoDesktop.png")} width="100%" height="auto"/>
+        <img className="Work-Photo" src={require("./../images/cenareoDesignSystem.png")} width="100%" height="auto"/>
       </div>
     </div>);
   }
@@ -144,22 +157,26 @@ class WorkSection extends Component {
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Background:
         </span>
-        is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. This app would reduce human error, increase connectivity, and simplify data analysis. I worked on Ensemble-C for 8 months
+        &nbsp; Elucimed is a startup that aims to bring cutting-edge tech solutions to clinical hospital environments.
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Problem:</span>
-        is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. This app would reduce human error, increase connectivity, and simplify data analysis. I worked on Ensemble-C for 8 months</div>
+        &nbsp; The nurses in the ICU were recording patient’s vital signs using paper charts. Elucimed wanted to digitize this work to help nurses and doctor’s workloads, run better analysis on the data, and digitize vitals so that analysis could be run on them to provide improved feedback.
+      </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Solution:</span>
-        is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. This app would reduce human error, increase connectivity, and simplify data analysis. I worked on Ensemble-C for 8 months</div>
+        &nbsp; I worked with Doctors and Nurses to create the application, tailoring it to their needs. Having buy-in for the app from the hospital staff was important, so we wanted to work with them every step of the way.
+      </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Role:</span>
-        is a web-app designed to make nurse and doctor’s workflows simpler. It was tailored specifically for Wellington Hospital to replace the paper charts that they were using. This app would reduce human error, increase connectivity, and simplify data analysis. I worked on Ensemble-C for 8 months</div>
+        &nbsp; I was the sole designer and developer in the startup, and so worked on every aspect of the application, from user research, to creating UX wireframes, UI, and developing the front-end of the application myself using React.js</div>
 
       <div className="Photo-Wrapper">
         <img className="Work-Photo" src={require("./../images/ensemble-c1.png")} width="100%" height="auto"/>
       </div>
-      <div className="Photo-Wrapper">
+      <div className="Photo-Wrapper" style={{
+          paddingBottom: "50px"
+        }}>
         <img className="Work-Photo" src={require("./../images/ensemble-c3.png")} width="100%" height="auto"/>
       </div>
     </div>);

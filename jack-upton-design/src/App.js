@@ -8,7 +8,6 @@ import ContactSection from './desktop/contact-section/contact-section.js';
 
 import HeaderSectionMobile from './mobile/header-section-mobile/header-section-mobile.js';
 import StrengthsSectionMobile from './mobile/strengths-section-mobile/strengths-section-mobile.js';
-import WorkSectionMobile from './mobile/work-section-mobile/work-section-mobile.js';
 import ContactSectionMobile from './mobile/contact-section-mobile/contact-section-mobile.js';
 
 class App extends Component {

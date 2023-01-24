@@ -35,7 +35,7 @@ class HeaderSectionMobile extends Component {
             <Link activeClass='active' smooth={true} to='Strengths-Section-Mobile' offset={-60} className='Header-Section-Mobile-Menu-Top'>
               Skills & Strengths
             </Link>
-            <Link activeClass='active' smooth={true} to='Work-Section-Mobile' offset={-60} className='Header-Section-Mobile-Menu-Bottom'>
+            <Link activeClass='active' smooth={true} to='Work-Section' offset={-60} className='Header-Section-Mobile-Menu-Bottom'>
               My Projects
             </Link>
             <Link activeClass='active' smooth={true} to='Contact-Section-Mobile' offset={-60} className='Header-Section-Mobile-Menu-Bottom'>
