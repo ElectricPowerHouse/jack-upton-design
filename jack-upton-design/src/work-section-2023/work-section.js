@@ -59,7 +59,8 @@ class WorkSection extends Component {
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Problem:</span>
-        &nbsp; Waste Management were creating a new and improved website to improve their brand image and create additional sales. A focus for the new site was to enable customers to place an order for a new bin and to make sure that process was as streamlined as possible.
+        &nbsp; I joined Waste Management when they were creating a new and improved website to improve their brand image and create additional sales. A focus for the new site was to enable customers to place an order for a new bin and to make sure that process was as streamlined as possible.
+
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Solution:</span>
@@ -67,7 +68,7 @@ class WorkSection extends Component {
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Role:</span>
-        &nbsp; I was working with an external team of Designers and Developers, helping with all aspects of the design of the website, including creating UI, thinking through UX, and leading usability tests.
+        &nbsp; I was working with an external team of designers and developers, helping with all aspects of the design of the website, including creating UI, thinking through UX, and leading usability tests.
       </div>
 
       <div className="Photo-Wrapper">
@@ -90,19 +91,19 @@ class WorkSection extends Component {
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Background:
         </span>
-        &nbsp; Nelson English Centre is a school located in Nelson who help students learn english and have a great time during their stay in NZ.
+        &nbsp; Nelson English Centre is an english school located in Nelson who help students learn and have a great time during their stay in NZ.
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Problem:</span>
-        &nbsp; Nelson English Centre created a new website in 2020, but it hadn’t been updated since then. They needed a designer to help them update their site to make sure the design and content of the site was fresh and relevant. They also needed re-designs of some of their existing outdated marketing material.
+        &nbsp; Nelson English Centre created a new website in 2019, but it hadn’t been updated since then. They needed a designer to help them update their site to make sure the design and content of the site was fresh and relevant. They also needed re-designs of some of their existing outdated marketing material.
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Solution:</span>
-        &nbsp; I worked closely with NEC, initially spending time with them to understand the business, where there could be places that needed improvement, and where I could help out the most. I took them through the full design process, from initial comprehension of the problem to solved, to UX wireframes, to implementation.
+        &nbsp; I worked closely with NEC, initially spending time with them to understand the business, seeing where there were places that needed improvement, and where I could help out the most. I took them through the full design process, from initial comprehension of the problem to be solved, to UX wireframes, and then to implementation.
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Role:</span>
-        &nbsp; I designed the Marketing materials myself in figma, and designed and coded the changes I made on their site.
+        &nbsp; I designed the Marketing materials myself in figma, and designed and coded all the changes I made on their site.
       </div>
 
       <div className="Photo-Wrapper">
@@ -129,15 +130,15 @@ class WorkSection extends Component {
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Problem:</span>
-        &nbsp; Cenareo uses a web-application to help their clients manage their screens. However the application was created over years by only developers and could be obtuse to use as a result. They wanted to hire a Designer to begin the process of improving the interface using design principles.
+        &nbsp; Cenareo uses a web-application to help their clients manage their screens. However, the application was created over years by only developers and could be obtuse to use as a result. They wanted to hire a Designer to begin the process of improving the interface using design principles.
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Solution:</span>
-        &nbsp; I worked with the managers and developers to start to integrate some design thinking into the application whenever we needed a UI change. I also created a Design System for them in figma.
-      </div>
+        &nbsp; I worked with the managers and developers to start to integrate some design thinking into the application whenever we needed a UI change. I also created a Design System for them in figma.</div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Role:</span>
         &nbsp; I was the first & sole designer in the company, and as a result spent a lot of time advocating for design principles in the application. I created UX prototypes, UI, and also integrated my designs using code.
+
       </div>
 
       <div className="Photo-Wrapper">
@@ -148,7 +149,6 @@ class WorkSection extends Component {
       </div>
     </div>);
   }
-
   renderElucimedExample() {
     return (<div className="Work-Example">
       <div className="Work-Title">
@@ -161,7 +161,8 @@ class WorkSection extends Component {
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Problem:</span>
-        &nbsp; The nurses in the ICU were recording patient’s vital signs using paper charts. Elucimed wanted to digitize this work to help nurses and doctor’s workloads, run better analysis on the data, and digitize vitals so that analysis could be run on them to provide improved feedback.
+        &nbsp; Nurses in the ICU were recording patient’s vital signs using paper charts. Elucimed wanted to digitize this work to help nurses and doctor’s workloads, run better analysis on the data, and digitize vitals so that analysis could be run on them to provide improved feedback.
+
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Solution:</span>
