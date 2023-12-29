@@ -20,7 +20,6 @@ class App extends Component {
   }
 
   componentDidMount() {
-    console.log(' Hello! :) ');
     window.addEventListener('resize', this.handleWindowSizeChange);
   }
 

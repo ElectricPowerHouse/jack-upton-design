@@ -41,7 +41,7 @@ class HeaderSection extends Component {
                   </Link>
                 </div>
                 <div className='Header-Text-Section-AboutMe'>
-                  I’m a digital designer & front-end developer, specialising in bridging aesthetics and code. I most recently finished working with Waste Management in Auckland, employed as a Digital Solutions Designer. I have a degree in Design Innovation from Victoria University of Wellington & 4+ years of professional experience. I have extensive knowledge of many facets of web design, including UX, UI, design systems, front-end code, and user research.
+                I’m a digital designer & front-end developer. I have a degree in Design Innovation with a minor in Computer Science from Victoria University in Wellington, New Zealand. Since I graduated I have been employed in various companies as a website designer, as well as working freelance and on my own projects. I enjoy working on all aspects of website development, from UX & UI design, to implementing the design via front-end code. I have 4+ years of professional work experience. I  recently released my own business / website: An online personality test utilizing the “Big Five” personality metric. 
                 </div>
               </div>
               <Fade duration={4000}>

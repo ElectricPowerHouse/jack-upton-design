@@ -11,11 +11,22 @@ class WorkSection extends Component {
           background: "#ebebea",
           marginTop: "-25px"
         }}>
-        <div className="Work-Section-Body2">
+          <div className='Work-Section-Body'>
+           <div className="Work-Section-Body2">
+          <Fade duration={2500}>
+            {this.renderBigFiveExample()}
+          </Fade>
+        </div>
+        </div>
+        <div className='Work-Section-Body' style={{
+          background: "#ebebea"
+        }}>
+        <div className="Work-Section-Body2" >
           <Fade duration={2500}>
             {this.renderWMExample()}
           </Fade>
         </div>
+      </div>
       </div>
       <div className='Work-Section-Body'>
         <div className="Work-Section-Body2">
@@ -44,6 +55,47 @@ class WorkSection extends Component {
       </div>
     </div>);
   }
+
+
+  renderBigFiveExample() {
+    return (<div className="Work-Example">
+      <div className="Work-Title WM-Title">
+        The Big Five
+      </div>
+      <div className="Work-Link">
+        <a href="https://thebigfive.app" className="Work-Link-Text" target="_blank" rel="noopener noreferrer">thebigfive.app</a>
+      </div>
+      <div className="Work-Text-Paragraph">
+        <span className="Work-Text-Title">Background:
+        </span>
+        &nbsp; I became interested in the “Big 5” method of assessing personality. This method is well-known in academia but not very well-known outside of it. There are some online websites where you can take a test to assess your personality using this metric, but often they are not very easy-to-use or accessible. I wanted to make a site that was fun and easily understandable for a general audience. My goal is to make the Big 5 metric more well-known to everyone, as I found it helped a lot in my life for my understanding of myself and how I relate to others. 
+      </div>
+      <div className="Work-Text-Paragraph">
+        <span className="Work-Text-Title">Problem:</span>
+        &nbsp;  I had to be very self-driven and learn a lot of new concepts to create the site. I read academic texts to better understand the Big 5 metric, and how to deploy online tests & assess users accurately. I also had to further my knowledge of website development to get everything on the site to work properly. 
+
+      </div>
+      <div className="Work-Text-Paragraph">
+        <span className="Work-Text-Title">Solution:</span>
+        &nbsp; I released a version 1.0 of the site in December 2022. The site works & I have received good feedback from users who have done the test and got their results. I aim to make incremental improvements in the future, including a paid version of the test with more extensive results. 
+
+      </div>
+      <div className="Work-Text-Paragraph">
+        <span className="Work-Text-Title">Role:</span>
+        &nbsp;  I worked on all aspects of the site from beginning to end. I created design prototypes, did the UI design, coded the site from scratch in React, & wrote all of the results text myself. 
+
+      </div>
+
+      <div className="Photo-Wrapper">
+        <img className="Work-Photo" src={require("./../images/Big5preview.png")} width="100%" height="auto"/>
+      </div>
+      <div className="Photo-Wrapper">
+        <img className="Work-Photo" src={require("./../images/Big5screen.png")} width="100%" height="auto"/>
+      </div>
+    </div>);
+  }
+
+
   renderWMExample() {
     return (<div className="Work-Example">
       <div className="Work-Title WM-Title">
