@@ -87,10 +87,10 @@ class WorkSection extends Component {
       </div>
 
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/Big5preview.png")} width="100%" height="auto"/>
+        <img className="Work-Photo" src={require("./../images/Big5preview.png")} alt="Big 5 preview" width="100%" height="auto"/>
       </div>
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/Big5screen.png")} width="100%" height="auto"/>
+        <img className="Work-Photo" src={require("./../images/Big5screen.png")} alt="Big 5 main screen" width="100%" height="auto"/>
       </div>
     </div>);
   }
@@ -124,10 +124,10 @@ class WorkSection extends Component {
       </div>
 
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/wm2.jpeg")} width="100%" height="auto"/>
+        <img className="Work-Photo" src={require("./../images/wm2.jpeg")} alt="Waste Management 1" width="100%" height="auto"/>
       </div>
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/wm1.jpg")} width="100%" height="auto"/>
+        <img className="Work-Photo" src={require("./../images/wm1.jpg")} alt="Waste Management 2" width="100%" height="auto"/>
       </div>
     </div>);
   }
@@ -159,10 +159,10 @@ class WorkSection extends Component {
       </div>
 
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/NECflyers.png")} width="100%" height="auto"/>
+        <img className="Work-Photo" src={require("./../images/NECflyers.png")} alt="NEC flyers" width="100%" height="auto"/>
       </div>
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/NECmobile.png")} width="100%" height="auto"/>
+        <img className="Work-Photo" src={require("./../images/NECmobile.png")} alt="NEC Mobile screen" width="100%" height="auto"/>
       </div>
     </div>);
   }
@@ -194,10 +194,10 @@ class WorkSection extends Component {
       </div>
 
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/cenareoDesktop.png")} width="100%" height="auto"/>
+        <img className="Work-Photo" src={require("./../images/cenareoDesktop.png")}  alt="Cenareo desktop" width="100%" height="auto"/>
       </div>
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/cenareoDesignSystem.png")} width="100%" height="auto"/>
+        <img className="Work-Photo" src={require("./../images/cenareoDesignSystem.png")}  alt="Cenareo design system" width="100%" height="auto"/>
       </div>
     </div>);
   }
@@ -225,12 +225,12 @@ class WorkSection extends Component {
         &nbsp; I was the sole designer and developer in the startup, and so worked on every aspect of the application, from user research, to creating UX wireframes, UI, and developing the front-end of the application myself using React.js</div>
 
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/ensemble-c1.png")} width="100%" height="auto"/>
+        <img className="Work-Photo" src={require("./../images/ensemble-c1.png")}  alt="Ensemble-C screen 1" width="100%" height="auto"/>
       </div>
       <div className="Photo-Wrapper" style={{
           paddingBottom: "50px"
         }}>
-        <img className="Work-Photo" src={require("./../images/ensemble-c3.png")} width="100%" height="auto"/>
+        <img className="Work-Photo" src={require("./../images/ensemble-c3.png")}  alt="Ensemble-C screen 2" width="100%" height="auto"/>
       </div>
     </div>);
   }
