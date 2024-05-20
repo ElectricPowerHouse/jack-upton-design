@@ -1,63 +1,43 @@
-import React, {Component} from 'react';
+import React, { Component, lazy } from 'react';
 import './work-section.css';
 import Fade from 'react-reveal/Fade';
 
-class WorkSection extends Component {
 
-  render() {
-    return (<div className='Work-Section'>
-      {this.renderHeader()}
-      <div className='Work-Section-Body' style={{
-          background: "#ebebea",
-          marginTop: "-25px"
-        }}>
-          <div className='Work-Section-Body'>
-           <div className="Work-Section-Body2">
-          <Fade duration={2500}>
-            {this.renderBigFiveExample()}
-          </Fade>
-        </div>
-        </div>
-        <div className='Work-Section-Body' style={{
-          background: "#ebebea"
-        }}>
-        <div className="Work-Section-Body2" >
-          <Fade duration={2500}>
-            {this.renderWMExample()}
-          </Fade>
-        </div>
-      </div>
-      </div>
-      <div className='Work-Section-Body'>
-        <div className="Work-Section-Body2">
-          <Fade duration={2500}>
-            {this.renderNECExample()}
-          </Fade>
-        </div>
+import BigFiveImage1Desktop from './../images/Big5preview.png';
+import BigFiveImage1Mobile from './../images/Big5preview-mobile.png';
+import BigFiveImage2Desktop from './../images/Big5screen.png';
+import BigFiveImage2Mobile from './../images/Big5screen-mobile.png';
 
-      </div>
-      <div className='Work-Section-Body' style={{
-          background: "#ebebea"
-        }}>
-        <div className="Work-Section-Body2">
-          <Fade duration={2500}>
-            {this.renderCenareoExample()}
-          </Fade>
-        </div>
-      </div>
-
-      <div className='Work-Section-Body'>
-        <div className="Work-Section-Body2">
-          <Fade duration={2500}>
-            {this.renderElucimedExample()}
-          </Fade>
-        </div>
-      </div>
-    </div>);
-  }
+import WMImage1Desktop from './../images/wm2.jpg';
+import WMImage1Mobile from './../images/wm2-mobile.jpg';
+import WMImage2Desktop from './../images/wm1.jpg';
+import WMImage2Mobile from './../images/wm1-mobile.jpg';
 
 
-  renderBigFiveExample() {
+import NECImage1Desktop from './../images/NECflyers.png';
+import NECImage1Mobile from './../images/NECflyers-mobile.png';
+import NECImage2Desktop from './../images/NECmobile.png';
+import NECImage2Mobile from './../images/NECmobile-mobile.png';
+
+import CenareoImage1Desktop from './../images/cenareoDesktop.png';
+import CenareoImage1Mobile from './../images/cenareoDesktop-mobile.png';
+import CenareoImage2Desktop from './../images/cenareoDesignSystem.png';
+import CenareoImage2Mobile from './../images/cenareoDesignSystem-mobile.png';
+
+import ElucimedImage1Desktop from './../images/ensemble-c1.png';
+import ElucimedImage1Mobile from './../images/ensemble-c1-mobile.png';
+import ElucimedImage2Desktop from './../images/ensemble-c3.png';
+import ElucimedImage2Mobile from './../images/ensemble-c3-mobile.png';
+
+
+
+
+
+function WorkSection(isMobile) {
+
+
+
+  function renderBigFiveExample() {
     return (<div className="Work-Example">
       <div className="Work-Title WM-Title">
         The Big Five
@@ -68,35 +48,42 @@ class WorkSection extends Component {
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Background:
         </span>
-        &nbsp; I became interested in the “Big 5” method of assessing personality. This method is well-known in academia but not very well-known outside of it. There are some online websites where you can take a test to assess your personality using this metric, but often they are not very easy-to-use or accessible. I wanted to make a site that was fun and easily understandable for a general audience. My goal is to make the Big 5 metric more well-known to everyone, as I found it helped a lot in my life for my understanding of myself and how I relate to others. 
+        &nbsp; I became interested in the “Big 5” method of assessing personality. This method is well-known in academia but not very well-known outside of it. There are some online websites where you can take a test to assess your personality using this metric, but often they are not very easy-to-use or accessible. I wanted to make a site that was fun and easily understandable for a general audience. My goal is to make the Big 5 metric more well-known to everyone, as I found it helped a lot in my life for my understanding of myself and how I relate to others.
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Problem:</span>
-        &nbsp;  I had to be very self-driven and learn a lot of new concepts to create the site. I read academic texts to better understand the Big 5 metric, and how to deploy online tests & assess users accurately. I also had to further my knowledge of website development to get everything on the site to work properly. 
+        &nbsp;  I had to be very self-driven and learn a lot of new concepts to create the site. I read academic texts to better understand the Big 5 metric, and how to deploy online tests & assess users accurately. I also had to further my knowledge of website development to get everything on the site to work properly.
 
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Solution:</span>
-        &nbsp; I released a version 1.0 of the site in December 2022. The site works & I have received good feedback from users who have done the test and got their results. I aim to make incremental improvements in the future, including a paid version of the test with more extensive results. 
+        &nbsp; I released a version 1.0 of the site in December 2022. The site works & I have received good feedback from users who have done the test and got their results. I aim to make incremental improvements in the future, including a paid version of the test with more extensive results.
 
       </div>
       <div className="Work-Text-Paragraph">
         <span className="Work-Text-Title">Role:</span>
-        &nbsp;  I worked on all aspects of the site from beginning to end. I created design prototypes, did the UI design, coded the site from scratch in React, & wrote all of the results text myself. 
-
+        &nbsp;  I worked on all aspects of the site from beginning to end. I created design prototypes, did the UI design, coded the site from scratch in React, & wrote all of the results text myself.
       </div>
 
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/Big5preview.png")} alt="Big 5 preview" width="100%" height="auto"/>
+        <picture >
+          <source media="(max-width: 500px)" srcSet={BigFiveImage1Mobile} />
+          <img className="Work-Photo" src={BigFiveImage1Desktop} />
+        </picture>
       </div>
+
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/Big5screen.png")} alt="Big 5 main screen" width="100%" height="auto"/>
+        <picture >
+          <source media="(max-width: 500px)" srcSet={BigFiveImage2Mobile} />
+          <img className="Work-Photo" src={BigFiveImage2Desktop} />
+        </picture>
       </div>
+
     </div>);
   }
 
 
-  renderWMExample() {
+  function renderWMExample() {
     return (<div className="Work-Example">
       <div className="Work-Title WM-Title">
         Waste Management
@@ -124,15 +111,23 @@ class WorkSection extends Component {
       </div>
 
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/wm2.jpeg")} alt="Waste Management 1" width="100%" height="auto"/>
+        <picture>
+          <source media="(max-width: 500px)" srcSet={WMImage1Mobile} />
+          <img className="Work-Photo" src={WMImage1Desktop} />
+        </picture>
       </div>
+
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/wm1.jpg")} alt="Waste Management 2" width="100%" height="auto"/>
+        <picture>
+          <source media="(max-width: 500px)" srcSet={WMImage2Mobile} />
+          <img className="Work-Photo" src={WMImage2Desktop} />
+        </picture>
       </div>
+
     </div>);
   }
 
-  renderNECExample() {
+  function renderNECExample() {
     return (<div className="Work-Example">
       <div className="Work-Title">
         Nelson English Centre
@@ -159,15 +154,21 @@ class WorkSection extends Component {
       </div>
 
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/NECflyers.png")} alt="NEC flyers" width="100%" height="auto"/>
+        <picture>
+          <source media="(max-width: 500px)" srcSet={NECImage1Mobile} />
+          <img className="Work-Photo" src={NECImage1Desktop} />
+        </picture>
       </div>
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/NECmobile.png")} alt="NEC Mobile screen" width="100%" height="auto"/>
+        <picture>
+          <source media="(max-width: 500px)" srcSet={NECImage2Mobile} />
+          <img className="Work-Photo" src={NECImage2Desktop} />
+        </picture>
       </div>
     </div>);
   }
 
-  renderCenareoExample() {
+  function renderCenareoExample() {
     return (<div className="Work-Example">
       <div className="Work-Title">
         Cenareo
@@ -194,14 +195,21 @@ class WorkSection extends Component {
       </div>
 
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/cenareoDesktop.png")}  alt="Cenareo desktop" width="100%" height="auto"/>
+        <picture>
+          <source media="(max-width: 500px)" srcSet={CenareoImage1Mobile} />
+          <img className="Work-Photo" src={CenareoImage1Desktop} />
+        </picture>
       </div>
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/cenareoDesignSystem.png")}  alt="Cenareo design system" width="100%" height="auto"/>
+        <picture>
+          <source media="(max-width: 500px)" srcSet={CenareoImage2Mobile} />
+          <img className="Work-Photo" src={CenareoImage2Desktop} />
+        </picture>
       </div>
     </div>);
   }
-  renderElucimedExample() {
+
+  function renderElucimedExample() {
     return (<div className="Work-Example">
       <div className="Work-Title">
         Elucimed
@@ -225,26 +233,90 @@ class WorkSection extends Component {
         &nbsp; I was the sole designer and developer in the startup, and so worked on every aspect of the application, from user research, to creating UX wireframes, UI, and developing the front-end of the application myself using React.js</div>
 
       <div className="Photo-Wrapper">
-        <img className="Work-Photo" src={require("./../images/ensemble-c1.png")}  alt="Ensemble-C screen 1" width="100%" height="auto"/>
+        <picture>
+          <source media="(max-width: 500px)" srcSet={ElucimedImage1Mobile} />
+          <img className="Work-Photo" src={ElucimedImage1Desktop} />
+        </picture>
       </div>
       <div className="Photo-Wrapper" style={{
-          paddingBottom: "50px"
-        }}>
-        <img className="Work-Photo" src={require("./../images/ensemble-c3.png")}  alt="Ensemble-C screen 2" width="100%" height="auto"/>
+        paddingBottom: "50px"
+      }}>
+        <picture>
+          <source media="(max-width: 500px)" srcSet={ElucimedImage2Mobile} />
+          <img className="Work-Photo" src={ElucimedImage2Desktop} />
+        </picture>
       </div>
     </div>);
   }
 
-  renderHeader() {
+  function renderHeader() {
     return (<div className='Work-Section-Header-Container'>
       <div className='Work-Section-Header'>
         <div className='Work-Section-Header-Text'>
           My Work
         </div>
-        <div className='Work-Section-Header-Symbol'/>
+        <div className='Work-Section-Header-Symbol' />
       </div>
     </div>);
   }
+
+
+
+
+
+  return (<div className='Work-Section'>
+    {renderHeader()}
+    <div className='Work-Section-Body' style={{
+      background: "#ebebea",
+      marginTop: "-25px"
+    }}>
+      <div className='Work-Section-Body'>
+        <div className="Work-Section-Body2">
+          <Fade duration={2500}>
+            {renderBigFiveExample()}
+          </Fade>
+        </div>
+      </div>
+      <div className='Work-Section-Body' style={{
+        background: "#ebebea"
+      }}>
+        <div className="Work-Section-Body2" >
+          <Fade duration={2500}>
+            {renderWMExample()}
+          </Fade>
+        </div>
+      </div>
+    </div>
+    <div className='Work-Section-Body'>
+      <div className="Work-Section-Body2">
+        <Fade duration={2500}>
+          {renderNECExample()}
+        </Fade>
+      </div>
+
+    </div>
+    <div className='Work-Section-Body' style={{
+      background: "#ebebea"
+    }}>
+      <div className="Work-Section-Body2">
+        <Fade duration={2500}>
+          {renderCenareoExample()}
+        </Fade>
+      </div>
+    </div>
+
+    <div className='Work-Section-Body'>
+      <div className="Work-Section-Body2">
+        <Fade duration={2500}>
+          {renderElucimedExample()}
+        </Fade>
+      </div>
+    </div>
+  </div>);
+
+
+
+
 
 }
 

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 import HeaderSection from './desktop/header-section/header-section.js';
@@ -10,60 +10,47 @@ import HeaderSectionMobile from './mobile/header-section-mobile/header-section-m
 import StrengthsSectionMobile from './mobile/strengths-section-mobile/strengths-section-mobile.js';
 import ContactSectionMobile from './mobile/contact-section-mobile/contact-section-mobile.js';
 
-class App extends Component {
+function App() {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      width: window.innerWidth
-    }
-  }
 
-  componentDidMount() {
-    window.addEventListener('resize', this.handleWindowSizeChange);
-  }
+  const [width, setWidth] = useState(window.innerWidth);
 
-  // make sure to remove the listener
-  // when the component is not mounted anymore
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.handleWindowSizeChange);
-  }
+  const isMobile = width <= 500;
+  // the rest is the same...
 
-  handleWindowSizeChange = () => {
-    this.setState({width: window.innerWidth});
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
   };
 
-  render() {
+  window.addEventListener('resize', handleWindowSizeChange);
 
-    const {width} = this.state;
-    const isMobile = width <= 500;
-    // the rest is the same...
 
-    if (!isMobile) {
-      return (<div className='App'>
+
+  return (
+
+    !isMobile ?
+      <div className='App'>
         <div className='App-Wrapper'>
-          <HeaderSection/>
-          <StrengthsSection/>
-          <div className='Divider'/>
-          <WorkSection/>
-          <ContactSection/>
+          <HeaderSection />
+          <StrengthsSection />
+          <div className='Divider' />
+          <WorkSection isMobile={isMobile}/>
+          <ContactSection />
         </div>
-      </div>);
-    } else {
-      return (<div className='App'>
+      </div>
+      :
+      <div className='App'>
         <div className='App-Wrapper-Mobile'>
-          <HeaderSectionMobile/>
-          <StrengthsSectionMobile/>
-          <div className='Divider-Mobile'/>
-          <WorkSection/>
-          <ContactSectionMobile/>
+          <HeaderSectionMobile />
+          <StrengthsSectionMobile />
+          <div className='Divider-Mobile' />
+          <WorkSection />
+          <ContactSectionMobile />
 
         </div>
-      </div>);
-    }
+      </div>
 
-  }
-
+  );
 }
 
 export default App;
