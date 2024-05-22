@@ -65,6 +65,17 @@
   /* Standard syntax */
 }
 
+.Header-Text-Section-Menu-Left{
+  text-decoration:none;
+  color:inherit;
+}
+
+.Header-Text-Section-Menu-Right{
+  text-decoration:none;
+  color:inherit;
+}
+
+
 .Header-Text-Section-Menu-Left:hover {
   cursor: pointer;
   text-decoration: underline;
@@ -181,12 +192,10 @@
 }
 
 .Header-Photo-Me {
-  width: 390px;
-  height: 120%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-image: url('./../../images/me_v3.png');
-  opacity: 1;
+  width:75%;
+  height:auto;
+  min-width:320px;
+ 
   transition: opacity 0.5s;
 }
 

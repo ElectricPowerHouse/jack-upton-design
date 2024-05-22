@@ -1,4 +1,4 @@
-import React, { Component, lazy } from 'react';
+import React from 'react';
 import './work-section.css';
 import Fade from 'react-reveal/Fade';
 
@@ -68,14 +68,14 @@ function WorkSection(isMobile) {
       <div className="Photo-Wrapper">
         <picture >
           <source media="(max-width: 500px)" srcSet={BigFiveImage1Mobile} />
-          <img className="Work-Photo" src={BigFiveImage1Desktop} />
+          <img className="Work-Photo" src={BigFiveImage1Desktop} alt="Big Five work example 1" />
         </picture>
       </div>
 
       <div className="Photo-Wrapper">
         <picture >
           <source media="(max-width: 500px)" srcSet={BigFiveImage2Mobile} />
-          <img className="Work-Photo" src={BigFiveImage2Desktop} />
+          <img className="Work-Photo" src={BigFiveImage2Desktop}  alt="Big Five work example 2"  />
         </picture>
       </div>
 
@@ -113,14 +113,14 @@ function WorkSection(isMobile) {
       <div className="Photo-Wrapper">
         <picture>
           <source media="(max-width: 500px)" srcSet={WMImage1Mobile} />
-          <img className="Work-Photo" src={WMImage1Desktop} />
+          <img className="Work-Photo" src={WMImage1Desktop}  alt="Waste Management work example 1"  />
         </picture>
       </div>
 
       <div className="Photo-Wrapper">
         <picture>
           <source media="(max-width: 500px)" srcSet={WMImage2Mobile} />
-          <img className="Work-Photo" src={WMImage2Desktop} />
+          <img className="Work-Photo" src={WMImage2Desktop}  alt="Waste Management work example 2" />
         </picture>
       </div>
 
@@ -156,13 +156,13 @@ function WorkSection(isMobile) {
       <div className="Photo-Wrapper">
         <picture>
           <source media="(max-width: 500px)" srcSet={NECImage1Mobile} />
-          <img className="Work-Photo" src={NECImage1Desktop} />
+          <img className="Work-Photo" src={NECImage1Desktop}  alt="Nelson English Centre work example 1" />
         </picture>
       </div>
       <div className="Photo-Wrapper">
         <picture>
           <source media="(max-width: 500px)" srcSet={NECImage2Mobile} />
-          <img className="Work-Photo" src={NECImage2Desktop} />
+          <img className="Work-Photo" src={NECImage2Desktop} alt="Nelson English Centre work example 1"  />
         </picture>
       </div>
     </div>);
@@ -197,13 +197,13 @@ function WorkSection(isMobile) {
       <div className="Photo-Wrapper">
         <picture>
           <source media="(max-width: 500px)" srcSet={CenareoImage1Mobile} />
-          <img className="Work-Photo" src={CenareoImage1Desktop} />
+          <img className="Work-Photo" src={CenareoImage1Desktop}  alt="Cenareo work example 1"/>
         </picture>
       </div>
       <div className="Photo-Wrapper">
         <picture>
           <source media="(max-width: 500px)" srcSet={CenareoImage2Mobile} />
-          <img className="Work-Photo" src={CenareoImage2Desktop} />
+          <img className="Work-Photo" src={CenareoImage2Desktop}  alt="Cenareo work example 1"/>
         </picture>
       </div>
     </div>);
@@ -235,7 +235,7 @@ function WorkSection(isMobile) {
       <div className="Photo-Wrapper">
         <picture>
           <source media="(max-width: 500px)" srcSet={ElucimedImage1Mobile} />
-          <img className="Work-Photo" src={ElucimedImage1Desktop} />
+          <img className="Work-Photo" src={ElucimedImage1Desktop}  alt="Elucimed work example 1"/>
         </picture>
       </div>
       <div className="Photo-Wrapper" style={{
@@ -243,7 +243,7 @@ function WorkSection(isMobile) {
       }}>
         <picture>
           <source media="(max-width: 500px)" srcSet={ElucimedImage2Mobile} />
-          <img className="Work-Photo" src={ElucimedImage2Desktop} />
+          <img className="Work-Photo" src={ElucimedImage2Desktop}  alt="Elucimed work example 1"/>
         </picture>
       </div>
     </div>);

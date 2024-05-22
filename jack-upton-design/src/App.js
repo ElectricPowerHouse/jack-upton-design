@@ -4,7 +4,7 @@ import './App.css';
 import HeaderSection from './desktop/header-section/header-section.js';
 import StrengthsSection from './desktop/strengths-section/strengths-section.js';
 import WorkSection from './work-section-2023/work-section.js';
-import ContactSection from './desktop/contact-section/contact-section.js';
+import ContactSection from './desktop/contact-section/contact-section';
 
 import HeaderSectionMobile from './mobile/header-section-mobile/header-section-mobile.js';
 import StrengthsSectionMobile from './mobile/strengths-section-mobile/strengths-section-mobile.js';

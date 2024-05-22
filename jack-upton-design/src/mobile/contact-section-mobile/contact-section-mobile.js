@@ -89,7 +89,7 @@ class ContactSectionMobile extends Component {
                 </div>
               </div >
               <div className='Contact-Mobile-Row-Right-Final'>
-                <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer" alt="flaticon">
                   <div className='Contact-Mobile-Symbol-Flaticon'/>
                 </a>
               </div>

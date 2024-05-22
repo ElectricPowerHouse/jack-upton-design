@@ -3,6 +3,8 @@ import './header-section.css';
 import {Link, animateScroll as scroll} from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
+import MeImage from './../../images/me_v3.png';
+
 class HeaderSection extends Component {
 
   constructor(props) {
@@ -19,24 +21,27 @@ class HeaderSection extends Component {
           <div className='Header-Container'>
             <div className='Header-Bar-Top'>
               <div className='Header-Bar-Top-Dot'>
-                <div className='Dot-Image'/>
+                {/*<div className='Dot-Image'/>*/}
               </div>
               {this.renderLanguageButton()}
             </div>
             <div className='Header-Section-Wrapper'>
               <div className='Header-Text-Section'>
                 <div className='Header-Text-Section-Title'>
-                  Jack Upton Design
+                    Jack Upton Design
                 </div>
                 <hr className='Header-Text-Section-Line'/>
                 <div className='Header-Text-Section-Menu'>
-                  <Link activeClass='active' smooth={true} className='Header-Text-Section-Menu-Left' to='Strengths-Section' offset={-100}>
-                    Skills & Strengths
+                  <Link activeClass='active' smooth={true} className='Header-Text-Section-Menu-Left' to='Strengths-Section' offset={-100}
+                  href='#skills-and-strengths'>
+                    Skills and Strengths
                   </Link>
-                  <Link activeClass='active' smooth={true} className='Header-Text-Section-Menu-Right' to='Work-Section' offset={-50}>
+                  <Link activeClass='active' smooth={true} className='Header-Text-Section-Menu-Right' to='Work-Section' offset={-50}
+                  href='#my-projects'>
                     My Projects
                   </Link>
-                  <Link activeClass='active' smooth={true} className='Header-Text-Section-Menu-Right' to='Contact-Section' offset={-100}>
+                  <Link activeClass='active' smooth={true} className='Header-Text-Section-Menu-Right' to='Contact-Section' offset={-100}
+                  href='#contact'>
                     Contact
                   </Link>
                 </div>
@@ -46,8 +51,7 @@ class HeaderSection extends Component {
               </div>
               <Fade duration={4000}>
                 <div className='Header-Photo-Section'>
-                  {/* <div className = 'Header-Photo-Circle'> */}
-                  <div className='Header-Photo-Me'/> {/* </div> */}
+                  <img src={MeImage} className='Header-Photo-Me' alt="Photo of me" />
                 </div>
               </Fade>
             </div>
