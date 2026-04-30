@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { analytics } from "./firebase";
 import './App.css';
 
 import HeaderSection from './desktop/header-section/header-section.js';
@@ -11,7 +12,6 @@ import StrengthsSectionMobile from './mobile/strengths-section-mobile/strengths-
 import ContactSectionMobile from './mobile/contact-section-mobile/contact-section-mobile.js';
 
 function App() {
-
 
   const [width, setWidth] = useState(window.innerWidth);
 
