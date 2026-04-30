@@ -5,6 +5,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.9",
     "caniuse-lite": "^1.0.30001390",
+    "firebase": "^12.12.1",
     "pure-react-carousel": "^1.27.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
